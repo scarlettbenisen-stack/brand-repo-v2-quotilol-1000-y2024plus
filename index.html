@@ -56,8 +56,9 @@
   </div>
 
   <script>
-    const DATA_PATH = './analysis/visual_tags.json';
-    const THUMB_MAP_PATH = './analysis/thumb_map.json';
+    const BUILD = 'dfe952a';
+    const DATA_PATH = `./analysis/visual_tags.json?v=${BUILD}`;
+    const THUMB_MAP_PATH = `./analysis/thumb_map.json?v=${BUILD}`;
     const IMG_BASE = './clean/';
     const SPRITE_BASE = './previews_sprites/';
 
@@ -91,7 +92,7 @@
         return `background-image:url('${IMG_BASE}${file}')`;
       }
       const t = thumbMeta.items[file];
-      const spriteUrl = `${SPRITE_BASE}${t.sheet}`;
+      const spriteUrl = `${SPRITE_BASE}${t.sheet}?v=${BUILD}`;
       return `background-image:url('${spriteUrl}');background-size:${thumbMeta.cols*thumbMeta.thumb}px ${thumbMeta.rows*thumbMeta.thumb}px;background-position:-${t.x}px -${t.y}px`;
     }
 

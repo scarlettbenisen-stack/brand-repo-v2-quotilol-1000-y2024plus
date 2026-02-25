@@ -1,0 +1,4430 @@
+[
+  {
+    "file": "tweet_1743369999098507709.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=20.4 ed=0.20 std=86.6"
+  },
+  {
+    "file": "tweet_1749505697308389810.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=19.5 ed=0.19 std=67.9"
+  },
+  {
+    "file": "tweet_1754220697415549202.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=30.2 ed=0.20 std=93.6"
+  },
+  {
+    "file": "tweet_1754344052739228136.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=1.2 ed=0.19 std=83.6"
+  },
+  {
+    "file": "tweet_1761066927684776222.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=34.0 ed=0.11 std=30.3"
+  },
+  {
+    "file": "tweet_1761074502375453146.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=8.3 ed=0.14 std=42.1"
+  },
+  {
+    "file": "tweet_1761103353759531316.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=1.3 ed=0.19 std=34.4"
+  },
+  {
+    "file": "tweet_1761304719002067287.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=14.2 ed=0.17 std=28.6"
+  },
+  {
+    "file": "tweet_1769715145071091915.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=96.8 ed=0.20 std=64.5"
+  },
+  {
+    "file": "tweet_1772283699289006470.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.08 std=38.4"
+  },
+  {
+    "file": "tweet_1775288604316602653.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=24.5 ed=0.20 std=71.2"
+  },
+  {
+    "file": "tweet_1781772173343887802.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=50.8 ed=0.20 std=54.3"
+  },
+  {
+    "file": "tweet_1782380119052439852.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=37.6 ed=0.20 std=85.0"
+  },
+  {
+    "file": "tweet_1786375887564218654.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=14.6 ed=0.12 std=34.6"
+  },
+  {
+    "file": "tweet_1787549103167090816.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=95.5 ed=0.20 std=45.4"
+  },
+  {
+    "file": "tweet_1793225289729798508.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=14.1 ed=0.12 std=32.4"
+  },
+  {
+    "file": "tweet_1798401022517235778.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=39.3 ed=0.20 std=67.4"
+  },
+  {
+    "file": "tweet_1805190952358650251.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=12.2 ed=0.20 std=34.8"
+  },
+  {
+    "file": "tweet_1805213516879552941.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=7.2 ed=0.12 std=33.4"
+  },
+  {
+    "file": "tweet_1808174105482436709.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=6.3 ed=0.12 std=40.2"
+  },
+  {
+    "file": "tweet_1808188513512575179.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=88.4 ed=0.20 std=74.8"
+  },
+  {
+    "file": "tweet_1833548499985584340.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=29.1 ed=0.20 std=66.3"
+  },
+  {
+    "file": "tweet_1833741762923233471.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=7.2 ed=0.20 std=58.6"
+  },
+  {
+    "file": "tweet_1835419987890102620.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=8.6 ed=0.20 std=62.8"
+  },
+  {
+    "file": "tweet_1844032208455299218.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=18.7 ed=0.06 std=22.0"
+  },
+  {
+    "file": "tweet_1863937010005590247.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=77.4 ed=0.20 std=104.2"
+  },
+  {
+    "file": "tweet_1877068578907730419.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=38.4 ed=0.20 std=71.2"
+  },
+  {
+    "file": "tweet_1882097013027967109.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=9.6 ed=0.03 std=18.7"
+  },
+  {
+    "file": "tweet_1891610817600127310.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=31.4 ed=0.20 std=78.9"
+  },
+  {
+    "file": "tweet_1891693757935853969.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=13.3 ed=0.18 std=71.7"
+  },
+  {
+    "file": "tweet_1897376574636196288.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=17.1 ed=0.20 std=72.6"
+  },
+  {
+    "file": "tweet_1922363719285199305.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=14.2 ed=0.17 std=28.6"
+  },
+  {
+    "file": "tweet_1928824588097491032.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=41.8 ed=0.20 std=71.1"
+  },
+  {
+    "file": "tweet_1929481126109954400.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=74.9 ed=0.20 std=56.8"
+  },
+  {
+    "file": "tweet_1934649206247186834.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=49.7 ed=0.20 std=72.6"
+  },
+  {
+    "file": "tweet_1935548193191903375.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=43.0 ed=0.20 std=85.7"
+  },
+  {
+    "file": "tweet_1939363927478948214.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=52.1 ed=0.20 std=87.8"
+  },
+  {
+    "file": "tweet_1940787640229597648.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=4.0 ed=0.17 std=113.7"
+  },
+  {
+    "file": "tweet_1942328791948484662.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=26.9 ed=0.20 std=71.1"
+  },
+  {
+    "file": "tweet_1942522878378865073.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=22.2 ed=0.20 std=67.9"
+  },
+  {
+    "file": "tweet_1942607766993928544.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=45.0 ed=0.20 std=66.3"
+  },
+  {
+    "file": "tweet_1943018463112630528.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=12.3 ed=0.18 std=45.3"
+  },
+  {
+    "file": "tweet_1943324987256893623.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=38.4 ed=0.20 std=59.2"
+  },
+  {
+    "file": "tweet_1946239010822652016.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=47.4 ed=0.16 std=41.2"
+  },
+  {
+    "file": "tweet_1947652985481527777.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=82.4 ed=0.20 std=85.5"
+  },
+  {
+    "file": "tweet_1947676538553434600.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=22.8 ed=0.20 std=72.1"
+  },
+  {
+    "file": "tweet_1947687340291309726.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=1.3 ed=0.19 std=79.2"
+  },
+  {
+    "file": "tweet_1947728828526432427.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=3.7"
+  },
+  {
+    "file": "tweet_1947969930059465065.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=56.0 ed=0.20 std=62.9"
+  },
+  {
+    "file": "tweet_1947997894965154130.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=30.2 ed=0.20 std=45.3"
+  },
+  {
+    "file": "tweet_1948696526655816193.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.4 ed=0.06 std=76.7"
+  },
+  {
+    "file": "tweet_1948986646126624866.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=14.3 ed=0.20 std=72.9"
+  },
+  {
+    "file": "tweet_1949198868262146478.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=24.2 ed=0.20 std=76.2"
+  },
+  {
+    "file": "tweet_1949379295295816177.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=5.7 ed=0.20 std=34.2"
+  },
+  {
+    "file": "tweet_1950647588870299919.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=29.2 ed=0.20 std=82.9"
+  },
+  {
+    "file": "tweet_1951266966506778647.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=10.8 ed=0.19 std=72.7"
+  },
+  {
+    "file": "tweet_1951865569549971581.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.4 ed=0.02 std=76.2"
+  },
+  {
+    "file": "tweet_1951991449236725909.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.2 ed=0.01 std=4.6"
+  },
+  {
+    "file": "tweet_1952671141518008584.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=21.2 ed=0.20 std=73.6"
+  },
+  {
+    "file": "tweet_1952673836107018409.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=36.6 ed=0.20 std=59.9"
+  },
+  {
+    "file": "tweet_1952686773051814252.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=27.4 ed=0.20 std=61.1"
+  },
+  {
+    "file": "tweet_1952762363045945674.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=59.6 ed=0.20 std=55.1"
+  },
+  {
+    "file": "tweet_1952787836723159233.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.2 ed=0.02 std=65.0"
+  },
+  {
+    "file": "tweet_1952791462153719880.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=40.1 ed=0.20 std=53.3"
+  },
+  {
+    "file": "tweet_1953854233574617138.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=41.5 ed=0.19 std=92.2"
+  },
+  {
+    "file": "tweet_1954601723789787159.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=15.2 ed=0.20 std=75.4"
+  },
+  {
+    "file": "tweet_1954675714604810426.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=17.5 ed=0.19 std=104.3"
+  },
+  {
+    "file": "tweet_1954809052418236864.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=4.7 ed=0.06 std=20.1"
+  },
+  {
+    "file": "tweet_1954814058265289084.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=28.5 ed=0.20 std=72.2"
+  },
+  {
+    "file": "tweet_1954818191537930378.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=12.3 ed=0.20 std=98.5"
+  },
+  {
+    "file": "tweet_1954870524330258492.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=52.4 ed=0.20 std=85.4"
+  },
+  {
+    "file": "tweet_1954955564099965433.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=111.5 ed=0.20 std=69.7"
+  },
+  {
+    "file": "tweet_1955919809926906139.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=3.3 ed=0.17 std=112.8"
+  },
+  {
+    "file": "tweet_1956008350778331316.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=26.3 ed=0.20 std=100.7"
+  },
+  {
+    "file": "tweet_1956385495052910893.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=53.5 ed=0.20 std=73.7"
+  },
+  {
+    "file": "tweet_1956603618133475368.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=24.2 ed=0.20 std=67.5"
+  },
+  {
+    "file": "tweet_1956644683654066649.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=124.5 ed=0.20 std=58.6"
+  },
+  {
+    "file": "tweet_1957208933069881376.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=20.3 ed=0.20 std=53.9"
+  },
+  {
+    "file": "tweet_1957217738390396984.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=13.1 ed=0.20 std=94.5"
+  },
+  {
+    "file": "tweet_1957439063276880147.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=53.9 ed=0.20 std=93.4"
+  },
+  {
+    "file": "tweet_1957747966896480518.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=89.3 ed=0.20 std=50.5"
+  },
+  {
+    "file": "tweet_1957777939187081356.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=97.5 ed=0.20 std=103.0"
+  },
+  {
+    "file": "tweet_1958051542939951279.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=31.3 ed=0.20 std=55.0"
+  },
+  {
+    "file": "tweet_1958553704430522721.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=30.6 ed=0.20 std=53.8"
+  },
+  {
+    "file": "tweet_1958836358560325685.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=109.8 ed=0.20 std=86.9"
+  },
+  {
+    "file": "tweet_1958881088945750302.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=52.2 ed=0.20 std=75.6"
+  },
+  {
+    "file": "tweet_1958922118340718803.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=83.2 ed=0.20 std=81.1"
+  },
+  {
+    "file": "tweet_1958941665512530431.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=3.5 ed=0.18 std=50.6"
+  },
+  {
+    "file": "tweet_1959021654392054179.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=32.6 ed=0.20 std=35.2"
+  },
+  {
+    "file": "tweet_1959114536457576675.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=34.4 ed=0.20 std=71.4"
+  },
+  {
+    "file": "tweet_1959238410234961938.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=71.3 ed=0.18 std=87.7"
+  },
+  {
+    "file": "tweet_1959239770015510692.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=23.2 ed=0.20 std=67.9"
+  },
+  {
+    "file": "tweet_1959243921663340651.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=3.2 ed=0.20 std=86.1"
+  },
+  {
+    "file": "tweet_1959533537289269273.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=5.4 ed=0.20 std=77.4"
+  },
+  {
+    "file": "tweet_1959604298419237324.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=15.0 ed=0.20 std=89.3"
+  },
+  {
+    "file": "tweet_1959752642235891748.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=49.3 ed=0.20 std=75.4"
+  },
+  {
+    "file": "tweet_1959927094005109083.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.2 ed=0.02 std=68.0"
+  },
+  {
+    "file": "tweet_1959980774049919099.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=80.2 ed=0.20 std=81.9"
+  },
+  {
+    "file": "tweet_1960022312465363105.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=1.3 ed=0.20 std=90.8"
+  },
+  {
+    "file": "tweet_1960094292179104156.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=41.8 ed=0.20 std=67.0"
+  },
+  {
+    "file": "tweet_1960272743460642865.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=91.3 ed=0.19 std=45.9"
+  },
+  {
+    "file": "tweet_1960285660558020895.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=47.0 ed=0.20 std=81.3"
+  },
+  {
+    "file": "tweet_1960328195711844514.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=37.9 ed=0.20 std=99.6"
+  },
+  {
+    "file": "tweet_1960371667768635734.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=40.2 ed=0.20 std=79.7"
+  },
+  {
+    "file": "tweet_1960462263284064531.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=112.9 ed=0.20 std=88.7"
+  },
+  {
+    "file": "tweet_1960651511077245366.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=37.9 ed=0.20 std=112.0"
+  },
+  {
+    "file": "tweet_1960675148387794947.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=34.6 ed=0.06 std=70.7"
+  },
+  {
+    "file": "tweet_1960780018101182953.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=31.9 ed=0.20 std=73.7"
+  },
+  {
+    "file": "tweet_1961292137099616526.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=54.6 ed=0.20 std=71.1"
+  },
+  {
+    "file": "tweet_1961370644286742990.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=35.1 ed=0.20 std=71.4"
+  },
+  {
+    "file": "tweet_1961467409249849537.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=1.2 ed=0.20 std=110.2"
+  },
+  {
+    "file": "tweet_1961805522111209713.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=6.1 ed=0.11 std=33.5"
+  },
+  {
+    "file": "tweet_1961933849035763723.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=55.0 ed=0.20 std=76.1"
+  },
+  {
+    "file": "tweet_1962192040344887696.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=33.9 ed=0.20 std=91.9"
+  },
+  {
+    "file": "tweet_1962691407413739920.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=75.4 ed=0.20 std=74.6"
+  },
+  {
+    "file": "tweet_1962785558213607522.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=82.3 ed=0.20 std=95.4"
+  },
+  {
+    "file": "tweet_1962830525594321329.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=32.9 ed=0.20 std=76.3"
+  },
+  {
+    "file": "tweet_1962918293234212903.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=7.0 ed=0.20 std=81.6"
+  },
+  {
+    "file": "tweet_1963124605922734481.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=99.4 ed=0.20 std=64.2"
+  },
+  {
+    "file": "tweet_1963205543612326069.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=48.6 ed=0.20 std=78.5"
+  },
+  {
+    "file": "tweet_1963270072232992851.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.2 ed=0.01 std=66.3"
+  },
+  {
+    "file": "tweet_1963547161930633507.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=55.4 ed=0.20 std=74.4"
+  },
+  {
+    "file": "tweet_1963629551604453847.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=35.9 ed=0.20 std=92.4"
+  },
+  {
+    "file": "tweet_1963642864698573070.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=18.4 ed=0.20 std=55.5"
+  },
+  {
+    "file": "tweet_1963908526591398067.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=44.2 ed=0.20 std=104.9"
+  },
+  {
+    "file": "tweet_1963965345385132270.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=23.0 ed=0.20 std=50.8"
+  },
+  {
+    "file": "tweet_1963989332936565038.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=134.1 ed=0.13 std=46.3"
+  },
+  {
+    "file": "tweet_1964088893130887381.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=53.6 ed=0.20 std=63.7"
+  },
+  {
+    "file": "tweet_1964091421004353671.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=56.3 ed=0.20 std=73.5"
+  },
+  {
+    "file": "tweet_1964323438501187622.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=38.7 ed=0.20 std=69.6"
+  },
+  {
+    "file": "tweet_1964332489478185448.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=29.4 ed=0.20 std=78.3"
+  },
+  {
+    "file": "tweet_1964465721129521297.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=1.8 ed=0.13 std=44.5"
+  },
+  {
+    "file": "tweet_1964600198262390888.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=5.9 ed=0.20 std=59.9"
+  },
+  {
+    "file": "tweet_1964969884913426466.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=71.6 ed=0.20 std=64.0"
+  },
+  {
+    "file": "tweet_1964995961257902393.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=73.3"
+  },
+  {
+    "file": "tweet_1965022314904289732.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=86.1 ed=0.20 std=70.7"
+  },
+  {
+    "file": "tweet_1965030531101511691.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=3.5 ed=0.18 std=98.1"
+  },
+  {
+    "file": "tweet_1965430048632242410.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=42.8 ed=0.20 std=86.1"
+  },
+  {
+    "file": "tweet_1965445219614425347.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=73.4"
+  },
+  {
+    "file": "tweet_1965526946542154086.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=1.2 ed=0.17 std=99.9"
+  },
+  {
+    "file": "tweet_1965531265211449434.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=44.0 ed=0.20 std=67.6"
+  },
+  {
+    "file": "tweet_1965544973161693265.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=36.2 ed=0.20 std=88.1"
+  },
+  {
+    "file": "tweet_1965830185510457576.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=22.6 ed=0.19 std=57.2"
+  },
+  {
+    "file": "tweet_1965878951491829938.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=45.1 ed=0.20 std=75.7"
+  },
+  {
+    "file": "tweet_1965898134535762259.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=40.2 ed=0.20 std=106.0"
+  },
+  {
+    "file": "tweet_1966120867173462101.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=3.7"
+  },
+  {
+    "file": "tweet_1966157539914956802.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=79.1 ed=0.20 std=105.4"
+  },
+  {
+    "file": "tweet_1966183543308276210.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=35.8 ed=0.20 std=89.3"
+  },
+  {
+    "file": "tweet_1966204682009018869.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=30.7 ed=0.20 std=70.8"
+  },
+  {
+    "file": "tweet_1966231768811585795.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=10.8 ed=0.07 std=25.4"
+  },
+  {
+    "file": "tweet_1966290970527605140.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=91.0 ed=0.20 std=71.7"
+  },
+  {
+    "file": "tweet_1966322023485026519.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=60.9 ed=0.20 std=76.7"
+  },
+  {
+    "file": "tweet_1966378635302154310.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=45.4 ed=0.19 std=43.7"
+  },
+  {
+    "file": "tweet_1966414211132621279.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=48.3 ed=0.20 std=65.2"
+  },
+  {
+    "file": "tweet_1966445268339159546.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=73.8 ed=0.20 std=66.8"
+  },
+  {
+    "file": "tweet_1966468746773499987.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=92.1 ed=0.16 std=59.0"
+  },
+  {
+    "file": "tweet_1966544319516402105.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=10.1 ed=0.19 std=36.0"
+  },
+  {
+    "file": "tweet_1966595436845670873.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=19.4 ed=0.20 std=92.7"
+  },
+  {
+    "file": "tweet_1966863492860047523.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=31.3 ed=0.20 std=67.5"
+  },
+  {
+    "file": "tweet_1966897410593919278.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=21.1 ed=0.16 std=24.2"
+  },
+  {
+    "file": "tweet_1966904981694620032.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=47.2 ed=0.20 std=48.1"
+  },
+  {
+    "file": "tweet_1966943753207255505.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=70.7"
+  },
+  {
+    "file": "tweet_1967143137190834267.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=89.7 ed=0.20 std=93.0"
+  },
+  {
+    "file": "tweet_1967172492159816138.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=27.6 ed=0.20 std=41.3"
+  },
+  {
+    "file": "tweet_1967226014960078887.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=39.7 ed=0.20 std=94.0"
+  },
+  {
+    "file": "tweet_1967266768164114876.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=82.8 ed=0.20 std=87.4"
+  },
+  {
+    "file": "tweet_1967324979256819948.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=21.4 ed=0.20 std=67.0"
+  },
+  {
+    "file": "tweet_1967353450741862775.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=69.3 ed=0.20 std=77.2"
+  },
+  {
+    "file": "tweet_1967959418001297462.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=2.9 ed=0.20 std=61.8"
+  },
+  {
+    "file": "tweet_1968346206645682450.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=3.6"
+  },
+  {
+    "file": "tweet_1968616026121068695.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=32.7 ed=0.20 std=72.5"
+  },
+  {
+    "file": "tweet_1969162561590354108.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=45.4 ed=0.20 std=100.4"
+  },
+  {
+    "file": "tweet_1969732357700587708.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=1.2 ed=0.20 std=72.3"
+  },
+  {
+    "file": "tweet_1970171736898285672.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=18.6 ed=0.20 std=78.3"
+  },
+  {
+    "file": "tweet_1970208043183792233.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=62.7 ed=0.20 std=63.5"
+  },
+  {
+    "file": "tweet_1970240325554970881.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=70.2"
+  },
+  {
+    "file": "tweet_1970541285615264071.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=76.2 ed=0.05 std=38.1"
+  },
+  {
+    "file": "tweet_1970824023836868661.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=68.9"
+  },
+  {
+    "file": "tweet_1970858258341773737.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=20.3 ed=0.20 std=67.9"
+  },
+  {
+    "file": "tweet_1970920369063391707.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=3.6"
+  },
+  {
+    "file": "tweet_1970939120265658779.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=65.9 ed=0.20 std=89.6"
+  },
+  {
+    "file": "tweet_1971234855309672467.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=24.5 ed=0.20 std=66.0"
+  },
+  {
+    "file": "tweet_1971311330448838808.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=61.0 ed=0.20 std=66.1"
+  },
+  {
+    "file": "tweet_1971650982674354616.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=26.1 ed=0.20 std=58.7"
+  },
+  {
+    "file": "tweet_1971660381560230315.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=39.7 ed=0.20 std=83.7"
+  },
+  {
+    "file": "tweet_1971676668256571392.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=99.1 ed=0.20 std=81.2"
+  },
+  {
+    "file": "tweet_1971871515156124077.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=44.3 ed=0.20 std=73.9"
+  },
+  {
+    "file": "tweet_1971967929446175128.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=54.7 ed=0.20 std=70.7"
+  },
+  {
+    "file": "tweet_1972060890389533168.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=44.5 ed=0.20 std=87.2"
+  },
+  {
+    "file": "tweet_1972720594832556497.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=43.2 ed=0.15 std=42.9"
+  },
+  {
+    "file": "tweet_1972958605168242948.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=81.2 ed=0.19 std=36.1"
+  },
+  {
+    "file": "tweet_1973012868808511771.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=63.0 ed=0.20 std=93.4"
+  },
+  {
+    "file": "tweet_1973092987610579337.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=55.8 ed=0.20 std=76.4"
+  },
+  {
+    "file": "tweet_1973135300147945489.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=19.2 ed=0.20 std=62.1"
+  },
+  {
+    "file": "tweet_1973843328006492569.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=34.6 ed=0.20 std=76.5"
+  },
+  {
+    "file": "tweet_1974087774572892534.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=27.3 ed=0.20 std=56.8"
+  },
+  {
+    "file": "tweet_1974140950592024795.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=26.8 ed=0.20 std=90.3"
+  },
+  {
+    "file": "tweet_1974455131900190780.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=39.4 ed=0.20 std=76.0"
+  },
+  {
+    "file": "tweet_1974505919405851051.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.8 ed=0.13 std=79.5"
+  },
+  {
+    "file": "tweet_1974739251611992228.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=19.2 ed=0.20 std=63.5"
+  },
+  {
+    "file": "tweet_1974845089215365146.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=23.9 ed=0.20 std=53.9"
+  },
+  {
+    "file": "tweet_1974886762582524168.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=2.1 ed=0.20 std=74.4"
+  },
+  {
+    "file": "tweet_1975112347741299187.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=8.5 ed=0.20 std=53.1"
+  },
+  {
+    "file": "tweet_1975123866553840118.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=72.3 ed=0.20 std=32.8"
+  },
+  {
+    "file": "tweet_1975161678313791878.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=11.2 ed=0.18 std=106.8"
+  },
+  {
+    "file": "tweet_1975208178175594708.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=5.0 ed=0.19 std=77.9"
+  },
+  {
+    "file": "tweet_1975470922300858391.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=27.6 ed=0.20 std=55.4"
+  },
+  {
+    "file": "tweet_1975512526633799935.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=49.9 ed=0.04 std=93.6"
+  },
+  {
+    "file": "tweet_1975544197425094729.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=9.6 ed=0.20 std=120.6"
+  },
+  {
+    "file": "tweet_1975554728395460866.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=108.1 ed=0.20 std=77.0"
+  },
+  {
+    "file": "tweet_1975558092634136834.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=79.1 ed=0.20 std=79.2"
+  },
+  {
+    "file": "tweet_1975574103156195771.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=24.9 ed=0.20 std=63.5"
+  },
+  {
+    "file": "tweet_1975575345198997566.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=29.4 ed=0.20 std=79.6"
+  },
+  {
+    "file": "tweet_1975591265178951697.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=4.1 ed=0.07 std=49.4"
+  },
+  {
+    "file": "tweet_1975809138103136740.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.2 ed=0.03 std=10.3"
+  },
+  {
+    "file": "tweet_1975828377836597657.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=30.1 ed=0.05 std=21.2"
+  },
+  {
+    "file": "tweet_1975871553951961370.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=48.2 ed=0.20 std=41.5"
+  },
+  {
+    "file": "tweet_1975886393831297328.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=27.6 ed=0.20 std=92.0"
+  },
+  {
+    "file": "tweet_1975886683913769390.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=88.5 ed=0.20 std=89.4"
+  },
+  {
+    "file": "tweet_1975902526391345281.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=73.9 ed=0.20 std=41.1"
+  },
+  {
+    "file": "tweet_1975915449801224434.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=29.0 ed=0.20 std=54.1"
+  },
+  {
+    "file": "tweet_1975920588372771249.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=121.0 ed=0.18 std=44.9"
+  },
+  {
+    "file": "tweet_1975923799498383806.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.5 ed=0.04 std=13.5"
+  },
+  {
+    "file": "tweet_1975939251670831140.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=53.4 ed=0.20 std=77.5"
+  },
+  {
+    "file": "tweet_1976145210573746534.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=70.6 ed=0.20 std=52.5"
+  },
+  {
+    "file": "tweet_1976152046630998387.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=130.2 ed=0.20 std=80.8"
+  },
+  {
+    "file": "tweet_1976182603414962273.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=10.7 ed=0.20 std=82.2"
+  },
+  {
+    "file": "tweet_1976199220932776261.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=64.7 ed=0.20 std=65.2"
+  },
+  {
+    "file": "tweet_1976208301307330989.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=10.0 ed=0.20 std=35.6"
+  },
+  {
+    "file": "tweet_1976264605836976295.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=34.2 ed=0.20 std=93.3"
+  },
+  {
+    "file": "tweet_1976274793226748229.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=37.6 ed=0.20 std=97.3"
+  },
+  {
+    "file": "tweet_1976295405605556395.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=32.9 ed=0.20 std=70.8"
+  },
+  {
+    "file": "tweet_1976328515160268921.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=44.4 ed=0.20 std=101.9"
+  },
+  {
+    "file": "tweet_1976331547096871091.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.13 std=39.8"
+  },
+  {
+    "file": "tweet_1976580968711594077.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=61.9 ed=0.20 std=69.1"
+  },
+  {
+    "file": "tweet_1976685614444810410.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=64.9 ed=0.20 std=51.3"
+  },
+  {
+    "file": "tweet_1976688980268839410.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=17.7 ed=0.20 std=91.4"
+  },
+  {
+    "file": "tweet_1976879563478356377.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=4.1 ed=0.20 std=35.3"
+  },
+  {
+    "file": "tweet_1976986736191492479.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=94.2 ed=0.20 std=67.2"
+  },
+  {
+    "file": "tweet_1977066774391931073.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=6.7 ed=0.20 std=97.4"
+  },
+  {
+    "file": "tweet_1977291015762383011.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=23.9 ed=0.14 std=67.6"
+  },
+  {
+    "file": "tweet_1977469955135414470.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=73.1"
+  },
+  {
+    "file": "tweet_1977472044607611116.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=106.8 ed=0.20 std=87.2"
+  },
+  {
+    "file": "tweet_1977509970854752278.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=32.9 ed=0.20 std=104.3"
+  },
+  {
+    "file": "tweet_1977644724824711492.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=73.9 ed=0.20 std=80.0"
+  },
+  {
+    "file": "tweet_1977659164538069225.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=88.5 ed=0.20 std=74.3"
+  },
+  {
+    "file": "tweet_1977661877896257816.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=16.7 ed=0.20 std=37.1"
+  },
+  {
+    "file": "tweet_1977665958962487459.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=110.0 ed=0.20 std=72.1"
+  },
+  {
+    "file": "tweet_1977699422575173982.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=42.7 ed=0.20 std=69.8"
+  },
+  {
+    "file": "tweet_1977720985001382205.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=30.6 ed=0.20 std=113.8"
+  },
+  {
+    "file": "tweet_1977755792213151924.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=49.2 ed=0.20 std=74.4"
+  },
+  {
+    "file": "tweet_1977831782100992093.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=19.2 ed=0.20 std=80.1"
+  },
+  {
+    "file": "tweet_1978067511976264043.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=39.8 ed=0.20 std=47.4"
+  },
+  {
+    "file": "tweet_1978075068040192276.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=12.5 ed=0.20 std=93.1"
+  },
+  {
+    "file": "tweet_1978142505934979141.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.2 ed=0.01 std=4.6"
+  },
+  {
+    "file": "tweet_1978255852554387867.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=76.0 ed=0.20 std=94.5"
+  },
+  {
+    "file": "tweet_1978279224378007816.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=53.1 ed=0.20 std=63.6"
+  },
+  {
+    "file": "tweet_1978392120374305233.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=39.3 ed=0.20 std=77.8"
+  },
+  {
+    "file": "tweet_1978403799938236599.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=58.8 ed=0.20 std=88.9"
+  },
+  {
+    "file": "tweet_1978428143326151108.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=67.6 ed=0.20 std=81.0"
+  },
+  {
+    "file": "tweet_1978428396318179618.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=3.2 ed=0.08 std=86.0"
+  },
+  {
+    "file": "tweet_1978431643690905634.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=107.1 ed=0.20 std=75.0"
+  },
+  {
+    "file": "tweet_1978475957175324775.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=98.0 ed=0.20 std=73.8"
+  },
+  {
+    "file": "tweet_1978479691687235631.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=84.2 ed=0.20 std=65.0"
+  },
+  {
+    "file": "tweet_1978498976136491448.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=37.0 ed=0.20 std=99.0"
+  },
+  {
+    "file": "tweet_1978531949682508193.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=68.0 ed=0.20 std=81.1"
+  },
+  {
+    "file": "tweet_1978728895701815704.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=99.8 ed=0.20 std=59.9"
+  },
+  {
+    "file": "tweet_1978769691582603551.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=33.5 ed=0.20 std=69.2"
+  },
+  {
+    "file": "tweet_1978836528957739018.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=25.3 ed=0.20 std=112.3"
+  },
+  {
+    "file": "tweet_1978984966353477801.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=3.1 ed=0.20 std=90.5"
+  },
+  {
+    "file": "tweet_1979009952606781930.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=79.3 ed=0.20 std=91.7"
+  },
+  {
+    "file": "tweet_1979115574421516617.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=27.4 ed=0.20 std=85.2"
+  },
+  {
+    "file": "tweet_1979203328018964987.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=32.2 ed=0.20 std=90.6"
+  },
+  {
+    "file": "tweet_1979209699560919496.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=120.2 ed=0.20 std=53.6"
+  },
+  {
+    "file": "tweet_1979292037028647109.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=5.0 ed=0.20 std=47.0"
+  },
+  {
+    "file": "tweet_1979432693830996292.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=76.6 ed=0.20 std=75.9"
+  },
+  {
+    "file": "tweet_1979460624187805698.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=42.0 ed=0.20 std=49.9"
+  },
+  {
+    "file": "tweet_1979532786785488950.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=19.3 ed=0.20 std=78.3"
+  },
+  {
+    "file": "tweet_1979536479773667450.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=25.7 ed=0.20 std=85.6"
+  },
+  {
+    "file": "tweet_1979558115864408102.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=6.8 ed=0.20 std=46.0"
+  },
+  {
+    "file": "tweet_1979692658420228526.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=68.4 ed=0.20 std=73.0"
+  },
+  {
+    "file": "tweet_1979967480853655636.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=40.0 ed=0.20 std=101.3"
+  },
+  {
+    "file": "tweet_1980215246116786444.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=60.3 ed=0.20 std=73.0"
+  },
+  {
+    "file": "tweet_1980254037674021258.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=1.8 ed=0.20 std=105.5"
+  },
+  {
+    "file": "tweet_1980271439556096005.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=97.6 ed=0.20 std=104.5"
+  },
+  {
+    "file": "tweet_1980294829159682347.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=73.7 ed=0.20 std=36.9"
+  },
+  {
+    "file": "tweet_1980302998623723942.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=43.0 ed=0.10 std=65.4"
+  },
+  {
+    "file": "tweet_1980303495631900966.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=33.5 ed=0.20 std=72.6"
+  },
+  {
+    "file": "tweet_1980313003817070867.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=31.1 ed=0.20 std=49.9"
+  },
+  {
+    "file": "tweet_1980321554652393771.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=46.5 ed=0.18 std=28.8"
+  },
+  {
+    "file": "tweet_1980342349151732155.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=23.6 ed=0.19 std=87.6"
+  },
+  {
+    "file": "tweet_1980348357911671253.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=80.8 ed=0.20 std=64.4"
+  },
+  {
+    "file": "tweet_1980350260028600497.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=130.5 ed=0.20 std=80.9"
+  },
+  {
+    "file": "tweet_1980355759205650513.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=5.8 ed=0.20 std=76.5"
+  },
+  {
+    "file": "tweet_1980608042929426932.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=88.5 ed=0.20 std=79.9"
+  },
+  {
+    "file": "tweet_1980625881623326797.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=18.3 ed=0.20 std=52.5"
+  },
+  {
+    "file": "tweet_1980627077410828547.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=94.1 ed=0.20 std=56.9"
+  },
+  {
+    "file": "tweet_1980628993758855615.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.4 ed=0.02 std=74.8"
+  },
+  {
+    "file": "tweet_1980664140332253220.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=39.7 ed=0.20 std=47.4"
+  },
+  {
+    "file": "tweet_1980676892114964843.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=4.9 ed=0.20 std=106.7"
+  },
+  {
+    "file": "tweet_1980679209031987600.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=18.8 ed=0.20 std=77.2"
+  },
+  {
+    "file": "tweet_1980691362954784847.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=28.0 ed=0.20 std=90.6"
+  },
+  {
+    "file": "tweet_1980691777695924468.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=10.4 ed=0.06 std=37.6"
+  },
+  {
+    "file": "tweet_1980725639956062496.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=28.6 ed=0.20 std=79.0"
+  },
+  {
+    "file": "tweet_1980754110367338589.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=40.0 ed=0.20 std=94.1"
+  },
+  {
+    "file": "tweet_1980784521558872106.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=47.7 ed=0.20 std=97.1"
+  },
+  {
+    "file": "tweet_1980946839122870613.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=27.4 ed=0.20 std=44.5"
+  },
+  {
+    "file": "tweet_1980956658315464714.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.5 ed=0.03 std=83.8"
+  },
+  {
+    "file": "tweet_1980977457605062754.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=6.3 ed=0.10 std=82.0"
+  },
+  {
+    "file": "tweet_1980989500139634815.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.03 std=64.5"
+  },
+  {
+    "file": "tweet_1980998324363854078.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=1.3 ed=0.20 std=91.9"
+  },
+  {
+    "file": "tweet_1981039703550750986.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=146.1 ed=0.20 std=84.3"
+  },
+  {
+    "file": "tweet_1981048414776549710.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=17.7 ed=0.20 std=38.9"
+  },
+  {
+    "file": "tweet_1981169010076242192.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=44.3 ed=0.20 std=90.1"
+  },
+  {
+    "file": "tweet_1981186590572483005.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=107.4 ed=0.20 std=41.3"
+  },
+  {
+    "file": "tweet_1981247191961186712.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=40.7 ed=0.20 std=75.3"
+  },
+  {
+    "file": "tweet_1981314119190913102.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=15.6 ed=0.13 std=40.1"
+  },
+  {
+    "file": "tweet_1981314736127168732.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=9.0 ed=0.10 std=21.7"
+  },
+  {
+    "file": "tweet_1981326173499015285.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=25.1 ed=0.20 std=75.2"
+  },
+  {
+    "file": "tweet_1981333200715895039.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=8.5 ed=0.11 std=33.2"
+  },
+  {
+    "file": "tweet_1981340009949970609.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=50.5 ed=0.15 std=56.9"
+  },
+  {
+    "file": "tweet_1981342279689523532.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=76.1 ed=0.19 std=90.6"
+  },
+  {
+    "file": "tweet_1981359860374491438.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=73.1"
+  },
+  {
+    "file": "tweet_1981377106199400895.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=88.9 ed=0.20 std=94.7"
+  },
+  {
+    "file": "tweet_1981405382754128099.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=109.7 ed=0.20 std=93.9"
+  },
+  {
+    "file": "tweet_1981431704305754258.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=155.5 ed=0.20 std=67.2"
+  },
+  {
+    "file": "tweet_1981478314549420396.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=39.7 ed=0.20 std=83.9"
+  },
+  {
+    "file": "tweet_1981521521198678073.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=20.5 ed=0.20 std=62.1"
+  },
+  {
+    "file": "tweet_1981692241820483723.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=54.1 ed=0.14 std=24.1"
+  },
+  {
+    "file": "tweet_1981708095299764336.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=26.2 ed=0.20 std=105.2"
+  },
+  {
+    "file": "tweet_1981725365178364356.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=10.3 ed=0.20 std=120.4"
+  },
+  {
+    "file": "tweet_1981814074179825856.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=1.2 ed=0.20 std=85.3"
+  },
+  {
+    "file": "tweet_1981832100316610836.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=71.3 ed=0.20 std=80.3"
+  },
+  {
+    "file": "tweet_1981850472177602731.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=102.7 ed=0.20 std=71.9"
+  },
+  {
+    "file": "tweet_1981941820364890177.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=29.2 ed=0.20 std=56.1"
+  },
+  {
+    "file": "tweet_1981962458303504872.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=19.0 ed=0.20 std=32.4"
+  },
+  {
+    "file": "tweet_1982025793057529867.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=6.7 ed=0.08 std=73.1"
+  },
+  {
+    "file": "tweet_1982151138376900847.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=93.2 ed=0.20 std=87.6"
+  },
+  {
+    "file": "tweet_1982261140840190133.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=27.3 ed=0.20 std=52.6"
+  },
+  {
+    "file": "tweet_1982384002473554401.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=23.6 ed=0.20 std=88.3"
+  },
+  {
+    "file": "tweet_1982484230782509122.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=70.4"
+  },
+  {
+    "file": "tweet_1982709160002421148.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=71.5"
+  },
+  {
+    "file": "tweet_1982838301381030081.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=22.1 ed=0.20 std=90.0"
+  },
+  {
+    "file": "tweet_1982871049999118376.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=10.3 ed=0.20 std=71.0"
+  },
+  {
+    "file": "tweet_1982930437996679462.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=73.8 ed=0.20 std=48.2"
+  },
+  {
+    "file": "tweet_1982964266920751467.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=132.4 ed=0.20 std=90.7"
+  },
+  {
+    "file": "tweet_1983141957380546697.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=5.1 ed=0.14 std=50.6"
+  },
+  {
+    "file": "tweet_1983202401898377287.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.13 std=29.1"
+  },
+  {
+    "file": "tweet_1983215063654600796.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=24.1 ed=0.12 std=80.0"
+  },
+  {
+    "file": "tweet_1983463210847244657.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=90.0 ed=0.20 std=83.8"
+  },
+  {
+    "file": "tweet_1983498126804521250.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=32.9 ed=0.20 std=71.1"
+  },
+  {
+    "file": "tweet_1983555135470031255.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=95.4 ed=0.20 std=91.5"
+  },
+  {
+    "file": "tweet_1983562661431243211.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=73.6"
+  },
+  {
+    "file": "tweet_1983595182147662016.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=71.1"
+  },
+  {
+    "file": "tweet_1983669248166916182.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=37.7 ed=0.18 std=73.4"
+  },
+  {
+    "file": "tweet_1983934447088009707.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=48.1 ed=0.20 std=49.6"
+  },
+  {
+    "file": "tweet_1983960584648548787.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=11.2 ed=0.20 std=92.4"
+  },
+  {
+    "file": "tweet_1984085667299623368.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=15.5 ed=0.18 std=30.8"
+  },
+  {
+    "file": "tweet_1984098674478309585.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=29.1 ed=0.20 std=115.7"
+  },
+  {
+    "file": "tweet_1984203222815240221.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=110.7 ed=0.20 std=95.3"
+  },
+  {
+    "file": "tweet_1984208380173672806.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=60.2 ed=0.20 std=82.6"
+  },
+  {
+    "file": "tweet_1984226576658256100.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=5.4 ed=0.19 std=108.4"
+  },
+  {
+    "file": "tweet_1984259815028510800.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=11.5 ed=0.20 std=62.0"
+  },
+  {
+    "file": "tweet_1984281525291024707.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.4 ed=0.02 std=76.2"
+  },
+  {
+    "file": "tweet_1984325826163458313.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=22.6 ed=0.20 std=85.4"
+  },
+  {
+    "file": "tweet_1984351554619785326.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=11.3 ed=0.20 std=80.5"
+  },
+  {
+    "file": "tweet_1984352387512062269.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=25.4 ed=0.20 std=41.7"
+  },
+  {
+    "file": "tweet_1984355216482058728.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=43.0 ed=0.20 std=85.6"
+  },
+  {
+    "file": "tweet_1984425156559999205.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=16.1 ed=0.20 std=66.8"
+  },
+  {
+    "file": "tweet_1984481688932794767.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=80.6 ed=0.20 std=74.2"
+  },
+  {
+    "file": "tweet_1984486280714207269.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=30.1 ed=0.20 std=78.0"
+  },
+  {
+    "file": "tweet_1984586651533000738.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=32.5 ed=0.20 std=90.0"
+  },
+  {
+    "file": "tweet_1984628242309951657.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=29.4 ed=0.20 std=48.4"
+  },
+  {
+    "file": "tweet_1984640678438011107.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=26.9 ed=0.20 std=89.8"
+  },
+  {
+    "file": "tweet_1984660437833793774.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=48.1 ed=0.20 std=90.4"
+  },
+  {
+    "file": "tweet_1984675149199917421.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=98.8 ed=0.20 std=94.3"
+  },
+  {
+    "file": "tweet_1984867037009805340.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=28.2 ed=0.20 std=47.3"
+  },
+  {
+    "file": "tweet_1984906012693016781.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=105.0 ed=0.20 std=80.1"
+  },
+  {
+    "file": "tweet_1984911671148904737.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=70.1 ed=0.20 std=68.3"
+  },
+  {
+    "file": "tweet_1984974510550851835.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=39.1 ed=0.20 std=73.9"
+  },
+  {
+    "file": "tweet_1985013020586610869.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=55.8 ed=0.20 std=91.0"
+  },
+  {
+    "file": "tweet_1985017796305015133.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=60.5 ed=0.20 std=75.8"
+  },
+  {
+    "file": "tweet_1985112524958961780.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=6.5 ed=0.20 std=67.6"
+  },
+  {
+    "file": "tweet_1985115010096406759.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=54.5 ed=0.20 std=51.7"
+  },
+  {
+    "file": "tweet_1985256481134944731.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=23.5 ed=0.04 std=23.2"
+  },
+  {
+    "file": "tweet_1985275329729175553.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=18.6 ed=0.20 std=70.4"
+  },
+  {
+    "file": "tweet_1985321992304644474.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=15.2 ed=0.16 std=66.6"
+  },
+  {
+    "file": "tweet_1985323129921560999.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=93.5 ed=0.20 std=96.6"
+  },
+  {
+    "file": "tweet_1985335112444055860.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.5 ed=0.02 std=4.0"
+  },
+  {
+    "file": "tweet_1985356140595511688.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=94.5 ed=0.20 std=86.5"
+  },
+  {
+    "file": "tweet_1985360590160712019.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=34.6 ed=0.20 std=77.5"
+  },
+  {
+    "file": "tweet_1985370807363948899.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=3.7"
+  },
+  {
+    "file": "tweet_1985376785500893549.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=53.3 ed=0.20 std=82.6"
+  },
+  {
+    "file": "tweet_1985418556172055028.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=18.2 ed=0.10 std=61.1"
+  },
+  {
+    "file": "tweet_1985444693384314942.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.15 std=13.8"
+  },
+  {
+    "file": "tweet_1985504288010092797.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=3.7"
+  },
+  {
+    "file": "tweet_1985628357221068906.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=72.5 ed=0.14 std=89.5"
+  },
+  {
+    "file": "tweet_1985648282077381043.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=23.9 ed=0.10 std=24.6"
+  },
+  {
+    "file": "tweet_1985648346967794020.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=1.2 ed=0.20 std=77.3"
+  },
+  {
+    "file": "tweet_1985667937664188649.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=8.1 ed=0.16 std=15.4"
+  },
+  {
+    "file": "tweet_1985693519793807538.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=72.9"
+  },
+  {
+    "file": "tweet_1985693853895065663.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=44.1 ed=0.07 std=46.1"
+  },
+  {
+    "file": "tweet_1985703094509060404.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=82.4 ed=0.20 std=88.1"
+  },
+  {
+    "file": "tweet_1985714647476158782.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=18.1 ed=0.20 std=98.1"
+  },
+  {
+    "file": "tweet_1985721046289584445.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=26.7 ed=0.09 std=34.9"
+  },
+  {
+    "file": "tweet_1985727323727872077.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=30.3 ed=0.20 std=37.7"
+  },
+  {
+    "file": "tweet_1985738920236367937.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=8.7 ed=0.20 std=36.9"
+  },
+  {
+    "file": "tweet_1985759647244902651.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=16.7 ed=0.19 std=99.5"
+  },
+  {
+    "file": "tweet_1985765414324908495.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=38.2 ed=0.20 std=94.4"
+  },
+  {
+    "file": "tweet_1985775761425400200.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=72.7 ed=0.20 std=68.8"
+  },
+  {
+    "file": "tweet_1985782930548138449.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=10.6 ed=0.20 std=95.5"
+  },
+  {
+    "file": "tweet_1985786103262331385.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=94.1 ed=0.20 std=98.2"
+  },
+  {
+    "file": "tweet_1985786999563812885.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=14.1 ed=0.04 std=46.6"
+  },
+  {
+    "file": "tweet_1985788265136574627.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=31.1 ed=0.18 std=45.2"
+  },
+  {
+    "file": "tweet_1985794570035044861.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=23.6 ed=0.04 std=24.7"
+  },
+  {
+    "file": "tweet_1985832542608769485.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=50.0 ed=0.18 std=95.0"
+  },
+  {
+    "file": "tweet_1985862178939797559.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=79.2 ed=0.20 std=72.7"
+  },
+  {
+    "file": "tweet_1985899467933995121.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=30.2 ed=0.20 std=55.4"
+  },
+  {
+    "file": "tweet_1985935108147462322.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=2.9 ed=0.07 std=78.9"
+  },
+  {
+    "file": "tweet_1985987037539815690.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=45.9 ed=0.20 std=70.0"
+  },
+  {
+    "file": "tweet_1986009371705282601.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=112.8 ed=0.20 std=79.4"
+  },
+  {
+    "file": "tweet_1986029306364285155.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=45.5 ed=0.20 std=91.2"
+  },
+  {
+    "file": "tweet_1986139278632505558.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=121.7 ed=0.20 std=69.5"
+  },
+  {
+    "file": "tweet_1986154437128475117.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=54.3 ed=0.20 std=102.3"
+  },
+  {
+    "file": "tweet_1986268789034655826.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=47.9 ed=0.20 std=94.5"
+  },
+  {
+    "file": "tweet_1986271034572689707.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=37.4 ed=0.20 std=97.1"
+  },
+  {
+    "file": "tweet_1986357703959253166.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=43.7 ed=0.20 std=83.3"
+  },
+  {
+    "file": "tweet_1986388125313319395.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.4 ed=0.19 std=73.9"
+  },
+  {
+    "file": "tweet_1986390353377968520.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=23.3 ed=0.20 std=96.5"
+  },
+  {
+    "file": "tweet_1986390965394022744.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.2 ed=0.01 std=66.3"
+  },
+  {
+    "file": "tweet_1986416319550332975.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=28.2 ed=0.20 std=56.7"
+  },
+  {
+    "file": "tweet_1986420974091223144.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=44.1 ed=0.10 std=65.6"
+  },
+  {
+    "file": "tweet_1986428642994364905.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=66.2 ed=0.20 std=99.8"
+  },
+  {
+    "file": "tweet_1986449326173004273.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=16.9 ed=0.20 std=83.2"
+  },
+  {
+    "file": "tweet_1986463640245948891.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=52.3 ed=0.20 std=77.2"
+  },
+  {
+    "file": "tweet_1986468208413487486.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.4 ed=0.02 std=76.5"
+  },
+  {
+    "file": "tweet_1986478689492647967.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=9.9 ed=0.06 std=74.1"
+  },
+  {
+    "file": "tweet_1986483052063637719.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.2 ed=0.02 std=63.6"
+  },
+  {
+    "file": "tweet_1986487521757270216.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=37.2 ed=0.20 std=94.6"
+  },
+  {
+    "file": "tweet_1986539086988124425.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=74.6 ed=0.20 std=76.8"
+  },
+  {
+    "file": "tweet_1986635963318346118.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=47.7 ed=0.20 std=69.6"
+  },
+  {
+    "file": "tweet_1986669658007871861.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=8.0 ed=0.20 std=8.7"
+  },
+  {
+    "file": "tweet_1986700944898154607.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=84.8 ed=0.19 std=102.2"
+  },
+  {
+    "file": "tweet_1986739937845067897.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=61.2 ed=0.20 std=84.4"
+  },
+  {
+    "file": "tweet_1986786276616388721.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=17.1 ed=0.17 std=73.7"
+  },
+  {
+    "file": "tweet_1986822201496993818.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=12.7 ed=0.20 std=68.3"
+  },
+  {
+    "file": "tweet_1986823026852102349.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=67.9 ed=0.20 std=66.8"
+  },
+  {
+    "file": "tweet_1986839344196559301.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=40.5 ed=0.20 std=68.3"
+  },
+  {
+    "file": "tweet_1986862660772655320.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=26.3 ed=0.20 std=110.7"
+  },
+  {
+    "file": "tweet_1986979144014701026.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=69.8 ed=0.20 std=67.0"
+  },
+  {
+    "file": "tweet_1986984822598775070.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=34.4 ed=0.20 std=74.5"
+  },
+  {
+    "file": "tweet_1987193751027241121.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=3.6"
+  },
+  {
+    "file": "tweet_1987203716051538370.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=5.9 ed=0.20 std=92.8"
+  },
+  {
+    "file": "tweet_1987213627632255219.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=66.7 ed=0.20 std=109.9"
+  },
+  {
+    "file": "tweet_1987220322358272205.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=54.5 ed=0.20 std=86.2"
+  },
+  {
+    "file": "tweet_1987372442466017437.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=31.1 ed=0.20 std=60.7"
+  },
+  {
+    "file": "tweet_1987478233814548754.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=64.1 ed=0.20 std=75.5"
+  },
+  {
+    "file": "tweet_1987490408985948288.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=49.3 ed=0.20 std=83.6"
+  },
+  {
+    "file": "tweet_1987504071897387227.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=49.5 ed=0.19 std=103.7"
+  },
+  {
+    "file": "tweet_1987731993866702921.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=59.6 ed=0.20 std=75.7"
+  },
+  {
+    "file": "tweet_1987790693180313923.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=57.1 ed=0.20 std=87.2"
+  },
+  {
+    "file": "tweet_1987841859264376876.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=75.2 ed=0.20 std=80.8"
+  },
+  {
+    "file": "tweet_1987890015309803689.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=45.3 ed=0.20 std=94.0"
+  },
+  {
+    "file": "tweet_1987898323299192983.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.2 ed=0.01 std=3.3"
+  },
+  {
+    "file": "tweet_1987904637467533313.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=83.9 ed=0.20 std=81.4"
+  },
+  {
+    "file": "tweet_1987935553384251446.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=32.9 ed=0.07 std=78.1"
+  },
+  {
+    "file": "tweet_1988263891781161243.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.2 ed=0.01 std=3.3"
+  },
+  {
+    "file": "tweet_1988349385403437506.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=89.2 ed=0.19 std=51.0"
+  },
+  {
+    "file": "tweet_1988361481671307501.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=1.3 ed=0.20 std=58.8"
+  },
+  {
+    "file": "tweet_1988488050746282435.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=40.0 ed=0.20 std=92.0"
+  },
+  {
+    "file": "tweet_1988623007082860776.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=66.9 ed=0.20 std=63.8"
+  },
+  {
+    "file": "tweet_1988665770046550326.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=27.4 ed=0.20 std=71.7"
+  },
+  {
+    "file": "tweet_1988666194795331996.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=6.3 ed=0.20 std=72.1"
+  },
+  {
+    "file": "tweet_1988666350336929969.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=61.0 ed=0.20 std=51.4"
+  },
+  {
+    "file": "tweet_1988679901885694065.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.9 ed=0.13 std=74.9"
+  },
+  {
+    "file": "tweet_1988682304840249494.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.2 ed=0.03 std=86.6"
+  },
+  {
+    "file": "tweet_1988684259121590585.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=36.0 ed=0.08 std=29.6"
+  },
+  {
+    "file": "tweet_1988685034111520888.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=41.1 ed=0.20 std=118.0"
+  },
+  {
+    "file": "tweet_1988713725516476592.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=11.3 ed=0.20 std=80.5"
+  },
+  {
+    "file": "tweet_1988870883843178964.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=89.9 ed=0.20 std=73.9"
+  },
+  {
+    "file": "tweet_1988958830089170944.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=17.2 ed=0.20 std=81.3"
+  },
+  {
+    "file": "tweet_1988959799137140966.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=118.5 ed=0.20 std=84.9"
+  },
+  {
+    "file": "tweet_1988961424803262577.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.03 std=73.5"
+  },
+  {
+    "file": "tweet_1988965641890787793.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=7.5 ed=0.18 std=69.6"
+  },
+  {
+    "file": "tweet_1988993617898176983.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=19.8 ed=0.20 std=82.9"
+  },
+  {
+    "file": "tweet_1988994235345838382.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=27.7 ed=0.20 std=83.5"
+  },
+  {
+    "file": "tweet_1989027302131577046.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=15.9 ed=0.12 std=64.8"
+  },
+  {
+    "file": "tweet_1989027518951625032.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=18.9 ed=0.20 std=74.3"
+  },
+  {
+    "file": "tweet_1989218677032644747.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=47.5 ed=0.20 std=64.2"
+  },
+  {
+    "file": "tweet_1989229310293733798.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=91.7 ed=0.20 std=103.1"
+  },
+  {
+    "file": "tweet_1989289956494516647.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=30.7 ed=0.20 std=47.5"
+  },
+  {
+    "file": "tweet_1989292056234332449.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.2 ed=0.02 std=63.6"
+  },
+  {
+    "file": "tweet_1989297100581179767.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=3.5"
+  },
+  {
+    "file": "tweet_1989317179582361707.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=20.7 ed=0.20 std=95.1"
+  },
+  {
+    "file": "tweet_1989318380201869437.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=50.9 ed=0.20 std=72.2"
+  },
+  {
+    "file": "tweet_1989318864161722535.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=44.0 ed=0.19 std=100.0"
+  },
+  {
+    "file": "tweet_1989333537053438063.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=18.7 ed=0.20 std=58.7"
+  },
+  {
+    "file": "tweet_1989335865588380141.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=63.5 ed=0.20 std=75.3"
+  },
+  {
+    "file": "tweet_1989350030835376283.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=41.1 ed=0.20 std=109.9"
+  },
+  {
+    "file": "tweet_1989403613664612810.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=64.0 ed=0.15 std=101.0"
+  },
+  {
+    "file": "tweet_1989442813432623137.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=21.4 ed=0.20 std=57.5"
+  },
+  {
+    "file": "tweet_1989710777650172306.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=36.5 ed=0.20 std=89.3"
+  },
+  {
+    "file": "tweet_1989761759440253187.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=112.7 ed=0.07 std=84.3"
+  },
+  {
+    "file": "tweet_1989765679596408965.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=49.3 ed=0.20 std=73.8"
+  },
+  {
+    "file": "tweet_1989830874137772284.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=24.2 ed=0.20 std=74.2"
+  },
+  {
+    "file": "tweet_1989881419091394590.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=32.5 ed=0.20 std=73.8"
+  },
+  {
+    "file": "tweet_1990005092196696083.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=31.4 ed=0.20 std=90.5"
+  },
+  {
+    "file": "tweet_1990335550503751829.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=95.4 ed=0.20 std=92.5"
+  },
+  {
+    "file": "tweet_1990368577887916322.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=127.7 ed=0.09 std=95.0"
+  },
+  {
+    "file": "tweet_1990375388644782218.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=35.5 ed=0.13 std=45.7"
+  },
+  {
+    "file": "tweet_1990375541208138209.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=41.9 ed=0.13 std=31.8"
+  },
+  {
+    "file": "tweet_1990377226203001084.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=52.2 ed=0.20 std=71.3"
+  },
+  {
+    "file": "tweet_1990411493137949101.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=85.2 ed=0.20 std=72.8"
+  },
+  {
+    "file": "tweet_1990414599380771121.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=34.3 ed=0.20 std=74.5"
+  },
+  {
+    "file": "tweet_1990427376983925120.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.4 ed=0.02 std=3.9"
+  },
+  {
+    "file": "tweet_1990429950286115325.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=21.6 ed=0.20 std=64.1"
+  },
+  {
+    "file": "tweet_1990455538027540684.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=6.6 ed=0.20 std=100.3"
+  },
+  {
+    "file": "tweet_1990481183277224025.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=24.3 ed=0.19 std=67.3"
+  },
+  {
+    "file": "tweet_1990488424353312960.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=59.0 ed=0.20 std=47.4"
+  },
+  {
+    "file": "tweet_1990489123526709423.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=51.4 ed=0.20 std=84.6"
+  },
+  {
+    "file": "tweet_1990495079564181912.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=26.6 ed=0.20 std=66.3"
+  },
+  {
+    "file": "tweet_1990565944499077142.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=51.3 ed=0.20 std=31.8"
+  },
+  {
+    "file": "tweet_1990683826570576214.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=1.3 ed=0.20 std=81.4"
+  },
+  {
+    "file": "tweet_1990716265363648692.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=77.3 ed=0.20 std=109.0"
+  },
+  {
+    "file": "tweet_1990791707760447836.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=26.0 ed=0.12 std=105.4"
+  },
+  {
+    "file": "tweet_1990793834566214067.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=96.4 ed=0.20 std=56.6"
+  },
+  {
+    "file": "tweet_1990853763922325735.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=33.8 ed=0.09 std=35.5"
+  },
+  {
+    "file": "tweet_1991093767995289730.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=42.3 ed=0.20 std=71.3"
+  },
+  {
+    "file": "tweet_1991129700924596303.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=41.7 ed=0.20 std=85.6"
+  },
+  {
+    "file": "tweet_1991170660698079431.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.17 std=51.4"
+  },
+  {
+    "file": "tweet_1991267302747042183.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=35.6 ed=0.20 std=85.5"
+  },
+  {
+    "file": "tweet_1991470123996311953.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=32.3 ed=0.20 std=64.3"
+  },
+  {
+    "file": "tweet_1991514754343662016.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=99.5 ed=0.20 std=56.8"
+  },
+  {
+    "file": "tweet_1991527667506503808.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.4 ed=0.02 std=76.2"
+  },
+  {
+    "file": "tweet_1991571542896177176.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=42.8 ed=0.20 std=82.8"
+  },
+  {
+    "file": "tweet_1991690791648112913.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=40.3 ed=0.19 std=108.1"
+  },
+  {
+    "file": "tweet_1991809108442222618.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=86.0 ed=0.20 std=63.4"
+  },
+  {
+    "file": "tweet_1991986279987474593.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=48.8 ed=0.20 std=64.2"
+  },
+  {
+    "file": "tweet_1992535252083073413.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=114.0 ed=0.20 std=79.6"
+  },
+  {
+    "file": "tweet_1992713120129900573.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=44.6 ed=0.20 std=93.9"
+  },
+  {
+    "file": "tweet_1992760439080624421.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=1.2 ed=0.16 std=108.0"
+  },
+  {
+    "file": "tweet_1992775328490770482.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.5 ed=0.02 std=4.0"
+  },
+  {
+    "file": "tweet_1992892873159610841.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=133.2 ed=0.20 std=74.7"
+  },
+  {
+    "file": "tweet_1992923999052128676.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=77.4 ed=0.20 std=77.9"
+  },
+  {
+    "file": "tweet_1992980017584967708.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=55.7 ed=0.20 std=104.3"
+  },
+  {
+    "file": "tweet_1993050706778140734.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=83.3 ed=0.20 std=93.1"
+  },
+  {
+    "file": "tweet_1993276818498134045.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=60.3 ed=0.20 std=82.2"
+  },
+  {
+    "file": "tweet_1993343475140771900.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=72.9"
+  },
+  {
+    "file": "tweet_1993400496678486410.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=90.1 ed=0.20 std=83.5"
+  },
+  {
+    "file": "tweet_1993756195728118181.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=153.7 ed=0.20 std=54.0"
+  },
+  {
+    "file": "tweet_1994077067345055946.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=57.6 ed=0.20 std=82.8"
+  },
+  {
+    "file": "tweet_1994094894634164435.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=15.4 ed=0.20 std=65.9"
+  },
+  {
+    "file": "tweet_1994095175811956853.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=23.7 ed=0.20 std=66.9"
+  },
+  {
+    "file": "tweet_1994097102146736405.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=72.9"
+  },
+  {
+    "file": "tweet_1994396177257943231.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.2 ed=0.01 std=63.2"
+  },
+  {
+    "file": "tweet_1994422882076959140.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=18.0 ed=0.20 std=79.1"
+  },
+  {
+    "file": "tweet_1994637445560729772.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=24.9 ed=0.20 std=61.4"
+  },
+  {
+    "file": "tweet_1994654878803599852.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=26.5 ed=0.20 std=68.8"
+  },
+  {
+    "file": "tweet_1994743526433964430.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=24.7 ed=0.20 std=87.7"
+  },
+  {
+    "file": "tweet_1994875692253941871.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=30.1 ed=0.20 std=73.9"
+  },
+  {
+    "file": "tweet_1995030773905469815.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=57.1 ed=0.20 std=66.8"
+  },
+  {
+    "file": "tweet_1995097630309814392.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.5 ed=0.03 std=76.0"
+  },
+  {
+    "file": "tweet_1995378512509972539.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.4 ed=0.02 std=76.2"
+  },
+  {
+    "file": "tweet_1995385143910138217.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=13.4 ed=0.20 std=81.8"
+  },
+  {
+    "file": "tweet_1995666763351294147.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=1.2 ed=0.18 std=97.2"
+  },
+  {
+    "file": "tweet_1995689088436109576.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=14.2 ed=0.17 std=28.6"
+  },
+  {
+    "file": "tweet_1995814398921736373.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=28.1 ed=0.20 std=89.5"
+  },
+  {
+    "file": "tweet_1995865589446054102.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=42.2 ed=0.20 std=73.2"
+  },
+  {
+    "file": "tweet_1995910758169752059.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=10.7 ed=0.20 std=79.6"
+  },
+  {
+    "file": "tweet_1995913620899680740.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=60.5 ed=0.20 std=47.0"
+  },
+  {
+    "file": "tweet_1995945199194017925.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=3.3 ed=0.20 std=33.1"
+  },
+  {
+    "file": "tweet_1995988448071516408.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=15.3 ed=0.10 std=32.0"
+  },
+  {
+    "file": "tweet_1996104663737991269.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=9.2 ed=0.20 std=49.1"
+  },
+  {
+    "file": "tweet_1996175223687946414.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=23.2 ed=0.20 std=97.3"
+  },
+  {
+    "file": "tweet_1996175653901943061.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=15.0 ed=0.20 std=100.9"
+  },
+  {
+    "file": "tweet_2002355869732794727.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=66.3 ed=0.20 std=76.3"
+  },
+  {
+    "file": "tweet_2012925066237915490.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=52.8 ed=0.20 std=88.8"
+  },
+  {
+    "file": "tweet_2012937057585315961.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=36.7 ed=0.20 std=83.6"
+  },
+  {
+    "file": "tweet_2012943485586829655.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=65.8 ed=0.20 std=91.3"
+  },
+  {
+    "file": "tweet_2013057837946057189.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=71.7 ed=0.20 std=85.1"
+  },
+  {
+    "file": "tweet_2013061898984415722.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=58.7 ed=0.20 std=86.7"
+  },
+  {
+    "file": "tweet_2013124223288435109.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=22.3 ed=0.20 std=111.3"
+  },
+  {
+    "file": "tweet_2013133836356407417.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=91.9 ed=0.20 std=85.7"
+  },
+  {
+    "file": "tweet_2013214544445972944.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=11.6 ed=0.20 std=80.9"
+  },
+  {
+    "file": "tweet_2013224450507051211.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=40.5 ed=0.20 std=88.0"
+  },
+  {
+    "file": "tweet_2013274703394140623.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=74.4 ed=0.20 std=100.5"
+  },
+  {
+    "file": "tweet_2013276377785520281.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=5.6 ed=0.15 std=120.8"
+  },
+  {
+    "file": "tweet_2013276948747948404.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=67.9 ed=0.18 std=90.8"
+  },
+  {
+    "file": "tweet_2013284113780978172.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=46.2 ed=0.20 std=90.9"
+  },
+  {
+    "file": "tweet_2013288023819956398.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=8.4 ed=0.20 std=58.7"
+  },
+  {
+    "file": "tweet_2013289479767728477.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=41.3 ed=0.10 std=32.5"
+  },
+  {
+    "file": "tweet_2013293349201920191.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=49.4 ed=0.18 std=91.7"
+  },
+  {
+    "file": "tweet_2013295389084876870.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.12 std=58.0"
+  },
+  {
+    "file": "tweet_2013306158635687992.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=35.6 ed=0.20 std=90.4"
+  },
+  {
+    "file": "tweet_2013307978300985822.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=72.6 ed=0.20 std=102.1"
+  },
+  {
+    "file": "tweet_2013310534397898879.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=90.2 ed=0.20 std=80.8"
+  },
+  {
+    "file": "tweet_2013355791357747253.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=51.6 ed=0.20 std=89.7"
+  },
+  {
+    "file": "tweet_2013363146191237574.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=85.4 ed=0.18 std=28.2"
+  },
+  {
+    "file": "tweet_2013464268713144673.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=54.5 ed=0.20 std=87.5"
+  },
+  {
+    "file": "tweet_2013466276824523180.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=27.2 ed=0.20 std=84.4"
+  },
+  {
+    "file": "tweet_2013513355420672424.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=32.3 ed=0.20 std=41.3"
+  },
+  {
+    "file": "tweet_2013531205703020739.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=57.7 ed=0.20 std=81.2"
+  },
+  {
+    "file": "tweet_2013603488949789028.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=30.8 ed=0.20 std=37.8"
+  },
+  {
+    "file": "tweet_2013610175534338395.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=73.3"
+  },
+  {
+    "file": "tweet_2013612476957372626.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=2.6 ed=0.18 std=25.9"
+  },
+  {
+    "file": "tweet_2013617128088162489.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=40.7 ed=0.20 std=79.9"
+  },
+  {
+    "file": "tweet_2013617978655506771.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=20.5 ed=0.20 std=54.0"
+  },
+  {
+    "file": "tweet_2013619544506401091.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.2 ed=0.02 std=3.4"
+  },
+  {
+    "file": "tweet_2013651024859300073.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=42.5 ed=0.20 std=92.6"
+  },
+  {
+    "file": "tweet_2013672914890170619.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=22.2 ed=0.20 std=58.2"
+  },
+  {
+    "file": "tweet_2013675665539596651.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=23.4 ed=0.20 std=54.8"
+  },
+  {
+    "file": "tweet_2013691314571706844.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=3.5"
+  },
+  {
+    "file": "tweet_2013700160430248434.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=15.6 ed=0.20 std=73.0"
+  },
+  {
+    "file": "tweet_2013703637780815984.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=12.7 ed=0.19 std=42.1"
+  },
+  {
+    "file": "tweet_2013728440281706951.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=34.1 ed=0.20 std=63.7"
+  },
+  {
+    "file": "tweet_2013759209318342865.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=35.0 ed=0.20 std=64.9"
+  },
+  {
+    "file": "tweet_2013859366558937570.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=85.0 ed=0.20 std=81.8"
+  },
+  {
+    "file": "tweet_2013860661579915762.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=44.8 ed=0.20 std=107.2"
+  },
+  {
+    "file": "tweet_2013861056221979070.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=1.5 ed=0.17 std=65.8"
+  },
+  {
+    "file": "tweet_2013868903940739417.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=7.0 ed=0.18 std=92.0"
+  },
+  {
+    "file": "tweet_2013885138245972411.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=8.2 ed=0.15 std=45.0"
+  },
+  {
+    "file": "tweet_2013886604658557120.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.2 ed=0.01 std=63.4"
+  },
+  {
+    "file": "tweet_2013955736292704342.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=44.7 ed=0.20 std=83.0"
+  },
+  {
+    "file": "tweet_2013962720153076187.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=63.5 ed=0.20 std=54.7"
+  },
+  {
+    "file": "tweet_2014007603806794007.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=12.3 ed=0.20 std=62.0"
+  },
+  {
+    "file": "tweet_2014011854490656974.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=33.7 ed=0.20 std=88.3"
+  },
+  {
+    "file": "tweet_2014021076712300667.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=49.5 ed=0.20 std=67.0"
+  },
+  {
+    "file": "tweet_2014141054086516909.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=28.2 ed=0.20 std=65.3"
+  },
+  {
+    "file": "tweet_2014162636313874736.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=25.2 ed=0.20 std=36.9"
+  },
+  {
+    "file": "tweet_2014240814676005233.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=4.1 ed=0.12 std=32.7"
+  },
+  {
+    "file": "tweet_2014269305610002613.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=16.8 ed=0.20 std=68.4"
+  },
+  {
+    "file": "tweet_2014302338501013594.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=11.5 ed=0.11 std=38.0"
+  },
+  {
+    "file": "tweet_2014307097190846513.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=63.9 ed=0.20 std=78.3"
+  },
+  {
+    "file": "tweet_2014307192157999302.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=70.3 ed=0.20 std=97.0"
+  },
+  {
+    "file": "tweet_2014325821771547023.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=1.3 ed=0.18 std=81.3"
+  },
+  {
+    "file": "tweet_2014342478904914043.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=40.7 ed=0.20 std=61.5"
+  },
+  {
+    "file": "tweet_2014358809121292781.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=49.8 ed=0.19 std=61.7"
+  },
+  {
+    "file": "tweet_2014375986507247754.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=32.8 ed=0.20 std=66.6"
+  },
+  {
+    "file": "tweet_2014385423142056282.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=55.5 ed=0.20 std=101.2"
+  },
+  {
+    "file": "tweet_2014390973640392782.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=35.7 ed=0.20 std=74.6"
+  },
+  {
+    "file": "tweet_2014426182578733089.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=8.7 ed=0.12 std=35.5"
+  },
+  {
+    "file": "tweet_2014427379125415976.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=11.0 ed=0.19 std=54.8"
+  },
+  {
+    "file": "tweet_2014437309467525348.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=29.2 ed=0.20 std=69.3"
+  },
+  {
+    "file": "tweet_2014521181919912183.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=8.4 ed=0.20 std=39.1"
+  },
+  {
+    "file": "tweet_2014533460556407017.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=5.5 ed=0.20 std=82.8"
+  },
+  {
+    "file": "tweet_2014663874679652532.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=32.2 ed=0.20 std=38.6"
+  },
+  {
+    "file": "tweet_2014686387518488736.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=46.5 ed=0.20 std=81.4"
+  },
+  {
+    "file": "tweet_2014688872840491408.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=35.1 ed=0.20 std=87.0"
+  },
+  {
+    "file": "tweet_2014704509063143670.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=33.9 ed=0.20 std=49.1"
+  },
+  {
+    "file": "tweet_2014710210355728515.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=30.3 ed=0.20 std=103.2"
+  },
+  {
+    "file": "tweet_2014728699472707694.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=62.8 ed=0.20 std=102.2"
+  },
+  {
+    "file": "tweet_2014743293146407281.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=81.9 ed=0.20 std=76.8"
+  },
+  {
+    "file": "tweet_2014759316603990467.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=73.9 ed=0.20 std=74.1"
+  },
+  {
+    "file": "tweet_2014782900466594011.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=84.3 ed=0.20 std=91.7"
+  },
+  {
+    "file": "tweet_2014975632191410462.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=29.3 ed=0.20 std=70.9"
+  },
+  {
+    "file": "tweet_2015013651019595925.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=21.1 ed=0.20 std=73.6"
+  },
+  {
+    "file": "tweet_2015020119714398486.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=40.8 ed=0.12 std=51.0"
+  },
+  {
+    "file": "tweet_2015039443900485949.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=36.9 ed=0.20 std=78.2"
+  },
+  {
+    "file": "tweet_2015041653434695978.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=22.3 ed=0.20 std=63.7"
+  },
+  {
+    "file": "tweet_2015085547031839068.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=51.1 ed=0.20 std=88.4"
+  },
+  {
+    "file": "tweet_2015104748425183652.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=18.4 ed=0.20 std=93.5"
+  },
+  {
+    "file": "tweet_2015130354953179461.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=100.2 ed=0.20 std=82.1"
+  },
+  {
+    "file": "tweet_2015216888955981897.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=3.7"
+  },
+  {
+    "file": "tweet_2015252888528859603.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=47.3 ed=0.20 std=90.5"
+  },
+  {
+    "file": "tweet_2015341332274045283.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=35.0 ed=0.20 std=25.4"
+  },
+  {
+    "file": "tweet_2015341554651844982.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=68.5 ed=0.20 std=89.7"
+  },
+  {
+    "file": "tweet_2015347425079410707.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=41.0 ed=0.20 std=74.0"
+  },
+  {
+    "file": "tweet_2015348452063076535.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=21.3 ed=0.05 std=73.5"
+  },
+  {
+    "file": "tweet_2015409385720463641.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=46.0 ed=0.18 std=78.3"
+  },
+  {
+    "file": "tweet_2015414009789403400.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=38.4 ed=0.20 std=68.6"
+  },
+  {
+    "file": "tweet_2015416885899039062.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.02 std=69.5"
+  },
+  {
+    "file": "tweet_2015437698702438598.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=54.3 ed=0.20 std=92.2"
+  },
+  {
+    "file": "tweet_2015455107064766849.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.2 ed=0.01 std=3.2"
+  },
+  {
+    "file": "tweet_2015499193700241692.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=36.6 ed=0.20 std=70.0"
+  },
+  {
+    "file": "tweet_2015673244980850879.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=29.1 ed=0.20 std=101.8"
+  },
+  {
+    "file": "tweet_2015695321087836583.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=6.5 ed=0.20 std=93.0"
+  },
+  {
+    "file": "tweet_2015699325075247529.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=43.7 ed=0.20 std=82.2"
+  },
+  {
+    "file": "tweet_2015726481314398320.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=29.1 ed=0.20 std=69.2"
+  },
+  {
+    "file": "tweet_2015734302856659248.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=34.5 ed=0.20 std=62.7"
+  },
+  {
+    "file": "tweet_2015753356501762512.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=24.9 ed=0.06 std=28.5"
+  },
+  {
+    "file": "tweet_2015756682647961875.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=19.6 ed=0.20 std=60.9"
+  },
+  {
+    "file": "tweet_2015771116741050810.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=82.5 ed=0.10 std=95.9"
+  },
+  {
+    "file": "tweet_2015779157624430968.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=70.7 ed=0.20 std=94.1"
+  },
+  {
+    "file": "tweet_2015837078307868812.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=14.8 ed=0.20 std=79.9"
+  },
+  {
+    "file": "tweet_2015871268176699477.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=54.9 ed=0.19 std=21.9"
+  },
+  {
+    "file": "tweet_2015918217235939760.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=59.4 ed=0.20 std=82.4"
+  },
+  {
+    "file": "tweet_2016134148235378971.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=54.9 ed=0.20 std=76.6"
+  },
+  {
+    "file": "tweet_2016148160796578152.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=133.9 ed=0.20 std=40.0"
+  },
+  {
+    "file": "tweet_2016243219340599374.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.1 ed=0.02 std=73.4"
+  },
+  {
+    "file": "tweet_2016255277029371959.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=33.8 ed=0.20 std=67.5"
+  },
+  {
+    "file": "tweet_2016390786397421746.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=15.8 ed=0.20 std=86.3"
+  },
+  {
+    "file": "tweet_2016425496238493871.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=2.8 ed=0.04 std=4.2"
+  },
+  {
+    "file": "tweet_2016447097516728661.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=93.1 ed=0.20 std=65.2"
+  },
+  {
+    "file": "tweet_2016563516719714774.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=80.1 ed=0.20 std=30.1"
+  },
+  {
+    "file": "tweet_2016573565080928429.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=73.3 ed=0.20 std=77.8"
+  },
+  {
+    "file": "tweet_2016592876910584313.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=73.6 ed=0.20 std=75.9"
+  },
+  {
+    "file": "tweet_2016766423914229952.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=35.3 ed=0.20 std=117.7"
+  },
+  {
+    "file": "tweet_2016776634263884008.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=31.4 ed=0.20 std=50.9"
+  },
+  {
+    "file": "tweet_2016812355707949068.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=79.9 ed=0.20 std=74.5"
+  },
+  {
+    "file": "tweet_2016843830365212969.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=99.5 ed=0.20 std=67.5"
+  },
+  {
+    "file": "tweet_2016876507969282083.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=24.8 ed=0.20 std=82.3"
+  },
+  {
+    "file": "tweet_2016903357860815038.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=18.0 ed=0.20 std=72.2"
+  },
+  {
+    "file": "tweet_2017238145570312403.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=14.7 ed=0.19 std=34.7"
+  },
+  {
+    "file": "tweet_2017296799447585167.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=36.8 ed=0.20 std=52.5"
+  },
+  {
+    "file": "tweet_2017569309673804064.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=45.8 ed=0.19 std=66.6"
+  },
+  {
+    "file": "tweet_2017575042964443217.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=49.0 ed=0.14 std=68.4"
+  },
+  {
+    "file": "tweet_2017578264378937482.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=33.5 ed=0.19 std=83.0"
+  },
+  {
+    "file": "tweet_2017583655590478042.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=36.6 ed=0.19 std=87.7"
+  },
+  {
+    "file": "tweet_2017585857478238657.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=1.6 ed=0.19 std=96.1"
+  },
+  {
+    "file": "tweet_2017638807772795240.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.3 ed=0.11 std=87.8"
+  },
+  {
+    "file": "tweet_2017742741636321619.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=6.8 ed=0.17 std=48.0"
+  },
+  {
+    "file": "tweet_2017859540927037824.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=28.8 ed=0.20 std=81.7"
+  },
+  {
+    "file": "tweet_2017940929446113600.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=4.7 ed=0.20 std=111.0"
+  },
+  {
+    "file": "tweet_2017941049981677678.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=5.1 ed=0.20 std=107.3"
+  },
+  {
+    "file": "tweet_2017941379075473543.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=24.9 ed=0.20 std=97.7"
+  },
+  {
+    "file": "tweet_2017962869472842117.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=101.7 ed=0.20 std=96.0"
+  },
+  {
+    "file": "tweet_2017983403145249046.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=19.5 ed=0.20 std=106.2"
+  },
+  {
+    "file": "tweet_2018291481639809132.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=53.2 ed=0.20 std=75.0"
+  },
+  {
+    "file": "tweet_2018334061379629188.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=22.1 ed=0.20 std=100.6"
+  },
+  {
+    "file": "tweet_2018366517067362514.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=115.5 ed=0.20 std=64.9"
+  },
+  {
+    "file": "tweet_2018368249759690875.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=50.1 ed=0.20 std=95.7"
+  },
+  {
+    "file": "tweet_2018584197292609651.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=42.6 ed=0.20 std=106.2"
+  },
+  {
+    "file": "tweet_2018589601594851705.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=27.4 ed=0.20 std=65.0"
+  },
+  {
+    "file": "tweet_2018595314110746985.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.2 ed=0.02 std=67.7"
+  },
+  {
+    "file": "tweet_2018622976577732967.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.2 ed=0.01 std=63.3"
+  },
+  {
+    "file": "tweet_2018641406936449270.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=4.4 ed=0.20 std=71.1"
+  },
+  {
+    "file": "tweet_2018643950945661309.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.2 ed=0.01 std=63.3"
+  },
+  {
+    "file": "tweet_2018674909262606649.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=3.2 ed=0.14 std=44.2"
+  },
+  {
+    "file": "tweet_2018691884848464035.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=13.5 ed=0.20 std=104.0"
+  },
+  {
+    "file": "tweet_2018694657639657603.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=60.8 ed=0.20 std=84.6"
+  },
+  {
+    "file": "tweet_2018775504027804007.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=1.3 ed=0.19 std=53.9"
+  },
+  {
+    "file": "tweet_2018776336194732499.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=30.6 ed=0.20 std=63.3"
+  },
+  {
+    "file": "tweet_2018821833458626882.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=38.3 ed=0.20 std=82.1"
+  },
+  {
+    "file": "tweet_2019072164071174619.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=29.7 ed=0.20 std=89.3"
+  },
+  {
+    "file": "tweet_2019099877930856462.png",
+    "class": "not_brand",
+    "confidence": 0.63,
+    "reason_short": "photo/flat cf=1.1 ed=0.02 std=73.0"
+  },
+  {
+    "file": "tweet_2025995405159244079.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=5.4 ed=0.20 std=95.3"
+  },
+  {
+    "file": "tweet_2026220589938315548.png",
+    "class": "uncertain",
+    "confidence": 0.45,
+    "reason_short": "ambiguous cf=76.1 ed=0.20 std=78.5"
+  },
+  {
+    "file": "tweet_2026322476427248012.png",
+    "class": "brand_visual",
+    "confidence": 0.66,
+    "reason_short": "layout-like cf=75.2 ed=0.20 std=86.2"
+  }
+]

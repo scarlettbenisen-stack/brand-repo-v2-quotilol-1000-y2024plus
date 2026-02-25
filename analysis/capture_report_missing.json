@@ -1,0 +1,149 @@
+{
+  "scanned": 891,
+  "skipped_existing": 871,
+  "captured_now": 20,
+  "ok": 3,
+  "rejected": 17,
+  "results": [
+    {
+      "tweet_id": "2026597820359213329",
+      "url": "https://x.com/i/web/status/2026597820359213329",
+      "status": "rejected",
+      "mode": "no-article",
+      "error": null
+    },
+    {
+      "tweet_id": "2026322476427248012",
+      "url": "https://x.com/i/web/status/2026322476427248012",
+      "status": "ok",
+      "mode": "media",
+      "error": null
+    },
+    {
+      "tweet_id": "2025995405159244079",
+      "url": "https://x.com/i/web/status/2025995405159244079",
+      "status": "ok",
+      "mode": "media",
+      "error": null
+    },
+    {
+      "tweet_id": "2026220589938315548",
+      "url": "https://x.com/i/web/status/2026220589938315548",
+      "status": "ok",
+      "mode": "media",
+      "error": null
+    },
+    {
+      "tweet_id": "2026189291085607181",
+      "url": "https://x.com/i/web/status/2026189291085607181",
+      "status": "rejected",
+      "mode": "no-article",
+      "error": null
+    },
+    {
+      "tweet_id": "2026239721849122922",
+      "url": "https://x.com/i/web/status/2026239721849122922",
+      "status": "rejected",
+      "mode": "no-article",
+      "error": null
+    },
+    {
+      "tweet_id": "2026295535280197852",
+      "url": "https://x.com/i/web/status/2026295535280197852",
+      "status": "rejected",
+      "mode": "no-article",
+      "error": null
+    },
+    {
+      "tweet_id": "2025561338161103260",
+      "url": "https://x.com/i/web/status/2025561338161103260",
+      "status": "rejected",
+      "mode": "no-article",
+      "error": null
+    },
+    {
+      "tweet_id": "2025624125847547992",
+      "url": "https://x.com/i/web/status/2025624125847547992",
+      "status": "rejected",
+      "mode": "no-article",
+      "error": null
+    },
+    {
+      "tweet_id": "2025975918980653124",
+      "url": "https://x.com/i/web/status/2025975918980653124",
+      "status": "rejected",
+      "mode": "no-article",
+      "error": null
+    },
+    {
+      "tweet_id": "2025871979245658249",
+      "url": "https://x.com/i/web/status/2025871979245658249",
+      "status": "rejected",
+      "mode": "no-article",
+      "error": null
+    },
+    {
+      "tweet_id": "2025721190841541117",
+      "url": "https://x.com/i/web/status/2025721190841541117",
+      "status": "rejected",
+      "mode": "no-article",
+      "error": null
+    },
+    {
+      "tweet_id": "2025538221686284554",
+      "url": "https://x.com/i/web/status/2025538221686284554",
+      "status": "rejected",
+      "mode": "no-article",
+      "error": null
+    },
+    {
+      "tweet_id": "2025203027775312082",
+      "url": "https://x.com/i/web/status/2025203027775312082",
+      "status": "rejected",
+      "mode": "no-article",
+      "error": null
+    },
+    {
+      "tweet_id": "2025110430977327347",
+      "url": "https://x.com/i/web/status/2025110430977327347",
+      "status": "rejected",
+      "mode": "no-article",
+      "error": null
+    },
+    {
+      "tweet_id": "2022728820860793072",
+      "url": "https://x.com/i/web/status/2022728820860793072",
+      "status": "rejected",
+      "mode": "no-article",
+      "error": null
+    },
+    {
+      "tweet_id": "2025181793016803490",
+      "url": "https://x.com/i/web/status/2025181793016803490",
+      "status": "rejected",
+      "mode": "no-article",
+      "error": null
+    },
+    {
+      "tweet_id": "2024857945326903306",
+      "url": "https://x.com/i/web/status/2024857945326903306",
+      "status": "rejected",
+      "mode": "no-article",
+      "error": null
+    },
+    {
+      "tweet_id": "2025221703710953795",
+      "url": "https://x.com/i/web/status/2025221703710953795",
+      "status": "rejected",
+      "mode": "no-article",
+      "error": null
+    },
+    {
+      "tweet_id": "2024107413440180418",
+      "url": "https://x.com/i/web/status/2024107413440180418",
+      "status": "rejected",
+      "mode": "no-article",
+      "error": null
+    }
+  ]
+}

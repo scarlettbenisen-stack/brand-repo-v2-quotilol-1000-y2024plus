@@ -1,0 +1,11 @@
+# Large/generated artifacts
+raw/
+rejected/
+__pycache__/
+*.pyc
+
+# Keep clean crops? comment out if needed
+# clean/
+
+# OS
+.DS_Store

@@ -56,7 +56,7 @@
   </div>
 
   <script>
-    const BUILD = '1772047301';
+    const BUILD = '1772049865';
     const DATA_PATH = `./analysis/visual_tags.json?v=${BUILD}`;
     const THUMB_MAP_PATH = `./analysis/thumb_map.json?v=${BUILD}`;
     const IMG_BASE = './clean/';
@@ -119,7 +119,7 @@
 
       grid.innerHTML = shown.map(it => `
         <div class="card">
-          <div class="imgbox"><div class="thumb" style="${thumbStyle(it.file)}"></div></div>
+          <div class="imgbox"><div class="thumb" style="${it.thumb_data ? `background-image:url('${it.thumb_data}')` : thumbStyle(it.file)}"></div></div>
           <div class="content">
             <div class="file" title="${it.file}">${it.file}</div>
             <div class="chips">

@@ -3,106 +3,147 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Brand Visual Review</title>
+  <title>Brand Visual Explorer</title>
   <style>
     :root { --bg:#0b0d10; --card:#151922; --text:#eaf0ff; --muted:#9fb0d1; --accent:#6ea8fe; }
     * { box-sizing:border-box; }
-    body { margin:0; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background:var(--bg); color:var(--text); }
-    .wrap { max-width:1200px; margin:0 auto; padding:18px; }
-    .top { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-bottom:14px; }
-    .btn { border:1px solid #2b3448; background:var(--card); color:var(--text); border-radius:10px; padding:8px 12px; cursor:pointer; }
+    body { margin:0; font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--text); }
+    .wrap { max-width:1320px; margin:0 auto; padding:18px; }
+    .meta { color:var(--muted); font-size:13px; }
+    .panel { background:var(--card); border:1px solid #242d40; border-radius:12px; padding:12px; margin-bottom:12px; }
+    .row { display:flex; flex-wrap:wrap; gap:10px; align-items:center; }
+    .input, select { background:#0f141d; color:var(--text); border:1px solid #2b3448; border-radius:10px; padding:8px 10px; }
+    .btn { border:1px solid #2b3448; background:#0f141d; color:var(--text); border-radius:10px; padding:8px 12px; cursor:pointer; }
     .btn.active { border-color:var(--accent); box-shadow:0 0 0 1px var(--accent) inset; }
-    .input { background:var(--card); color:var(--text); border:1px solid #2b3448; border-radius:10px; padding:8px 10px; min-width:220px; }
-    .meta { color:var(--muted); font-size:13px; margin-bottom:10px; }
-    .grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(220px,1fr)); gap:12px; }
-    .card { background:var(--card); border:1px solid #252c3d; border-radius:12px; overflow:hidden; }
-    .imgbox { aspect-ratio: 1 / 1; background:#0f131b; display:flex; align-items:center; justify-content:center; }
+    .chips { display:flex; gap:6px; flex-wrap:wrap; }
+    .chip { font-size:11px; background:#0f141d; border:1px solid #2a344b; padding:3px 7px; border-radius:999px; color:#cdd9f7; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:12px; }
+    .card { background:var(--card); border:1px solid #242d40; border-radius:12px; overflow:hidden; }
+    .imgbox { aspect-ratio:1/1; background:#0e1219; }
     img { width:100%; height:100%; object-fit:cover; display:block; }
     .content { padding:9px; }
-    .file { font-size:12px; color:#d2ddf7; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-    .tags { margin-top:5px; display:flex; justify-content:space-between; font-size:12px; color:var(--muted); }
-    a { color:var(--accent); text-decoration:none; }
+    .file { font-size:12px; color:#d2ddf7; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; margin-bottom:6px; }
+    a { color:var(--accent); text-decoration:none; font-size:12px; }
   </style>
 </head>
 <body>
   <div class="wrap">
-    <h2 style="margin:0 0 8px">Brand Visual Review</h2>
-    <div class="meta" id="stats">Chargement...</div>
-    <div class="top">
-      <button class="btn active" data-filter="all">All</button>
-      <button class="btn" data-filter="brand_visual">Brand</button>
-      <button class="btn" data-filter="not_brand">Not brand</button>
-      <button class="btn" data-filter="uncertain">Uncertain</button>
-      <input id="search" class="input" placeholder="Rechercher tweet_..." />
-      <label class="meta"><input id="onlyHigh" type="checkbox" /> conf ≥ 0.6</label>
+    <h2 style="margin:0 0 8px">Brand Visual Explorer</h2>
+    <div class="meta" id="stats">Chargement…</div>
+
+    <div class="panel">
+      <div class="row" style="margin-bottom:10px">
+        <button class="btn active" data-class="all">All</button>
+        <button class="btn" data-class="brand_visual">Brand</button>
+        <button class="btn" data-class="not_brand">Not brand</button>
+        <button class="btn" data-class="uncertain">Uncertain</button>
+        <input id="search" class="input" placeholder="Rechercher tweet_..." />
+        <label class="meta"><input id="onlyHigh" type="checkbox" /> conf ≥ 0.60</label>
+      </div>
+      <div class="row">
+        <select id="paletteTemp"><option value="all">Palette temp: all</option><option>warm</option><option>cool</option><option>neutral</option></select>
+        <select id="mono"><option value="all">Monochrome: all</option><option value="true">yes</option><option value="false">no</option></select>
+        <select id="sat"><option value="all">Saturation: all</option><option>muted</option><option>balanced</option><option>vivid</option></select>
+        <select id="contrast"><option value="all">Contrast: all</option><option>low</option><option>medium</option><option>high</option></select>
+        <select id="density"><option value="all">Density: all</option><option>airy</option><option>balanced</option><option>dense</option></select>
+        <select id="visualMode"><option value="all">Mode: all</option><option>type_logo_likely</option><option>photo_likely</option><option>mixed</option></select>
+        <select id="dominant"><option value="all">Dominant color: all</option><option>gray</option><option>red</option><option>orange</option><option>yellow</option><option>green</option><option>cyan</option><option>blue</option><option>purple</option><option>pink</option></select>
+      </div>
     </div>
+
     <div class="grid" id="grid"></div>
   </div>
 
   <script>
-    const DATA_PATH = './analysis/brand_classification_3classes.json';
-    const IMG_BASE = './clean/'; // requires clean/ folder available locally
+    const DATA_PATH = './analysis/visual_tags.json';
+    const IMG_BASE = './clean/';
 
     let allItems = [];
-    let activeFilter = 'all';
+    let activeClass = 'all';
 
-    const grid = document.getElementById('grid');
-    const stats = document.getElementById('stats');
-    const search = document.getElementById('search');
-    const onlyHigh = document.getElementById('onlyHigh');
+    const el = (id) => document.getElementById(id);
+    const grid = el('grid');
+    const stats = el('stats');
+
+    const controls = {
+      search: el('search'),
+      onlyHigh: el('onlyHigh'),
+      paletteTemp: el('paletteTemp'),
+      mono: el('mono'),
+      sat: el('sat'),
+      contrast: el('contrast'),
+      density: el('density'),
+      visualMode: el('visualMode'),
+      dominant: el('dominant')
+    };
 
     function tweetUrlFromFile(file){
       const m = file.match(/tweet_(\d+)\.png/);
       return m ? `https://x.com/i/web/status/${m[1]}` : '#';
     }
 
+    function visible(it){
+      const q = controls.search.value.trim().toLowerCase();
+      if (activeClass !== 'all' && it.class !== activeClass) return false;
+      if (controls.onlyHigh.checked && (Number(it.confidence) || 0) < 0.6) return false;
+      if (q && !it.file.toLowerCase().includes(q)) return false;
+
+      if (controls.paletteTemp.value !== 'all' && it.palette_temperature !== controls.paletteTemp.value) return false;
+      if (controls.mono.value !== 'all' && String(it.monochrome) !== controls.mono.value) return false;
+      if (controls.sat.value !== 'all' && it.saturation_level !== controls.sat.value) return false;
+      if (controls.contrast.value !== 'all' && it.contrast_level !== controls.contrast.value) return false;
+      if (controls.density.value !== 'all' && it.composition_density !== controls.density.value) return false;
+      if (controls.visualMode.value !== 'all' && it.visual_mode !== controls.visualMode.value) return false;
+      if (controls.dominant.value !== 'all' && it.dominant_color !== controls.dominant.value) return false;
+      return true;
+    }
+
     function render(){
-      const q = search.value.trim().toLowerCase();
-      const minConf = onlyHigh.checked ? 0.6 : 0;
-      const items = allItems.filter(it => {
-        if (activeFilter !== 'all' && it.class !== activeFilter) return false;
-        if (it.confidence < minConf) return false;
-        if (q && !it.file.toLowerCase().includes(q)) return false;
-        return true;
-      });
+      const shown = allItems.filter(visible);
+      const c = allItems.reduce((a,it)=>{ a[it.class]=(a[it.class]||0)+1; return a; }, {});
+      stats.textContent = `Total ${allItems.length} | brand ${c.brand_visual||0} | not_brand ${c.not_brand||0} | uncertain ${c.uncertain||0} | affichés ${shown.length}`;
 
-      const counts = allItems.reduce((a,it)=>{a[it.class]=(a[it.class]||0)+1; return a;}, {});
-      stats.textContent = `Total ${allItems.length} | brand ${counts.brand_visual||0} | not_brand ${counts.not_brand||0} | uncertain ${counts.uncertain||0} | affichés ${items.length}`;
-
-      grid.innerHTML = items.map(it => `
+      grid.innerHTML = shown.map(it => `
         <div class="card">
-          <div class="imgbox">
-            <img loading="lazy" src="${IMG_BASE}${it.file}" alt="${it.file}" onerror="this.style.opacity=.25" />
-          </div>
+          <div class="imgbox"><img loading="lazy" src="${IMG_BASE}${it.file}" alt="${it.file}" onerror="this.style.opacity=.2" /></div>
           <div class="content">
             <div class="file" title="${it.file}">${it.file}</div>
-            <div class="tags">
-              <span>${it.class}</span>
-              <span>${Number(it.confidence).toFixed(2)}</span>
+            <div class="chips">
+              <span class="chip">${it.class}</span>
+              <span class="chip">conf ${Number(it.confidence||0).toFixed(2)}</span>
+              <span class="chip">${it.palette_temperature}</span>
+              <span class="chip">${it.monochrome ? 'mono' : 'color'}</span>
+              <span class="chip">${it.saturation_level}</span>
+              <span class="chip">${it.contrast_level}</span>
+              <span class="chip">${it.composition_density}</span>
+              <span class="chip">${it.visual_mode}</span>
             </div>
-            <div style="margin-top:6px"><a href="${tweetUrlFromFile(it.file)}" target="_blank">ouvrir tweet ↗</a></div>
+            <div style="margin-top:8px"><a href="${tweetUrlFromFile(it.file)}" target="_blank">ouvrir tweet ↗</a></div>
           </div>
         </div>
       `).join('');
     }
 
-    document.querySelectorAll('[data-filter]').forEach(btn => {
+    document.querySelectorAll('[data-class]').forEach(btn => {
       btn.addEventListener('click', () => {
-        document.querySelectorAll('[data-filter]').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('[data-class]').forEach(x => x.classList.remove('active'));
         btn.classList.add('active');
-        activeFilter = btn.dataset.filter;
+        activeClass = btn.dataset.class;
         render();
       });
     });
 
-    search.addEventListener('input', render);
-    onlyHigh.addEventListener('change', render);
+    Object.values(controls).forEach(x => x.addEventListener('input', render));
+    Object.values(controls).forEach(x => x.addEventListener('change', render));
 
     fetch(DATA_PATH)
       .then(r => r.json())
-      .then(data => { allItems = data; render(); })
+      .then(payload => {
+        allItems = payload.items || [];
+        render();
+      })
       .catch(err => {
-        stats.textContent = 'Erreur chargement JSON: ' + err;
+        stats.textContent = 'Erreur chargement visual_tags.json: ' + err;
       });
   </script>
 </body>

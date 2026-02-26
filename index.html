@@ -37,8 +37,7 @@
 
     <div class="panel">
       <div class="row" style="margin-bottom:10px">
-        <button class="btn active" data-class="all">All</button>
-        <button class="btn" data-class="brand_visual">Brand</button>
+        <button class="btn active" data-class="brand_visual">Brand</button>
         <input id="search" class="input" placeholder="Rechercher tweet_..." />
         <label class="meta"><input id="onlyHigh" type="checkbox" /> conf ≥ 0.60</label>
       </div>
@@ -65,7 +64,7 @@
 
     let allItems = [];
     let thumbMeta = null;
-    let activeClass = 'all';
+    let activeClass = 'brand_visual';
 
     const el = (id) => document.getElementById(id);
     const grid = el('grid');

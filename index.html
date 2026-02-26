@@ -39,8 +39,6 @@
       <div class="row" style="margin-bottom:10px">
         <button class="btn active" data-class="all">All</button>
         <button class="btn" data-class="brand_visual">Brand</button>
-        <button class="btn" data-class="not_brand">Not brand</button>
-        <button class="btn" data-class="uncertain">Uncertain</button>
         <input id="search" class="input" placeholder="Rechercher tweet_..." />
         <label class="meta"><input id="onlyHigh" type="checkbox" /> conf ≥ 0.60</label>
       </div>
@@ -118,7 +116,7 @@
     function render(){
       const shown = allItems.filter(visible);
       const c = allItems.reduce((a,it)=>{ a[it.class]=(a[it.class]||0)+1; return a; }, {});
-      stats.textContent = `Total ${allItems.length} | brand ${c.brand_visual||0} | not_brand ${c.not_brand||0} | uncertain ${c.uncertain||0} | affichés ${shown.length}`;
+      stats.textContent = `Total brand ${allItems.length} | affichés ${shown.length}`;
 
       grid.innerHTML = shown.map(it => `
         <div class="card">

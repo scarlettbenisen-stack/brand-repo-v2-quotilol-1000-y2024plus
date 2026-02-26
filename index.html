@@ -49,6 +49,7 @@
         <select id="density"><option value="all">Density: all</option><option>airy</option><option>balanced</option><option>dense</option></select>
         <select id="visualMode"><option value="all">Mode: all</option><option>type_logo_likely</option><option>photo_likely</option><option>mixed</option></select>
         <select id="dominant"><option value="all">Dominant color: all</option><option>gray</option><option>red</option><option>orange</option><option>yellow</option><option>green</option><option>cyan</option><option>blue</option><option>purple</option><option>pink</option></select>
+        <select id="typo"><option value="all">Typography: all</option><option>serif</option><option>sans</option><option>mixed</option><option>display</option><option>unknown</option></select>
       </div>
     </div>
 
@@ -56,7 +57,7 @@
   </div>
 
   <script>
-    const BUILD = '1772110459';
+    const BUILD = '1772140860';
     const DATA_PATH = `./analysis/visual_tags.json?v=${BUILD}`;
     const THUMB_MAP_PATH = `./analysis/thumb_map.json?v=${BUILD}`;
     const IMG_BASE = './clean/';
@@ -79,7 +80,8 @@
       contrast: el('contrast'),
       density: el('density'),
       visualMode: el('visualMode'),
-      dominant: el('dominant')
+      dominant: el('dominant'),
+      typo: el('typo')
     };
 
     function tweetUrlFromFile(file){
@@ -102,13 +104,18 @@
       if (controls.onlyHigh.checked && (Number(it.confidence) || 0) < 0.6) return false;
       if (q && !it.file.toLowerCase().includes(q)) return false;
 
-      if (controls.paletteTemp.value !== 'all' && it.palette_temperature !== controls.paletteTemp.value) return false;
+      const paletteTemp = it.palette_temperature_v2 || it.palette_temperature;
+      const dominantColor = it.dominant_color_v2 || it.dominant_color;
+      const typoPrimary = it.typo_primary_v2 || 'unknown';
+
+      if (controls.paletteTemp.value !== 'all' && paletteTemp !== controls.paletteTemp.value) return false;
       if (controls.mono.value !== 'all' && String(it.monochrome) !== controls.mono.value) return false;
       if (controls.sat.value !== 'all' && it.saturation_level !== controls.sat.value) return false;
       if (controls.contrast.value !== 'all' && it.contrast_level !== controls.contrast.value) return false;
       if (controls.density.value !== 'all' && it.composition_density !== controls.density.value) return false;
       if (controls.visualMode.value !== 'all' && it.visual_mode !== controls.visualMode.value) return false;
-      if (controls.dominant.value !== 'all' && it.dominant_color !== controls.dominant.value) return false;
+      if (controls.dominant.value !== 'all' && dominantColor !== controls.dominant.value) return false;
+      if (controls.typo.value !== 'all' && typoPrimary !== controls.typo.value) return false;
       return true;
     }
 
@@ -117,7 +124,14 @@
       const c = allItems.reduce((a,it)=>{ a[it.class]=(a[it.class]||0)+1; return a; }, {});
       stats.textContent = `Total brand ${allItems.length} | affichés ${shown.length}`;
 
-      grid.innerHTML = shown.map(it => `
+      grid.innerHTML = shown.map(it => {
+        const dominant = it.dominant_color_v2 || it.dominant_color || 'gray';
+        const paletteTemp = it.palette_temperature_v2 || it.palette_temperature || 'neutral';
+        const typo = it.typo_primary_v2 || 'unknown';
+        const typoCase = it.typo_case_v2 || 'unknown';
+        const domRatio = Number(it.dominant_ratio_v2 || 0);
+
+        return `
         <div class="card">
           <div class="imgbox"><img loading="lazy" src="${it.thumb_v2 || it.thumb_data || (IMG_BASE + it.file)}" alt="${it.file}" onerror="this.style.opacity=.2" /></div>
           <div class="content">
@@ -125,12 +139,16 @@
             <div class="chips">
               <span class="chip">${it.class}</span>
               <span class="chip">conf ${Number(it.confidence||0).toFixed(2)}</span>
-              <span class="chip">${it.palette_temperature}</span>
+              <span class="chip">${dominant}</span>
+              <span class="chip">${paletteTemp}</span>
+              <span class="chip">dom ${(domRatio*100).toFixed(0)}%</span>
               <span class="chip">${it.monochrome ? 'mono' : 'color'}</span>
               <span class="chip">${it.saturation_level}</span>
               <span class="chip">${it.contrast_level}</span>
               <span class="chip">${it.composition_density}</span>
               <span class="chip">${it.visual_mode}</span>
+              <span class="chip">typo ${typo}</span>
+              <span class="chip">case ${typoCase}</span>
             </div>
             <div style="margin-top:8px; display:flex; gap:10px; flex-wrap:wrap;">
               <a href="${tweetUrlFromFile(it.file)}" target="_blank">ouvrir tweet ↗</a>
@@ -138,7 +156,8 @@
             </div>
           </div>
         </div>
-      `).join('');
+      `;
+      }).join('');
     }
 
     document.querySelectorAll('[data-class]').forEach(btn => {

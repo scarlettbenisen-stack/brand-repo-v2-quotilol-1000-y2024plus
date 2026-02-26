@@ -169,9 +169,9 @@
   },
   {
     "file": "tweet_1891610817600127310.png",
-    "class": "brand_visual",
-    "confidence": 0.66,
-    "reason_short": "layout-like cf=31.4 ed=0.20 std=78.9"
+    "class": "not_brand",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to not_brand by user"
   },
   {
     "file": "tweet_1891693757935853969.png",

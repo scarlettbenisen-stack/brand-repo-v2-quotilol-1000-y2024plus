@@ -27,7 +27,7 @@ tweet_1844032208455299218.png,not_brand,0.63,photo/flat cf=18.7 ed=0.06 std=22.0
 tweet_1863937010005590247.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1877068578907730419.png,uncertain,0.45,ambiguous cf=38.4 ed=0.20 std=71.2
 tweet_1882097013027967109.png,not_brand,0.63,photo/flat cf=9.6 ed=0.03 std=18.7
-tweet_1891610817600127310.png,brand_visual,0.66,layout-like cf=31.4 ed=0.20 std=78.9
+tweet_1891610817600127310.png,not_brand,0.99,manual_review: corrected to not_brand by user
 tweet_1891693757935853969.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1897376574636196288.png,uncertain,0.45,ambiguous cf=17.1 ed=0.20 std=72.6
 tweet_1922363719285199305.png,not_brand,0.63,photo/flat cf=14.2 ed=0.17 std=28.6

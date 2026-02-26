@@ -3,7 +3,7 @@ tweet_1743369999098507709.png,uncertain,0.45,ambiguous cf=20.4 ed=0.20 std=86.6
 tweet_1749505697308389810.png,not_brand,0.99,manual_review: marked as autre by user
 tweet_1754220697415549202.png,not_brand,0.99,manual_review: marked as autre by user
 tweet_1754344052739228136.png,not_brand,0.99,manual_review: marked as autre by user
-tweet_1761066927684776222.png,not_brand,0.63,photo/flat cf=34.0 ed=0.11 std=30.3
+tweet_1761066927684776222.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1761074502375453146.png,not_brand,0.63,photo/flat cf=8.3 ed=0.14 std=42.1
 tweet_1761103353759531316.png,brand_visual,0.66,layout-like cf=1.3 ed=0.19 std=34.4
 tweet_1761304719002067287.png,not_brand,0.63,photo/flat cf=14.2 ed=0.17 std=28.6
@@ -80,10 +80,10 @@ tweet_1957208933069881376.png,uncertain,0.45,ambiguous cf=20.3 ed=0.20 std=53.9
 tweet_1957217738390396984.png,brand_visual,0.66,layout-like cf=13.1 ed=0.20 std=94.5
 tweet_1957439063276880147.png,uncertain,0.45,ambiguous cf=53.9 ed=0.20 std=93.4
 tweet_1957747966896480518.png,uncertain,0.45,ambiguous cf=89.3 ed=0.20 std=50.5
-tweet_1957777939187081356.png,not_brand,0.63,photo/flat cf=97.5 ed=0.20 std=103.0
+tweet_1957777939187081356.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1958051542939951279.png,uncertain,0.45,ambiguous cf=31.3 ed=0.20 std=55.0
 tweet_1958553704430522721.png,brand_visual,0.66,layout-like cf=30.6 ed=0.20 std=53.8
-tweet_1958836358560325685.png,not_brand,0.63,photo/flat cf=109.8 ed=0.20 std=86.9
+tweet_1958836358560325685.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1958881088945750302.png,uncertain,0.45,ambiguous cf=52.2 ed=0.20 std=75.6
 tweet_1958922118340718803.png,brand_visual,0.66,layout-like cf=83.2 ed=0.20 std=81.1
 tweet_1958941665512530431.png,uncertain,0.45,ambiguous cf=3.5 ed=0.18 std=50.6
@@ -105,19 +105,19 @@ tweet_1960328195711844514.png,uncertain,0.45,ambiguous cf=37.9 ed=0.20 std=99.6
 tweet_1960371667768635734.png,uncertain,0.45,ambiguous cf=40.2 ed=0.20 std=79.7
 tweet_1960462263284064531.png,brand_visual,0.66,layout-like cf=112.9 ed=0.20 std=88.7
 tweet_1960651511077245366.png,brand_visual,0.66,layout-like cf=37.9 ed=0.20 std=112.0
-tweet_1960675148387794947.png,not_brand,0.63,photo/flat cf=34.6 ed=0.06 std=70.7
+tweet_1960675148387794947.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1960780018101182953.png,brand_visual,0.66,layout-like cf=31.9 ed=0.20 std=73.7
 tweet_1961292137099616526.png,uncertain,0.45,ambiguous cf=54.6 ed=0.20 std=71.1
 tweet_1961370644286742990.png,uncertain,0.45,ambiguous cf=35.1 ed=0.20 std=71.4
 tweet_1961467409249849537.png,brand_visual,0.66,layout-like cf=1.2 ed=0.20 std=110.2
-tweet_1961805522111209713.png,not_brand,0.63,photo/flat cf=6.1 ed=0.11 std=33.5
+tweet_1961805522111209713.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1961933849035763723.png,uncertain,0.45,ambiguous cf=55.0 ed=0.20 std=76.1
 tweet_1962192040344887696.png,uncertain,0.45,ambiguous cf=33.9 ed=0.20 std=91.9
 tweet_1962691407413739920.png,uncertain,0.45,ambiguous cf=75.4 ed=0.20 std=74.6
 tweet_1962785558213607522.png,brand_visual,0.66,layout-like cf=82.3 ed=0.20 std=95.4
 tweet_1962830525594321329.png,uncertain,0.45,ambiguous cf=32.9 ed=0.20 std=76.3
 tweet_1962918293234212903.png,brand_visual,0.66,layout-like cf=7.0 ed=0.20 std=81.6
-tweet_1963124605922734481.png,not_brand,0.63,photo/flat cf=99.4 ed=0.20 std=64.2
+tweet_1963124605922734481.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1963205543612326069.png,uncertain,0.45,ambiguous cf=48.6 ed=0.20 std=78.5
 tweet_1963270072232992851.png,not_brand,0.63,photo/flat cf=1.2 ed=0.01 std=66.3
 tweet_1963547161930633507.png,uncertain,0.45,ambiguous cf=55.4 ed=0.20 std=74.4
@@ -125,7 +125,7 @@ tweet_1963629551604453847.png,uncertain,0.45,ambiguous cf=35.9 ed=0.20 std=92.4
 tweet_1963642864698573070.png,uncertain,0.45,ambiguous cf=18.4 ed=0.20 std=55.5
 tweet_1963908526591398067.png,uncertain,0.45,ambiguous cf=44.2 ed=0.20 std=104.9
 tweet_1963965345385132270.png,brand_visual,0.66,layout-like cf=23.0 ed=0.20 std=50.8
-tweet_1963989332936565038.png,not_brand,0.63,photo/flat cf=134.1 ed=0.13 std=46.3
+tweet_1963989332936565038.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1964088893130887381.png,uncertain,0.45,ambiguous cf=53.6 ed=0.20 std=63.7
 tweet_1964091421004353671.png,uncertain,0.45,ambiguous cf=56.3 ed=0.20 std=73.5
 tweet_1964323438501187622.png,uncertain,0.45,ambiguous cf=38.7 ed=0.20 std=69.6

@@ -25,9 +25,9 @@
   },
   {
     "file": "tweet_1761066927684776222.png",
-    "class": "not_brand",
-    "confidence": 0.63,
-    "reason_short": "photo/flat cf=34.0 ed=0.11 std=30.3"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1761074502375453146.png",
@@ -487,9 +487,9 @@
   },
   {
     "file": "tweet_1957777939187081356.png",
-    "class": "not_brand",
-    "confidence": 0.63,
-    "reason_short": "photo/flat cf=97.5 ed=0.20 std=103.0"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1958051542939951279.png",
@@ -505,9 +505,9 @@
   },
   {
     "file": "tweet_1958836358560325685.png",
-    "class": "not_brand",
-    "confidence": 0.63,
-    "reason_short": "photo/flat cf=109.8 ed=0.20 std=86.9"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1958881088945750302.png",
@@ -637,9 +637,9 @@
   },
   {
     "file": "tweet_1960675148387794947.png",
-    "class": "not_brand",
-    "confidence": 0.63,
-    "reason_short": "photo/flat cf=34.6 ed=0.06 std=70.7"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1960780018101182953.png",
@@ -667,9 +667,9 @@
   },
   {
     "file": "tweet_1961805522111209713.png",
-    "class": "not_brand",
-    "confidence": 0.63,
-    "reason_short": "photo/flat cf=6.1 ed=0.11 std=33.5"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1961933849035763723.png",
@@ -709,9 +709,9 @@
   },
   {
     "file": "tweet_1963124605922734481.png",
-    "class": "not_brand",
-    "confidence": 0.63,
-    "reason_short": "photo/flat cf=99.4 ed=0.20 std=64.2"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1963205543612326069.png",
@@ -757,9 +757,9 @@
   },
   {
     "file": "tweet_1963989332936565038.png",
-    "class": "not_brand",
-    "confidence": 0.63,
-    "reason_short": "photo/flat cf=134.1 ed=0.13 std=46.3"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1964088893130887381.png",

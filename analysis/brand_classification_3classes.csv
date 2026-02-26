@@ -246,7 +246,7 @@ tweet_1977509970854752278.png,brand_visual,0.66,layout-like cf=32.9 ed=0.20 std=
 tweet_1977644724824711492.png,brand_visual,0.66,layout-like cf=73.9 ed=0.20 std=80.0
 tweet_1977659164538069225.png,uncertain,0.45,ambiguous cf=88.5 ed=0.20 std=74.3
 tweet_1977661877896257816.png,brand_visual,0.66,layout-like cf=16.7 ed=0.20 std=37.1
-tweet_1977665958962487459.png,not_brand,0.63,photo/flat cf=110.0 ed=0.20 std=72.1
+tweet_1977665958962487459.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1977699422575173982.png,uncertain,0.45,ambiguous cf=42.7 ed=0.20 std=69.8
 tweet_1977720985001382205.png,brand_visual,0.66,layout-like cf=30.6 ed=0.20 std=113.8
 tweet_1977755792213151924.png,uncertain,0.45,ambiguous cf=49.2 ed=0.20 std=74.4
@@ -260,12 +260,12 @@ tweet_1978392120374305233.png,uncertain,0.45,ambiguous cf=39.3 ed=0.20 std=77.8
 tweet_1978403799938236599.png,uncertain,0.45,ambiguous cf=58.8 ed=0.20 std=88.9
 tweet_1978428143326151108.png,brand_visual,0.66,layout-like cf=67.6 ed=0.20 std=81.0
 tweet_1978428396318179618.png,not_brand,0.63,photo/flat cf=3.2 ed=0.08 std=86.0
-tweet_1978431643690905634.png,not_brand,0.63,photo/flat cf=107.1 ed=0.20 std=75.0
+tweet_1978431643690905634.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1978475957175324775.png,uncertain,0.45,ambiguous cf=98.0 ed=0.20 std=73.8
 tweet_1978479691687235631.png,brand_visual,0.66,layout-like cf=84.2 ed=0.20 std=65.0
 tweet_1978498976136491448.png,brand_visual,0.66,layout-like cf=37.0 ed=0.20 std=99.0
 tweet_1978531949682508193.png,uncertain,0.45,ambiguous cf=68.0 ed=0.20 std=81.1
-tweet_1978728895701815704.png,not_brand,0.63,photo/flat cf=99.8 ed=0.20 std=59.9
+tweet_1978728895701815704.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1978769691582603551.png,brand_visual,0.66,layout-like cf=33.5 ed=0.20 std=69.2
 tweet_1978836528957739018.png,uncertain,0.45,ambiguous cf=25.3 ed=0.20 std=112.3
 tweet_1978984966353477801.png,brand_visual,0.66,layout-like cf=3.1 ed=0.20 std=90.5
@@ -283,7 +283,7 @@ tweet_1979692658420228526.png,brand_visual,0.66,layout-like cf=68.4 ed=0.20 std=
 tweet_1979967480853655636.png,uncertain,0.45,ambiguous cf=40.0 ed=0.20 std=101.3
 tweet_1980215246116786444.png,uncertain,0.45,ambiguous cf=60.3 ed=0.20 std=73.0
 tweet_1980254037674021258.png,brand_visual,0.66,layout-like cf=1.8 ed=0.20 std=105.5
-tweet_1980271439556096005.png,not_brand,0.63,photo/flat cf=97.6 ed=0.20 std=104.5
+tweet_1980271439556096005.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1980294829159682347.png,uncertain,0.45,ambiguous cf=73.7 ed=0.20 std=36.9
 tweet_1980302998623723942.png,uncertain,0.45,ambiguous cf=43.0 ed=0.10 std=65.4
 tweet_1980303495631900966.png,uncertain,0.45,ambiguous cf=33.5 ed=0.20 std=72.6
@@ -306,14 +306,14 @@ tweet_1980725639956062496.png,brand_visual,0.66,layout-like cf=28.6 ed=0.20 std=
 tweet_1980754110367338589.png,uncertain,0.45,ambiguous cf=40.0 ed=0.20 std=94.1
 tweet_1980784521558872106.png,uncertain,0.45,ambiguous cf=47.7 ed=0.20 std=97.1
 tweet_1980946839122870613.png,brand_visual,0.66,layout-like cf=27.4 ed=0.20 std=44.5
-tweet_1980956658315464714.png,not_brand,0.63,photo/flat cf=1.5 ed=0.03 std=83.8
+tweet_1980956658315464714.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1980977457605062754.png,not_brand,0.63,photo/flat cf=6.3 ed=0.10 std=82.0
 tweet_1980989500139634815.png,not_brand,0.63,photo/flat cf=1.3 ed=0.03 std=64.5
 tweet_1980998324363854078.png,uncertain,0.45,ambiguous cf=1.3 ed=0.20 std=91.9
 tweet_1981039703550750986.png,brand_visual,0.66,layout-like cf=146.1 ed=0.20 std=84.3
 tweet_1981048414776549710.png,uncertain,0.45,ambiguous cf=17.7 ed=0.20 std=38.9
 tweet_1981169010076242192.png,uncertain,0.45,ambiguous cf=44.3 ed=0.20 std=90.1
-tweet_1981186590572483005.png,not_brand,0.63,photo/flat cf=107.4 ed=0.20 std=41.3
+tweet_1981186590572483005.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1981247191961186712.png,uncertain,0.45,ambiguous cf=40.7 ed=0.20 std=75.3
 tweet_1981314119190913102.png,not_brand,0.63,photo/flat cf=15.6 ed=0.13 std=40.1
 tweet_1981314736127168732.png,not_brand,0.63,photo/flat cf=9.0 ed=0.10 std=21.7
@@ -332,7 +332,7 @@ tweet_1981708095299764336.png,brand_visual,0.66,layout-like cf=26.2 ed=0.20 std=
 tweet_1981725365178364356.png,brand_visual,0.66,layout-like cf=10.3 ed=0.20 std=120.4
 tweet_1981814074179825856.png,uncertain,0.45,ambiguous cf=1.2 ed=0.20 std=85.3
 tweet_1981832100316610836.png,uncertain,0.45,ambiguous cf=71.3 ed=0.20 std=80.3
-tweet_1981850472177602731.png,not_brand,0.63,photo/flat cf=102.7 ed=0.20 std=71.9
+tweet_1981850472177602731.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1981941820364890177.png,brand_visual,0.66,layout-like cf=29.2 ed=0.20 std=56.1
 tweet_1981962458303504872.png,brand_visual,0.66,layout-like cf=19.0 ed=0.20 std=32.4
 tweet_1982025793057529867.png,not_brand,0.63,photo/flat cf=6.7 ed=0.08 std=73.1
@@ -347,10 +347,10 @@ tweet_1982930437996679462.png,brand_visual,0.66,layout-like cf=73.8 ed=0.20 std=
 tweet_1982964266920751467.png,uncertain,0.45,ambiguous cf=132.4 ed=0.20 std=90.7
 tweet_1983141957380546697.png,uncertain,0.45,ambiguous cf=5.1 ed=0.14 std=50.6
 tweet_1983202401898377287.png,not_brand,0.63,photo/flat cf=1.3 ed=0.13 std=29.1
-tweet_1983215063654600796.png,not_brand,0.63,photo/flat cf=24.1 ed=0.12 std=80.0
+tweet_1983215063654600796.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1983463210847244657.png,brand_visual,0.66,layout-like cf=90.0 ed=0.20 std=83.8
 tweet_1983498126804521250.png,brand_visual,0.66,layout-like cf=32.9 ed=0.20 std=71.1
-tweet_1983555135470031255.png,not_brand,0.63,photo/flat cf=95.4 ed=0.20 std=91.5
+tweet_1983555135470031255.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1983562661431243211.png,not_brand,0.63,photo/flat cf=1.3 ed=0.02 std=73.6
 tweet_1983595182147662016.png,not_brand,0.63,photo/flat cf=1.3 ed=0.02 std=71.1
 tweet_1983669248166916182.png,uncertain,0.45,ambiguous cf=37.7 ed=0.18 std=73.4
@@ -392,7 +392,7 @@ tweet_1985356140595511688.png,brand_visual,0.66,layout-like cf=94.5 ed=0.20 std=
 tweet_1985360590160712019.png,uncertain,0.45,ambiguous cf=34.6 ed=0.20 std=77.5
 tweet_1985370807363948899.png,not_brand,0.63,photo/flat cf=1.3 ed=0.02 std=3.7
 tweet_1985376785500893549.png,uncertain,0.45,ambiguous cf=53.3 ed=0.20 std=82.6
-tweet_1985418556172055028.png,not_brand,0.63,photo/flat cf=18.2 ed=0.10 std=61.1
+tweet_1985418556172055028.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1985444693384314942.png,not_brand,0.63,photo/flat cf=1.3 ed=0.15 std=13.8
 tweet_1985504288010092797.png,not_brand,0.63,photo/flat cf=1.3 ed=0.02 std=3.7
 tweet_1985628357221068906.png,uncertain,0.45,ambiguous cf=72.5 ed=0.14 std=89.5
@@ -403,7 +403,7 @@ tweet_1985693519793807538.png,not_brand,0.63,photo/flat cf=1.3 ed=0.02 std=72.9
 tweet_1985693853895065663.png,uncertain,0.45,ambiguous cf=44.1 ed=0.07 std=46.1
 tweet_1985703094509060404.png,brand_visual,0.66,layout-like cf=82.4 ed=0.20 std=88.1
 tweet_1985714647476158782.png,uncertain,0.45,ambiguous cf=18.1 ed=0.20 std=98.1
-tweet_1985721046289584445.png,not_brand,0.63,photo/flat cf=26.7 ed=0.09 std=34.9
+tweet_1985721046289584445.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1985727323727872077.png,brand_visual,0.66,layout-like cf=30.3 ed=0.20 std=37.7
 tweet_1985738920236367937.png,uncertain,0.45,ambiguous cf=8.7 ed=0.20 std=36.9
 tweet_1985759647244902651.png,brand_visual,0.66,layout-like cf=16.7 ed=0.19 std=99.5
@@ -411,13 +411,13 @@ tweet_1985765414324908495.png,brand_visual,0.66,layout-like cf=38.2 ed=0.20 std=
 tweet_1985775761425400200.png,uncertain,0.45,ambiguous cf=72.7 ed=0.20 std=68.8
 tweet_1985782930548138449.png,uncertain,0.45,ambiguous cf=10.6 ed=0.20 std=95.5
 tweet_1985786103262331385.png,uncertain,0.45,ambiguous cf=94.1 ed=0.20 std=98.2
-tweet_1985786999563812885.png,not_brand,0.63,photo/flat cf=14.1 ed=0.04 std=46.6
+tweet_1985786999563812885.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1985788265136574627.png,uncertain,0.45,ambiguous cf=31.1 ed=0.18 std=45.2
 tweet_1985794570035044861.png,uncertain,0.45,ambiguous cf=23.6 ed=0.04 std=24.7
 tweet_1985832542608769485.png,uncertain,0.45,ambiguous cf=50.0 ed=0.18 std=95.0
 tweet_1985862178939797559.png,uncertain,0.45,ambiguous cf=79.2 ed=0.20 std=72.7
 tweet_1985899467933995121.png,uncertain,0.45,ambiguous cf=30.2 ed=0.20 std=55.4
-tweet_1985935108147462322.png,not_brand,0.63,photo/flat cf=2.9 ed=0.07 std=78.9
+tweet_1985935108147462322.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1985987037539815690.png,uncertain,0.45,ambiguous cf=45.9 ed=0.20 std=70.0
 tweet_1986009371705282601.png,brand_visual,0.66,layout-like cf=112.8 ed=0.20 std=79.4
 tweet_1986029306364285155.png,brand_visual,0.66,layout-like cf=45.5 ed=0.20 std=91.2
@@ -435,7 +435,7 @@ tweet_1986428642994364905.png,brand_visual,0.66,layout-like cf=66.2 ed=0.20 std=
 tweet_1986449326173004273.png,uncertain,0.45,ambiguous cf=16.9 ed=0.20 std=83.2
 tweet_1986463640245948891.png,uncertain,0.45,ambiguous cf=52.3 ed=0.20 std=77.2
 tweet_1986468208413487486.png,not_brand,0.63,photo/flat cf=1.4 ed=0.02 std=76.5
-tweet_1986478689492647967.png,not_brand,0.63,photo/flat cf=9.9 ed=0.06 std=74.1
+tweet_1986478689492647967.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1986483052063637719.png,not_brand,0.63,photo/flat cf=1.2 ed=0.02 std=63.6
 tweet_1986487521757270216.png,uncertain,0.45,ambiguous cf=37.2 ed=0.20 std=94.6
 tweet_1986539086988124425.png,uncertain,0.45,ambiguous cf=74.6 ed=0.20 std=76.8
@@ -443,7 +443,7 @@ tweet_1986635963318346118.png,uncertain,0.45,ambiguous cf=47.7 ed=0.20 std=69.6
 tweet_1986669658007871861.png,not_brand,0.63,photo/flat cf=8.0 ed=0.20 std=8.7
 tweet_1986700944898154607.png,brand_visual,0.66,layout-like cf=84.8 ed=0.19 std=102.2
 tweet_1986739937845067897.png,brand_visual,0.66,layout-like cf=61.2 ed=0.20 std=84.4
-tweet_1986786276616388721.png,not_brand,0.63,photo/flat cf=17.1 ed=0.17 std=73.7
+tweet_1986786276616388721.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1986822201496993818.png,uncertain,0.45,ambiguous cf=12.7 ed=0.20 std=68.3
 tweet_1986823026852102349.png,uncertain,0.45,ambiguous cf=67.9 ed=0.20 std=66.8
 tweet_1986839344196559301.png,uncertain,0.45,ambiguous cf=40.5 ed=0.20 std=68.3
@@ -464,7 +464,7 @@ tweet_1987841859264376876.png,brand_visual,0.66,layout-like cf=75.2 ed=0.20 std=
 tweet_1987890015309803689.png,uncertain,0.45,ambiguous cf=45.3 ed=0.20 std=94.0
 tweet_1987898323299192983.png,not_brand,0.63,photo/flat cf=1.2 ed=0.01 std=3.3
 tweet_1987904637467533313.png,uncertain,0.45,ambiguous cf=83.9 ed=0.20 std=81.4
-tweet_1987935553384251446.png,not_brand,0.63,photo/flat cf=32.9 ed=0.07 std=78.1
+tweet_1987935553384251446.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1988263891781161243.png,not_brand,0.63,photo/flat cf=1.2 ed=0.01 std=3.3
 tweet_1988349385403437506.png,uncertain,0.45,ambiguous cf=89.2 ed=0.19 std=51.0
 tweet_1988361481671307501.png,brand_visual,0.66,layout-like cf=1.3 ed=0.20 std=58.8
@@ -474,7 +474,7 @@ tweet_1988665770046550326.png,uncertain,0.45,ambiguous cf=27.4 ed=0.20 std=71.7
 tweet_1988666194795331996.png,not_brand,0.63,photo/flat cf=6.3 ed=0.20 std=72.1
 tweet_1988666350336929969.png,uncertain,0.45,ambiguous cf=61.0 ed=0.20 std=51.4
 tweet_1988679901885694065.png,not_brand,0.63,photo/flat cf=1.9 ed=0.13 std=74.9
-tweet_1988682304840249494.png,not_brand,0.63,photo/flat cf=1.2 ed=0.03 std=86.6
+tweet_1988682304840249494.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1988684259121590585.png,uncertain,0.45,ambiguous cf=36.0 ed=0.08 std=29.6
 tweet_1988685034111520888.png,brand_visual,0.66,layout-like cf=41.1 ed=0.20 std=118.0
 tweet_1988713725516476592.png,brand_visual,0.66,layout-like cf=11.3 ed=0.20 std=80.5
@@ -485,7 +485,7 @@ tweet_1988961424803262577.png,not_brand,0.63,photo/flat cf=1.3 ed=0.03 std=73.5
 tweet_1988965641890787793.png,not_brand,0.63,photo/flat cf=7.5 ed=0.18 std=69.6
 tweet_1988993617898176983.png,uncertain,0.45,ambiguous cf=19.8 ed=0.20 std=82.9
 tweet_1988994235345838382.png,uncertain,0.45,ambiguous cf=27.7 ed=0.20 std=83.5
-tweet_1989027302131577046.png,not_brand,0.63,photo/flat cf=15.9 ed=0.12 std=64.8
+tweet_1989027302131577046.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1989027518951625032.png,uncertain,0.45,ambiguous cf=18.9 ed=0.20 std=74.3
 tweet_1989218677032644747.png,brand_visual,0.66,layout-like cf=47.5 ed=0.20 std=64.2
 tweet_1989229310293733798.png,brand_visual,0.66,layout-like cf=91.7 ed=0.20 std=103.1
@@ -501,13 +501,13 @@ tweet_1989350030835376283.png,brand_visual,0.66,layout-like cf=41.1 ed=0.20 std=
 tweet_1989403613664612810.png,uncertain,0.45,ambiguous cf=64.0 ed=0.15 std=101.0
 tweet_1989442813432623137.png,uncertain,0.45,ambiguous cf=21.4 ed=0.20 std=57.5
 tweet_1989710777650172306.png,brand_visual,0.66,layout-like cf=36.5 ed=0.20 std=89.3
-tweet_1989761759440253187.png,not_brand,0.63,photo/flat cf=112.7 ed=0.07 std=84.3
+tweet_1989761759440253187.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1989765679596408965.png,uncertain,0.45,ambiguous cf=49.3 ed=0.20 std=73.8
 tweet_1989830874137772284.png,uncertain,0.45,ambiguous cf=24.2 ed=0.20 std=74.2
 tweet_1989881419091394590.png,uncertain,0.45,ambiguous cf=32.5 ed=0.20 std=73.8
 tweet_1990005092196696083.png,brand_visual,0.66,layout-like cf=31.4 ed=0.20 std=90.5
-tweet_1990335550503751829.png,not_brand,0.63,photo/flat cf=95.4 ed=0.20 std=92.5
-tweet_1990368577887916322.png,not_brand,0.63,photo/flat cf=127.7 ed=0.09 std=95.0
+tweet_1990335550503751829.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1990368577887916322.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1990375388644782218.png,uncertain,0.45,ambiguous cf=35.5 ed=0.13 std=45.7
 tweet_1990375541208138209.png,uncertain,0.45,ambiguous cf=41.9 ed=0.13 std=31.8
 tweet_1990377226203001084.png,uncertain,0.45,ambiguous cf=52.2 ed=0.20 std=71.3
@@ -528,9 +528,9 @@ tweet_1990793834566214067.png,uncertain,0.45,ambiguous cf=96.4 ed=0.20 std=56.6
 tweet_1990853763922325735.png,uncertain,0.45,ambiguous cf=33.8 ed=0.09 std=35.5
 tweet_1991093767995289730.png,uncertain,0.45,ambiguous cf=42.3 ed=0.20 std=71.3
 tweet_1991129700924596303.png,uncertain,0.45,ambiguous cf=41.7 ed=0.20 std=85.6
-tweet_1991170660698079431.png,not_brand,0.63,photo/flat cf=1.3 ed=0.17 std=51.4
+tweet_1991170660698079431.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1991267302747042183.png,brand_visual,0.66,layout-like cf=35.6 ed=0.20 std=85.5
-tweet_1991470123996311953.png,not_brand,0.63,photo/flat cf=32.3 ed=0.20 std=64.3
+tweet_1991470123996311953.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1991514754343662016.png,not_brand,0.63,photo/flat cf=99.5 ed=0.20 std=56.8
 tweet_1991527667506503808.png,not_brand,0.63,photo/flat cf=1.4 ed=0.02 std=76.2
 tweet_1991571542896177176.png,brand_visual,0.66,layout-like cf=42.8 ed=0.20 std=82.8
@@ -541,14 +541,14 @@ tweet_1992535252083073413.png,brand_visual,0.66,layout-like cf=114.0 ed=0.20 std
 tweet_1992713120129900573.png,uncertain,0.45,ambiguous cf=44.6 ed=0.20 std=93.9
 tweet_1992760439080624421.png,uncertain,0.45,ambiguous cf=1.2 ed=0.16 std=108.0
 tweet_1992775328490770482.png,not_brand,0.63,photo/flat cf=1.5 ed=0.02 std=4.0
-tweet_1992892873159610841.png,not_brand,0.63,photo/flat cf=133.2 ed=0.20 std=74.7
+tweet_1992892873159610841.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1992923999052128676.png,brand_visual,0.66,layout-like cf=77.4 ed=0.20 std=77.9
 tweet_1992980017584967708.png,brand_visual,0.66,layout-like cf=55.7 ed=0.20 std=104.3
 tweet_1993050706778140734.png,uncertain,0.45,ambiguous cf=83.3 ed=0.20 std=93.1
 tweet_1993276818498134045.png,uncertain,0.45,ambiguous cf=60.3 ed=0.20 std=82.2
 tweet_1993343475140771900.png,not_brand,0.63,photo/flat cf=1.3 ed=0.02 std=72.9
 tweet_1993400496678486410.png,uncertain,0.45,ambiguous cf=90.1 ed=0.20 std=83.5
-tweet_1993756195728118181.png,not_brand,0.63,photo/flat cf=153.7 ed=0.20 std=54.0
+tweet_1993756195728118181.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1994077067345055946.png,uncertain,0.45,ambiguous cf=57.6 ed=0.20 std=82.8
 tweet_1994094894634164435.png,uncertain,0.45,ambiguous cf=15.4 ed=0.20 std=65.9
 tweet_1994095175811956853.png,uncertain,0.45,ambiguous cf=23.7 ed=0.20 std=66.9
@@ -556,7 +556,7 @@ tweet_1994097102146736405.png,not_brand,0.63,photo/flat cf=1.3 ed=0.02 std=72.9
 tweet_1994396177257943231.png,not_brand,0.63,photo/flat cf=1.2 ed=0.01 std=63.2
 tweet_1994422882076959140.png,uncertain,0.45,ambiguous cf=18.0 ed=0.20 std=79.1
 tweet_1994637445560729772.png,uncertain,0.45,ambiguous cf=24.9 ed=0.20 std=61.4
-tweet_1994654878803599852.png,not_brand,0.63,photo/flat cf=26.5 ed=0.20 std=68.8
+tweet_1994654878803599852.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_1994743526433964430.png,uncertain,0.45,ambiguous cf=24.7 ed=0.20 std=87.7
 tweet_1994875692253941871.png,uncertain,0.45,ambiguous cf=30.1 ed=0.20 std=73.9
 tweet_1995030773905469815.png,uncertain,0.45,ambiguous cf=57.1 ed=0.20 std=66.8
@@ -591,7 +591,7 @@ tweet_2013284113780978172.png,brand_visual,0.66,layout-like cf=46.2 ed=0.20 std=
 tweet_2013288023819956398.png,brand_visual,0.66,layout-like cf=8.4 ed=0.20 std=58.7
 tweet_2013289479767728477.png,uncertain,0.45,ambiguous cf=41.3 ed=0.10 std=32.5
 tweet_2013293349201920191.png,brand_visual,0.66,layout-like cf=49.4 ed=0.18 std=91.7
-tweet_2013295389084876870.png,not_brand,0.63,photo/flat cf=1.3 ed=0.12 std=58.0
+tweet_2013295389084876870.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_2013306158635687992.png,brand_visual,0.66,layout-like cf=35.6 ed=0.20 std=90.4
 tweet_2013307978300985822.png,uncertain,0.45,ambiguous cf=72.6 ed=0.20 std=102.1
 tweet_2013310534397898879.png,brand_visual,0.66,layout-like cf=90.2 ed=0.20 std=80.8
@@ -666,7 +666,7 @@ tweet_2015252888528859603.png,uncertain,0.45,ambiguous cf=47.3 ed=0.20 std=90.5
 tweet_2015341332274045283.png,uncertain,0.45,ambiguous cf=35.0 ed=0.20 std=25.4
 tweet_2015341554651844982.png,uncertain,0.45,ambiguous cf=68.5 ed=0.20 std=89.7
 tweet_2015347425079410707.png,brand_visual,0.66,layout-like cf=41.0 ed=0.20 std=74.0
-tweet_2015348452063076535.png,not_brand,0.63,photo/flat cf=21.3 ed=0.05 std=73.5
+tweet_2015348452063076535.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_2015409385720463641.png,uncertain,0.45,ambiguous cf=46.0 ed=0.18 std=78.3
 tweet_2015414009789403400.png,uncertain,0.45,ambiguous cf=38.4 ed=0.20 std=68.6
 tweet_2015416885899039062.png,not_brand,0.63,photo/flat cf=1.3 ed=0.02 std=69.5
@@ -678,7 +678,7 @@ tweet_2015695321087836583.png,brand_visual,0.66,layout-like cf=6.5 ed=0.20 std=9
 tweet_2015699325075247529.png,brand_visual,0.66,layout-like cf=43.7 ed=0.20 std=82.2
 tweet_2015726481314398320.png,brand_visual,0.66,layout-like cf=29.1 ed=0.20 std=69.2
 tweet_2015734302856659248.png,brand_visual,0.66,layout-like cf=34.5 ed=0.20 std=62.7
-tweet_2015753356501762512.png,not_brand,0.63,photo/flat cf=24.9 ed=0.06 std=28.5
+tweet_2015753356501762512.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_2015756682647961875.png,uncertain,0.45,ambiguous cf=19.6 ed=0.20 std=60.9
 tweet_2015771116741050810.png,uncertain,0.45,ambiguous cf=82.5 ed=0.10 std=95.9
 tweet_2015779157624430968.png,uncertain,0.45,ambiguous cf=70.7 ed=0.20 std=94.1
@@ -686,7 +686,7 @@ tweet_2015837078307868812.png,uncertain,0.45,ambiguous cf=14.8 ed=0.20 std=79.9
 tweet_2015871268176699477.png,uncertain,0.45,ambiguous cf=54.9 ed=0.19 std=21.9
 tweet_2015918217235939760.png,brand_visual,0.66,layout-like cf=59.4 ed=0.20 std=82.4
 tweet_2016134148235378971.png,brand_visual,0.66,layout-like cf=54.9 ed=0.20 std=76.6
-tweet_2016148160796578152.png,not_brand,0.63,photo/flat cf=133.9 ed=0.20 std=40.0
+tweet_2016148160796578152.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_2016243219340599374.png,not_brand,0.63,photo/flat cf=1.1 ed=0.02 std=73.4
 tweet_2016255277029371959.png,uncertain,0.45,ambiguous cf=33.8 ed=0.20 std=67.5
 tweet_2016390786397421746.png,brand_visual,0.66,layout-like cf=15.8 ed=0.20 std=86.3
@@ -708,13 +708,13 @@ tweet_2017575042964443217.png,uncertain,0.45,ambiguous cf=49.0 ed=0.14 std=68.4
 tweet_2017578264378937482.png,brand_visual,0.66,layout-like cf=33.5 ed=0.19 std=83.0
 tweet_2017583655590478042.png,brand_visual,0.66,layout-like cf=36.6 ed=0.19 std=87.7
 tweet_2017585857478238657.png,uncertain,0.45,ambiguous cf=1.6 ed=0.19 std=96.1
-tweet_2017638807772795240.png,not_brand,0.63,photo/flat cf=1.3 ed=0.11 std=87.8
+tweet_2017638807772795240.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_2017742741636321619.png,uncertain,0.45,ambiguous cf=6.8 ed=0.17 std=48.0
 tweet_2017859540927037824.png,brand_visual,0.66,layout-like cf=28.8 ed=0.20 std=81.7
 tweet_2017940929446113600.png,brand_visual,0.66,layout-like cf=4.7 ed=0.20 std=111.0
 tweet_2017941049981677678.png,brand_visual,0.66,layout-like cf=5.1 ed=0.20 std=107.3
 tweet_2017941379075473543.png,brand_visual,0.66,layout-like cf=24.9 ed=0.20 std=97.7
-tweet_2017962869472842117.png,not_brand,0.63,photo/flat cf=101.7 ed=0.20 std=96.0
+tweet_2017962869472842117.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_2017983403145249046.png,uncertain,0.45,ambiguous cf=19.5 ed=0.20 std=106.2
 tweet_2018291481639809132.png,uncertain,0.45,ambiguous cf=53.2 ed=0.20 std=75.0
 tweet_2018334061379629188.png,brand_visual,0.66,layout-like cf=22.1 ed=0.20 std=100.6
@@ -724,7 +724,7 @@ tweet_2018584197292609651.png,brand_visual,0.66,layout-like cf=42.6 ed=0.20 std=
 tweet_2018589601594851705.png,uncertain,0.45,ambiguous cf=27.4 ed=0.20 std=65.0
 tweet_2018595314110746985.png,not_brand,0.63,photo/flat cf=1.2 ed=0.02 std=67.7
 tweet_2018622976577732967.png,not_brand,0.63,photo/flat cf=1.2 ed=0.01 std=63.3
-tweet_2018641406936449270.png,not_brand,0.63,photo/flat cf=4.4 ed=0.20 std=71.1
+tweet_2018641406936449270.png,brand_visual,0.99,manual_review: corrected to brand by user
 tweet_2018643950945661309.png,not_brand,0.63,photo/flat cf=1.2 ed=0.01 std=63.3
 tweet_2018674909262606649.png,not_brand,0.63,photo/flat cf=3.2 ed=0.14 std=44.2
 tweet_2018691884848464035.png,brand_visual,0.66,layout-like cf=13.5 ed=0.20 std=104.0

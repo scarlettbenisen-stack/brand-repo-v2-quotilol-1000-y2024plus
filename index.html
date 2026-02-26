@@ -132,7 +132,10 @@
               <span class="chip">${it.composition_density}</span>
               <span class="chip">${it.visual_mode}</span>
             </div>
-            <div style="margin-top:8px"><a href="${tweetUrlFromFile(it.file)}" target="_blank">ouvrir tweet ↗</a></div>
+            <div style="margin-top:8px; display:flex; gap:10px; flex-wrap:wrap;">
+              <a href="${tweetUrlFromFile(it.file)}" target="_blank">ouvrir tweet ↗</a>
+              <a href="https://github.com/scarlettbenisen-stack/brand-repo-v2-quotilol-1000-y2024plus/releases/tag/hd-assets-v1" target="_blank">HD packs ↗</a>
+            </div>
           </div>
         </div>
       `).join('');

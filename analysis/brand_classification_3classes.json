@@ -241,9 +241,9 @@
   },
   {
     "file": "tweet_1942607766993928544.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=45.0 ed=0.20 std=66.3"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1943018463112630528.png",
@@ -289,9 +289,9 @@
   },
   {
     "file": "tweet_1947969930059465065.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=56.0 ed=0.20 std=62.9"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1947997894965154130.png",
@@ -475,15 +475,15 @@
   },
   {
     "file": "tweet_1957439063276880147.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=53.9 ed=0.20 std=93.4"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1957747966896480518.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=89.3 ed=0.20 std=50.5"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1957777939187081356.png",
@@ -535,15 +535,15 @@
   },
   {
     "file": "tweet_1959114536457576675.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=34.4 ed=0.20 std=71.4"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1959238410234961938.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=71.3 ed=0.18 std=87.7"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1959239770015510692.png",
@@ -607,15 +607,15 @@
   },
   {
     "file": "tweet_1960285660558020895.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=47.0 ed=0.20 std=81.3"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1960328195711844514.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=37.9 ed=0.20 std=99.6"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1960371667768635734.png",
@@ -679,9 +679,9 @@
   },
   {
     "file": "tweet_1962192040344887696.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=33.9 ed=0.20 std=91.9"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1962691407413739920.png",
@@ -715,9 +715,9 @@
   },
   {
     "file": "tweet_1963205543612326069.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=48.6 ed=0.20 std=78.5"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1963270072232992851.png",
@@ -727,15 +727,15 @@
   },
   {
     "file": "tweet_1963547161930633507.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=55.4 ed=0.20 std=74.4"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1963629551604453847.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=35.9 ed=0.20 std=92.4"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1963642864698573070.png",
@@ -811,9 +811,9 @@
   },
   {
     "file": "tweet_1965022314904289732.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=86.1 ed=0.20 std=70.7"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1965030531101511691.png",
@@ -859,9 +859,9 @@
   },
   {
     "file": "tweet_1965878951491829938.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=45.1 ed=0.20 std=75.7"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1965898134535762259.png",
@@ -877,9 +877,9 @@
   },
   {
     "file": "tweet_1966157539914956802.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=79.1 ed=0.20 std=105.4"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1966183543308276210.png",
@@ -889,9 +889,9 @@
   },
   {
     "file": "tweet_1966204682009018869.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=30.7 ed=0.20 std=70.8"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1966231768811585795.png",
@@ -901,9 +901,9 @@
   },
   {
     "file": "tweet_1966290970527605140.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=91.0 ed=0.20 std=71.7"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1966322023485026519.png",
@@ -925,15 +925,15 @@
   },
   {
     "file": "tweet_1966445268339159546.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=73.8 ed=0.20 std=66.8"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1966468746773499987.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=92.1 ed=0.16 std=59.0"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1966544319516402105.png",
@@ -1021,9 +1021,9 @@
   },
   {
     "file": "tweet_1968616026121068695.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=32.7 ed=0.20 std=72.5"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1969162561590354108.png",
@@ -1033,9 +1033,9 @@
   },
   {
     "file": "tweet_1969732357700587708.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=1.2 ed=0.20 std=72.3"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1970171736898285672.png",
@@ -1129,9 +1129,9 @@
   },
   {
     "file": "tweet_1972060890389533168.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=44.5 ed=0.20 std=87.2"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1972720594832556497.png",
@@ -1141,9 +1141,9 @@
   },
   {
     "file": "tweet_1972958605168242948.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=81.2 ed=0.19 std=36.1"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1973012868808511771.png",
@@ -1219,9 +1219,9 @@
   },
   {
     "file": "tweet_1975123866553840118.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=72.3 ed=0.20 std=32.8"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1975161678313791878.png",
@@ -1243,9 +1243,9 @@
   },
   {
     "file": "tweet_1975512526633799935.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=49.9 ed=0.04 std=93.6"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1975544197425094729.png",
@@ -1261,9 +1261,9 @@
   },
   {
     "file": "tweet_1975558092634136834.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=79.1 ed=0.20 std=79.2"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1975574103156195771.png",
@@ -1273,9 +1273,9 @@
   },
   {
     "file": "tweet_1975575345198997566.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=29.4 ed=0.20 std=79.6"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1975591265178951697.png",
@@ -1309,9 +1309,9 @@
   },
   {
     "file": "tweet_1975886683913769390.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=88.5 ed=0.20 std=89.4"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1975902526391345281.png",
@@ -1363,9 +1363,9 @@
   },
   {
     "file": "tweet_1976199220932776261.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=64.7 ed=0.20 std=65.2"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1976208301307330989.png",
@@ -1375,9 +1375,9 @@
   },
   {
     "file": "tweet_1976264605836976295.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=34.2 ed=0.20 std=93.3"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1976274793226748229.png",
@@ -1387,9 +1387,9 @@
   },
   {
     "file": "tweet_1976295405605556395.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=32.9 ed=0.20 std=70.8"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1976328515160268921.png",
@@ -1411,15 +1411,15 @@
   },
   {
     "file": "tweet_1976685614444810410.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=64.9 ed=0.20 std=51.3"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1976688980268839410.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=17.7 ed=0.20 std=91.4"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1976879563478356377.png",
@@ -1429,9 +1429,9 @@
   },
   {
     "file": "tweet_1976986736191492479.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=94.2 ed=0.20 std=67.2"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1977066774391931073.png",
@@ -1453,9 +1453,9 @@
   },
   {
     "file": "tweet_1977472044607611116.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=106.8 ed=0.20 std=87.2"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1977509970854752278.png",
@@ -1471,9 +1471,9 @@
   },
   {
     "file": "tweet_1977659164538069225.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=88.5 ed=0.20 std=74.3"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1977661877896257816.png",
@@ -1489,9 +1489,9 @@
   },
   {
     "file": "tweet_1977699422575173982.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=42.7 ed=0.20 std=69.8"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1977720985001382205.png",
@@ -1501,9 +1501,9 @@
   },
   {
     "file": "tweet_1977755792213151924.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=49.2 ed=0.20 std=74.4"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1977831782100992093.png",
@@ -1531,9 +1531,9 @@
   },
   {
     "file": "tweet_1978255852554387867.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=76.0 ed=0.20 std=94.5"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1978279224378007816.png",
@@ -1549,9 +1549,9 @@
   },
   {
     "file": "tweet_1978403799938236599.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=58.8 ed=0.20 std=88.9"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1978428143326151108.png",
@@ -1573,9 +1573,9 @@
   },
   {
     "file": "tweet_1978475957175324775.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=98.0 ed=0.20 std=73.8"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1978479691687235631.png",
@@ -1591,9 +1591,9 @@
   },
   {
     "file": "tweet_1978531949682508193.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=68.0 ed=0.20 std=81.1"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1978728895701815704.png",
@@ -1609,9 +1609,9 @@
   },
   {
     "file": "tweet_1978836528957739018.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=25.3 ed=0.20 std=112.3"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1978984966353477801.png",
@@ -1639,9 +1639,9 @@
   },
   {
     "file": "tweet_1979209699560919496.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=120.2 ed=0.20 std=53.6"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1979292037028647109.png",
@@ -1651,9 +1651,9 @@
   },
   {
     "file": "tweet_1979432693830996292.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=76.6 ed=0.20 std=75.9"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1979460624187805698.png",
@@ -1663,15 +1663,15 @@
   },
   {
     "file": "tweet_1979532786785488950.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=19.3 ed=0.20 std=78.3"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1979536479773667450.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=25.7 ed=0.20 std=85.6"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1979558115864408102.png",
@@ -1687,15 +1687,15 @@
   },
   {
     "file": "tweet_1979967480853655636.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=40.0 ed=0.20 std=101.3"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1980215246116786444.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=60.3 ed=0.20 std=73.0"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1980254037674021258.png",
@@ -1711,15 +1711,15 @@
   },
   {
     "file": "tweet_1980294829159682347.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=73.7 ed=0.20 std=36.9"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1980302998623723942.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=43.0 ed=0.10 std=65.4"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1980303495631900966.png",
@@ -1765,9 +1765,9 @@
   },
   {
     "file": "tweet_1980608042929426932.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=88.5 ed=0.20 std=79.9"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1980625881623326797.png",
@@ -1831,9 +1831,9 @@
   },
   {
     "file": "tweet_1980784521558872106.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=47.7 ed=0.20 std=97.1"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1980946839122870613.png",
@@ -1909,9 +1909,9 @@
   },
   {
     "file": "tweet_1981326173499015285.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=25.1 ed=0.20 std=75.2"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1981333200715895039.png",
@@ -1921,9 +1921,9 @@
   },
   {
     "file": "tweet_1981340009949970609.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=50.5 ed=0.15 std=56.9"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1981342279689523532.png",
@@ -1939,9 +1939,9 @@
   },
   {
     "file": "tweet_1981377106199400895.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=88.9 ed=0.20 std=94.7"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1981405382754128099.png",
@@ -1987,15 +1987,15 @@
   },
   {
     "file": "tweet_1981814074179825856.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=1.2 ed=0.20 std=85.3"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1981832100316610836.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=71.3 ed=0.20 std=80.3"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1981850472177602731.png",
@@ -2071,15 +2071,15 @@
   },
   {
     "file": "tweet_1982964266920751467.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=132.4 ed=0.20 std=90.7"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1983141957380546697.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=5.1 ed=0.14 std=50.6"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1983202401898377287.png",
@@ -2197,9 +2197,9 @@
   },
   {
     "file": "tweet_1984352387512062269.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=25.4 ed=0.20 std=41.7"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1984355216482058728.png",
@@ -2215,9 +2215,9 @@
   },
   {
     "file": "tweet_1984481688932794767.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=80.6 ed=0.20 std=74.2"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1984486280714207269.png",
@@ -2281,9 +2281,9 @@
   },
   {
     "file": "tweet_1985013020586610869.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=55.8 ed=0.20 std=91.0"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1985017796305015133.png",
@@ -2293,9 +2293,9 @@
   },
   {
     "file": "tweet_1985112524958961780.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=6.5 ed=0.20 std=67.6"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1985115010096406759.png",
@@ -2305,9 +2305,9 @@
   },
   {
     "file": "tweet_1985256481134944731.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=23.5 ed=0.04 std=23.2"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1985275329729175553.png",
@@ -2353,9 +2353,9 @@
   },
   {
     "file": "tweet_1985376785500893549.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=53.3 ed=0.20 std=82.6"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1985418556172055028.png",
@@ -2377,9 +2377,9 @@
   },
   {
     "file": "tweet_1985628357221068906.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=72.5 ed=0.14 std=89.5"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1985648282077381043.png",
@@ -2407,9 +2407,9 @@
   },
   {
     "file": "tweet_1985693853895065663.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=44.1 ed=0.07 std=46.1"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1985703094509060404.png",
@@ -2419,9 +2419,9 @@
   },
   {
     "file": "tweet_1985714647476158782.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=18.1 ed=0.20 std=98.1"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1985721046289584445.png",
@@ -2455,21 +2455,21 @@
   },
   {
     "file": "tweet_1985775761425400200.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=72.7 ed=0.20 std=68.8"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1985782930548138449.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=10.6 ed=0.20 std=95.5"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1985786103262331385.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=94.1 ed=0.20 std=98.2"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1985786999563812885.png",
@@ -2479,21 +2479,21 @@
   },
   {
     "file": "tweet_1985788265136574627.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=31.1 ed=0.18 std=45.2"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1985794570035044861.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=23.6 ed=0.04 std=24.7"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1985832542608769485.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=50.0 ed=0.18 std=95.0"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1985862178939797559.png",
@@ -2539,9 +2539,9 @@
   },
   {
     "file": "tweet_1986154437128475117.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=54.3 ed=0.20 std=102.3"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1986268789034655826.png",
@@ -2587,9 +2587,9 @@
   },
   {
     "file": "tweet_1986420974091223144.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=44.1 ed=0.10 std=65.6"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1986428642994364905.png",
@@ -2599,15 +2599,15 @@
   },
   {
     "file": "tweet_1986449326173004273.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=16.9 ed=0.20 std=83.2"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1986463640245948891.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=52.3 ed=0.20 std=77.2"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1986468208413487486.png",
@@ -2629,15 +2629,15 @@
   },
   {
     "file": "tweet_1986487521757270216.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=37.2 ed=0.20 std=94.6"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1986539086988124425.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=74.6 ed=0.20 std=76.8"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1986635963318346118.png",
@@ -2677,9 +2677,9 @@
   },
   {
     "file": "tweet_1986823026852102349.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=67.9 ed=0.20 std=66.8"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1986839344196559301.png",
@@ -2701,9 +2701,9 @@
   },
   {
     "file": "tweet_1986984822598775070.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=34.4 ed=0.20 std=74.5"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1987193751027241121.png",
@@ -2713,9 +2713,9 @@
   },
   {
     "file": "tweet_1987203716051538370.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=5.9 ed=0.20 std=92.8"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1987213627632255219.png",
@@ -2755,9 +2755,9 @@
   },
   {
     "file": "tweet_1987731993866702921.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=59.6 ed=0.20 std=75.7"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1987790693180313923.png",
@@ -2773,9 +2773,9 @@
   },
   {
     "file": "tweet_1987890015309803689.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=45.3 ed=0.20 std=94.0"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1987898323299192983.png",
@@ -2785,9 +2785,9 @@
   },
   {
     "file": "tweet_1987904637467533313.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=83.9 ed=0.20 std=81.4"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1987935553384251446.png",
@@ -2803,9 +2803,9 @@
   },
   {
     "file": "tweet_1988349385403437506.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=89.2 ed=0.19 std=51.0"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1988361481671307501.png",
@@ -2815,21 +2815,21 @@
   },
   {
     "file": "tweet_1988488050746282435.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=40.0 ed=0.20 std=92.0"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1988623007082860776.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=66.9 ed=0.20 std=63.8"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1988665770046550326.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=27.4 ed=0.20 std=71.7"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1988666194795331996.png",
@@ -2839,9 +2839,9 @@
   },
   {
     "file": "tweet_1988666350336929969.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=61.0 ed=0.20 std=51.4"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1988679901885694065.png",
@@ -2875,9 +2875,9 @@
   },
   {
     "file": "tweet_1988870883843178964.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=89.9 ed=0.20 std=73.9"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1988958830089170944.png",
@@ -2905,9 +2905,9 @@
   },
   {
     "file": "tweet_1988993617898176983.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=19.8 ed=0.20 std=82.9"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1988994235345838382.png",
@@ -2923,9 +2923,9 @@
   },
   {
     "file": "tweet_1989027518951625032.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=18.9 ed=0.20 std=74.3"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1989218677032644747.png",
@@ -2971,9 +2971,9 @@
   },
   {
     "file": "tweet_1989318864161722535.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=44.0 ed=0.19 std=100.0"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1989333537053438063.png",
@@ -2995,9 +2995,9 @@
   },
   {
     "file": "tweet_1989403613664612810.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=64.0 ed=0.15 std=101.0"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1989442813432623137.png",
@@ -3061,15 +3061,15 @@
   },
   {
     "file": "tweet_1990375541208138209.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=41.9 ed=0.13 std=31.8"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1990377226203001084.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=52.2 ed=0.20 std=71.3"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1990411493137949101.png",
@@ -3079,9 +3079,9 @@
   },
   {
     "file": "tweet_1990414599380771121.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=34.3 ed=0.20 std=74.5"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1990427376983925120.png",
@@ -3115,9 +3115,9 @@
   },
   {
     "file": "tweet_1990489123526709423.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=51.4 ed=0.20 std=84.6"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1990495079564181912.png",
@@ -3145,21 +3145,21 @@
   },
   {
     "file": "tweet_1990791707760447836.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=26.0 ed=0.12 std=105.4"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1990793834566214067.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=96.4 ed=0.20 std=56.6"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1990853763922325735.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=33.8 ed=0.09 std=35.5"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1991093767995289730.png",
@@ -3169,9 +3169,9 @@
   },
   {
     "file": "tweet_1991129700924596303.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=41.7 ed=0.20 std=85.6"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1991170660698079431.png",
@@ -3235,15 +3235,15 @@
   },
   {
     "file": "tweet_1992713120129900573.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=44.6 ed=0.20 std=93.9"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1992760439080624421.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=1.2 ed=0.16 std=108.0"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1992775328490770482.png",
@@ -3271,15 +3271,15 @@
   },
   {
     "file": "tweet_1993050706778140734.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=83.3 ed=0.20 std=93.1"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1993276818498134045.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=60.3 ed=0.20 std=82.2"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1993343475140771900.png",
@@ -3289,9 +3289,9 @@
   },
   {
     "file": "tweet_1993400496678486410.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=90.1 ed=0.20 std=83.5"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1993756195728118181.png",
@@ -3301,9 +3301,9 @@
   },
   {
     "file": "tweet_1994077067345055946.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=57.6 ed=0.20 std=82.8"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1994094894634164435.png",
@@ -3349,9 +3349,9 @@
   },
   {
     "file": "tweet_1994743526433964430.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=24.7 ed=0.20 std=87.7"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1994875692253941871.png",
@@ -3379,15 +3379,15 @@
   },
   {
     "file": "tweet_1995385143910138217.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=13.4 ed=0.20 std=81.8"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1995666763351294147.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=1.2 ed=0.18 std=97.2"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_1995689088436109576.png",
@@ -3445,9 +3445,9 @@
   },
   {
     "file": "tweet_1996175653901943061.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=15.0 ed=0.20 std=100.9"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2002355869732794727.png",
@@ -3457,9 +3457,9 @@
   },
   {
     "file": "tweet_2012925066237915490.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=52.8 ed=0.20 std=88.8"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2012937057585315961.png",
@@ -3493,9 +3493,9 @@
   },
   {
     "file": "tweet_2013133836356407417.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=91.9 ed=0.20 std=85.7"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2013214544445972944.png",
@@ -3517,15 +3517,15 @@
   },
   {
     "file": "tweet_2013276377785520281.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=5.6 ed=0.15 std=120.8"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2013276948747948404.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=67.9 ed=0.18 std=90.8"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2013284113780978172.png",
@@ -3541,9 +3541,9 @@
   },
   {
     "file": "tweet_2013289479767728477.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=41.3 ed=0.10 std=32.5"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2013293349201920191.png",
@@ -3565,9 +3565,9 @@
   },
   {
     "file": "tweet_2013307978300985822.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=72.6 ed=0.20 std=102.1"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2013310534397898879.png",
@@ -3631,15 +3631,15 @@
   },
   {
     "file": "tweet_2013617128088162489.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=40.7 ed=0.20 std=79.9"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2013617978655506771.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=20.5 ed=0.20 std=54.0"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2013619544506401091.png",
@@ -3649,9 +3649,9 @@
   },
   {
     "file": "tweet_2013651024859300073.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=42.5 ed=0.20 std=92.6"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2013672914890170619.png",
@@ -3697,9 +3697,9 @@
   },
   {
     "file": "tweet_2013859366558937570.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=85.0 ed=0.20 std=81.8"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2013860661579915762.png",
@@ -3709,15 +3709,15 @@
   },
   {
     "file": "tweet_2013861056221979070.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=1.5 ed=0.17 std=65.8"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2013868903940739417.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=7.0 ed=0.18 std=92.0"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2013885138245972411.png",
@@ -3781,9 +3781,9 @@
   },
   {
     "file": "tweet_2014269305610002613.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=16.8 ed=0.20 std=68.4"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2014302338501013594.png",
@@ -3793,21 +3793,21 @@
   },
   {
     "file": "tweet_2014307097190846513.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=63.9 ed=0.20 std=78.3"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2014307192157999302.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=70.3 ed=0.20 std=97.0"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2014325821771547023.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=1.3 ed=0.18 std=81.3"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2014342478904914043.png",
@@ -3859,9 +3859,9 @@
   },
   {
     "file": "tweet_2014521181919912183.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=8.4 ed=0.20 std=39.1"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2014533460556407017.png",
@@ -3877,9 +3877,9 @@
   },
   {
     "file": "tweet_2014686387518488736.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=46.5 ed=0.20 std=81.4"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2014688872840491408.png",
@@ -3913,9 +3913,9 @@
   },
   {
     "file": "tweet_2014759316603990467.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=73.9 ed=0.20 std=74.1"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2014782900466594011.png",
@@ -3925,9 +3925,9 @@
   },
   {
     "file": "tweet_2014975632191410462.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=29.3 ed=0.20 std=70.9"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2015013651019595925.png",
@@ -3937,9 +3937,9 @@
   },
   {
     "file": "tweet_2015020119714398486.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=40.8 ed=0.12 std=51.0"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2015039443900485949.png",
@@ -3991,9 +3991,9 @@
   },
   {
     "file": "tweet_2015341554651844982.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=68.5 ed=0.20 std=89.7"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2015347425079410707.png",
@@ -4009,9 +4009,9 @@
   },
   {
     "file": "tweet_2015409385720463641.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=46.0 ed=0.18 std=78.3"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2015414009789403400.png",
@@ -4027,9 +4027,9 @@
   },
   {
     "file": "tweet_2015437698702438598.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=54.3 ed=0.20 std=92.2"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2015455107064766849.png",
@@ -4039,9 +4039,9 @@
   },
   {
     "file": "tweet_2015499193700241692.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=36.6 ed=0.20 std=70.0"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2015673244980850879.png",
@@ -4087,15 +4087,15 @@
   },
   {
     "file": "tweet_2015771116741050810.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=82.5 ed=0.10 std=95.9"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2015779157624430968.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=70.7 ed=0.20 std=94.1"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2015837078307868812.png",
@@ -4105,9 +4105,9 @@
   },
   {
     "file": "tweet_2015871268176699477.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=54.9 ed=0.19 std=21.9"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2015918217235939760.png",
@@ -4135,9 +4135,9 @@
   },
   {
     "file": "tweet_2016255277029371959.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=33.8 ed=0.20 std=67.5"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2016390786397421746.png",
@@ -4159,15 +4159,15 @@
   },
   {
     "file": "tweet_2016563516719714774.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=80.1 ed=0.20 std=30.1"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2016573565080928429.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=73.3 ed=0.20 std=77.8"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2016592876910584313.png",
@@ -4195,9 +4195,9 @@
   },
   {
     "file": "tweet_2016843830365212969.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=99.5 ed=0.20 std=67.5"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2016876507969282083.png",
@@ -4231,9 +4231,9 @@
   },
   {
     "file": "tweet_2017575042964443217.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=49.0 ed=0.14 std=68.4"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2017578264378937482.png",
@@ -4249,9 +4249,9 @@
   },
   {
     "file": "tweet_2017585857478238657.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=1.6 ed=0.19 std=96.1"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2017638807772795240.png",
@@ -4297,15 +4297,15 @@
   },
   {
     "file": "tweet_2017983403145249046.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=19.5 ed=0.20 std=106.2"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2018291481639809132.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=53.2 ed=0.20 std=75.0"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2018334061379629188.png",
@@ -4333,9 +4333,9 @@
   },
   {
     "file": "tweet_2018589601594851705.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=27.4 ed=0.20 std=65.0"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2018595314110746985.png",
@@ -4387,15 +4387,15 @@
   },
   {
     "file": "tweet_2018776336194732499.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=30.6 ed=0.20 std=63.3"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2018821833458626882.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=38.3 ed=0.20 std=82.1"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2019072164071174619.png",
@@ -4417,9 +4417,9 @@
   },
   {
     "file": "tweet_2026220589938315548.png",
-    "class": "uncertain",
-    "confidence": 0.45,
-    "reason_short": "ambiguous cf=76.1 ed=0.20 std=78.5"
+    "class": "brand_visual",
+    "confidence": 0.99,
+    "reason_short": "manual_review: corrected to brand by user"
   },
   {
     "file": "tweet_2026322476427248012.png",

@@ -59,7 +59,7 @@
   </div>
 
   <script>
-    const BUILD = '1772049903';
+    const BUILD = '1772110459';
     const DATA_PATH = `./analysis/visual_tags.json?v=${BUILD}`;
     const THUMB_MAP_PATH = `./analysis/thumb_map.json?v=${BUILD}`;
     const IMG_BASE = './clean/';
@@ -122,7 +122,7 @@
 
       grid.innerHTML = shown.map(it => `
         <div class="card">
-          <div class="imgbox"><img loading="lazy" src="${it.thumb_data || (IMG_BASE + it.file)}" alt="${it.file}" onerror="this.style.opacity=.2" /></div>
+          <div class="imgbox"><img loading="lazy" src="${it.thumb_v2 || it.thumb_data || (IMG_BASE + it.file)}" alt="${it.file}" onerror="this.style.opacity=.2" /></div>
           <div class="content">
             <div class="file" title="${it.file}">${it.file}</div>
             <div class="chips">

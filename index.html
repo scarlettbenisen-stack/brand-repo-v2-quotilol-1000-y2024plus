@@ -49,7 +49,7 @@
         <select id="density"><option value="all">Density: all</option><option>airy</option><option>balanced</option><option>dense</option></select>
         <select id="visualMode"><option value="all">Mode: all</option><option>type_logo_likely</option><option>photo_likely</option><option>mixed</option></select>
         <select id="dominant"><option value="all">Dominant color: all</option><option>gray</option><option>red</option><option>orange</option><option>yellow</option><option>green</option><option>cyan</option><option>blue</option><option>purple</option><option>pink</option></select>
-        <select id="typo"><option value="all">Typography: all</option><option>serif</option><option>sans</option><option>mixed</option><option>display</option><option>unknown</option></select>
+        <select id="typo"><option value="all">Typography: all</option><option>serif</option><option>sans</option><option>mixed</option><option>display</option><option>no_typo</option><option>unknown</option></select>
       </div>
     </div>
 
@@ -57,7 +57,7 @@
   </div>
 
   <script>
-    const BUILD = '1772140860';
+    const BUILD = '1772141860';
     const DATA_PATH = `./analysis/visual_tags.json?v=${BUILD}`;
     const THUMB_MAP_PATH = `./analysis/thumb_map.json?v=${BUILD}`;
     const IMG_BASE = './clean/';
@@ -106,7 +106,7 @@
 
       const paletteTemp = it.palette_temperature_v2 || it.palette_temperature;
       const dominantColor = it.dominant_color_v2 || it.dominant_color;
-      const typoPrimary = it.typo_primary_v2 || 'unknown';
+      const typoPrimary = it.typo_primary_v3 || it.typo_primary_v2 || 'unknown';
 
       if (controls.paletteTemp.value !== 'all' && paletteTemp !== controls.paletteTemp.value) return false;
       if (controls.mono.value !== 'all' && String(it.monochrome) !== controls.mono.value) return false;
@@ -127,8 +127,10 @@
       grid.innerHTML = shown.map(it => {
         const dominant = it.dominant_color_v2 || it.dominant_color || 'gray';
         const paletteTemp = it.palette_temperature_v2 || it.palette_temperature || 'neutral';
-        const typo = it.typo_primary_v2 || 'unknown';
-        const typoCase = it.typo_case_v2 || 'unknown';
+        const typo = it.typo_primary_v3 || it.typo_primary_v2 || 'unknown';
+        const typoCase = it.typo_case_v3 || it.typo_case_v2 || 'unknown';
+        const typoPresent = (typeof it.typo_present_v3 === 'boolean') ? it.typo_present_v3 : null;
+        const typoConfV3 = Number(it.typo_confidence_v3 || 0);
         const domRatio = Number(it.dominant_ratio_v2 || 0);
 
         return `
@@ -147,8 +149,10 @@
               <span class="chip">${it.contrast_level}</span>
               <span class="chip">${it.composition_density}</span>
               <span class="chip">${it.visual_mode}</span>
-              <span class="chip">typo ${typo}</span>
-              <span class="chip">case ${typoCase}</span>
+              <span class="chip">typo_present ${typoPresent === null ? 'n/a' : (typoPresent ? 'yes' : 'no')}</span>
+              <span class="chip">typo_v3 ${typo}</span>
+              <span class="chip">case_v3 ${typoCase}</span>
+              <span class="chip">typo_conf_v3 ${typoConfV3.toFixed(2)}</span>
             </div>
             <div style="margin-top:8px; display:flex; gap:10px; flex-wrap:wrap;">
               <a href="${tweetUrlFromFile(it.file)}" target="_blank">ouvrir tweet ↗</a>

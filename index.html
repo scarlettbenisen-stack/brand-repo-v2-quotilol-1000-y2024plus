@@ -50,6 +50,7 @@
         <select id="visualMode"><option value="all">Mode: all</option><option>type_logo_likely</option><option>photo_likely</option><option>mixed</option></select>
         <select id="dominant"><option value="all">Dominant color: all</option><option>gray</option><option>red</option><option>orange</option><option>yellow</option><option>green</option><option>cyan</option><option>blue</option><option>purple</option><option>pink</option></select>
         <select id="typo"><option value="all">Typography: all</option><option>serif</option><option>sans</option><option>mixed</option><option>display</option><option>no_typo</option><option>unknown</option></select>
+        <select id="author"><option value="all">Author: all</option></select>
       </div>
     </div>
 
@@ -82,7 +83,8 @@
       visualMode: el('visualMode'),
       dominant: el('dominant'),
       typo: el('typo')
-    };
+      author: el('author')
+    };;
 
     function tweetUrlFromFile(file){
       const m = file.match(/tweet_(\d+)\.png/);
@@ -103,6 +105,8 @@
       if (activeClass !== 'all' && it.class !== activeClass) return false;
       if (controls.onlyHigh.checked && (Number(it.confidence) || 0) < 0.6) return false;
       if (q && !it.file.toLowerCase().includes(q)) return false;
+      const authorFilter = controls.author.value;
+      if (authorFilter !== 'all' && it.author_handle !== authorFilter) return false;
 
       const paletteTemp = it.palette_temperature_v2 || it.palette_temperature;
       const dominantColor = it.dominant_color_v2 || it.dominant_color;
@@ -122,7 +126,7 @@
     function render(){
       const shown = allItems.filter(visible);
       const c = allItems.reduce((a,it)=>{ a[it.class]=(a[it.class]||0)+1; return a; }, {});
-      stats.textContent = `Total brand ${allItems.length} | affichés ${shown.length}`;
+      stats.textContent = `Total brand ${allItems.length} | affichés ${shown.length}${authorFilter ? ` | author: ${authorFilter}` : ""}`;
 
       grid.innerHTML = shown.map(it => {
         const dominant = it.dominant_color_v2 || it.dominant_color || 'gray';
@@ -138,6 +142,7 @@
           <div class="imgbox"><img loading="lazy" src="${it.thumb_v2 || it.thumb_data || (IMG_BASE + it.file)}" alt="${it.file}" onerror="this.style.opacity=.2" /></div>
           <div class="content">
             <div class="file" title="${it.file}">${it.file}</div>
+            <div class="file author" style="color:#8a9bb8; font-size:11px;">@${it.author_handle || 'unknown'}</div>
             <div class="chips">
               <span class="chip">${it.class}</span>
               <span class="chip">conf ${Number(it.confidence||0).toFixed(2)}</span>
@@ -183,6 +188,13 @@
       .then(([payload, thumbs]) => {
         allItems = payload.items || [];
         thumbMeta = thumbs;
+        
+        // Populate author filter
+        const authors = [...new Set(allItems.map(it => it.author_handle).filter(Boolean))].sort();
+        const authorSelect = controls.author;
+        authorSelect.innerHTML = '<option value="all">Author: all</option>' + authors.map(author => 
+          `<option value="${author}">@${author}</option>`
+        ).join('');
         render();
       })
       .catch(err => {

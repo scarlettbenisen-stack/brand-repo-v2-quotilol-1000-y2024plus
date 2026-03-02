@@ -2669,13 +2669,15 @@
       "tweet_id": "2026322476427248012",
       "url": "https://x.com/i/web/status/2026322476427248012",
       "status": "pending",
-      "year": 2020
+      "year": 2020,
+      "author_handle": "ivanboroja"
     },
     {
       "tweet_id": "2025995405159244079",
       "url": "https://x.com/i/web/status/2025995405159244079",
       "status": "pending",
-      "year": 2020
+      "year": 2020,
+      "author_handle": "rebrandgallery"
     },
     {
       "tweet_id": "2026220589938315548",

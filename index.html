@@ -139,7 +139,7 @@
 
         return `
         <div class="card">
-          <div class="imgbox"><img loading="lazy" src="${it.thumb_v2 || it.thumb_data || (IMG_BASE + it.file)}" alt="${it.file}" onerror="this.style.opacity=.2" /></div>
+          <div class="imgbox"><img loading="lazy" src="${it.thumb_v2 ? (IMG_BASE + it.thumb_v2) : it.thumb_data || it.thumb_data || (IMG_BASE + it.file)}" alt="${it.file}" onerror="this.style.opacity=.2" /></div>
           <div class="content">
             <div class="file" title="${it.file}">${it.file}</div>
             <div class="file author" style="color:#8a9bb8; font-size:11px;">@${it.author_handle || 'unknown'}</div>

@@ -167,7 +167,6 @@
         </div>
       `;
       }).join('');
-      if (typeof showPage === 'function') showPage(currentPage || 0);
     }
 
     document.querySelectorAll('[data-class]').forEach(btn => {
@@ -203,51 +202,6 @@
       });
   </script>
 
-<script>
-let currentPage = 0;
-const itemsPerPage = 50;
-
-function showPage(page) {
-    const allCards = document.querySelectorAll('.card');
-    const totalPages = Math.max(1, Math.ceil(allCards.length / itemsPerPage));
-    currentPage = Math.min(Math.max(0, page), totalPages - 1);
-    const start = currentPage * itemsPerPage;
-    const end = start + itemsPerPage;
-
-    allCards.forEach((card, index) => {
-        card.style.display = (index >= start && index < end) ? 'block' : 'none';
-    });
-
-    updatePagination();
-}
-
-function updatePagination() {
-    const totalItems = document.querySelectorAll('.card').length;
-    const totalPages = Math.ceil(totalItems / itemsPerPage);
-    const paginationEl = document.getElementById('pagination');
-    
-    if (!paginationEl) {
-        const pagination = document.createElement('div');
-        pagination.id = 'pagination';
-        pagination.style.margin = '20px 0';
-        pagination.style.textAlign = 'center';
-        document.querySelector('.wrap').appendChild(pagination);
-    }
-    
-    document.getElementById('pagination').innerHTML = `
-        <button ${currentPage === 0 ? 'disabled' : ''} onclick="showPage(${currentPage - 1})">← Précédent</button>
-        <span style="margin: 0 20px">Page ${currentPage + 1} / ${totalPages}</span>
-        <button ${currentPage >= totalPages - 1 ? 'disabled' : ''} onclick="showPage(${currentPage + 1})">Suivant →</button>
-    `;
-}
-
-// Initialize pagination after load
-window.addEventListener('load', () => {
-    setTimeout(() => {
-        showPage(0);
-    }, 100);
-});
-</script>
 
 </body>
 </html>

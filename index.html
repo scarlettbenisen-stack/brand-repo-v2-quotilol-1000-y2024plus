@@ -82,9 +82,9 @@
       density: el('density'),
       visualMode: el('visualMode'),
       dominant: el('dominant'),
-      typo: el('typo')
+      typo: el('typo'),
       author: el('author')
-    };;
+    };
 
     function tweetUrlFromFile(file){
       const m = file.match(/tweet_(\d+)\.png/);
@@ -125,8 +125,8 @@
 
     function render(){
       const shown = allItems.filter(visible);
-      const c = allItems.reduce((a,it)=>{ a[it.class]=(a[it.class]||0)+1; return a; }, {});
-      stats.textContent = `Total brand ${allItems.length} | affichés ${shown.length}${authorFilter ? ` | author: ${authorFilter}` : ""}`;
+      const authorFilter = controls.author.value;
+      stats.textContent = `Total brand ${allItems.length} | affichés ${shown.length}${authorFilter !== 'all' ? ` | author: ${authorFilter}` : ''}`;
 
       grid.innerHTML = shown.map(it => {
         const dominant = it.dominant_color_v2 || it.dominant_color || 'gray';
@@ -139,7 +139,7 @@
 
         return `
         <div class="card">
-          <div class="imgbox"><img loading="lazy" src="${it.thumb_v2 ? (IMG_BASE + it.thumb_v2) : it.thumb_data || it.thumb_data || (IMG_BASE + it.file)}" alt="${it.file}" onerror="this.style.opacity=.2" /></div>
+          <div class="imgbox"><img loading="lazy" src="${it.thumb_v2 || it.thumb_data || (IMG_BASE + it.file)}" alt="${it.file}" onerror="this.style.opacity=.2" /></div>
           <div class="content">
             <div class="file" title="${it.file}">${it.file}</div>
             <div class="file author" style="color:#8a9bb8; font-size:11px;">@${it.author_handle || 'unknown'}</div>
@@ -167,6 +167,7 @@
         </div>
       `;
       }).join('');
+      if (typeof showPage === 'function') showPage(currentPage || 0);
     }
 
     document.querySelectorAll('[data-class]').forEach(btn => {
@@ -208,13 +209,15 @@ const itemsPerPage = 50;
 
 function showPage(page) {
     const allCards = document.querySelectorAll('.card');
-    const start = page * itemsPerPage;
+    const totalPages = Math.max(1, Math.ceil(allCards.length / itemsPerPage));
+    currentPage = Math.min(Math.max(0, page), totalPages - 1);
+    const start = currentPage * itemsPerPage;
     const end = start + itemsPerPage;
-    
+
     allCards.forEach((card, index) => {
         card.style.display = (index >= start && index < end) ? 'block' : 'none';
     });
-    
+
     updatePagination();
 }
 
@@ -228,7 +231,7 @@ function updatePagination() {
         pagination.id = 'pagination';
         pagination.style.margin = '20px 0';
         pagination.style.textAlign = 'center';
-        document.querySelector('.container').appendChild(pagination);
+        document.querySelector('.wrap').appendChild(pagination);
     }
     
     document.getElementById('pagination').innerHTML = `

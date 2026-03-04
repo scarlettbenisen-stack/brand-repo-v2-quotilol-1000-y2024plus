@@ -2680,5 +2680,70 @@
     "class": "brand_visual",
     "confidence": 0.66,
     "reason_short": "layout-like cf=75.2 ed=0.20 std=86.2"
+  },
+  {
+    "file": "tweet_2029255596017631306.png",
+    "class": "brand_visual",
+    "confidence": 0.99
+  },
+  {
+    "file": "tweet_2029175595720962179.png",
+    "class": "brand_visual",
+    "confidence": 0.99
+  },
+  {
+    "file": "tweet_2028787551008325901.png",
+    "class": "brand_visual",
+    "confidence": 0.99
+  },
+  {
+    "file": "tweet_2028916038415290495.png",
+    "class": "brand_visual",
+    "confidence": 0.99
+  },
+  {
+    "file": "tweet_2028471486760038897.png",
+    "class": "brand_visual",
+    "confidence": 0.99
+  },
+  {
+    "file": "tweet_2029201532994928960.png",
+    "class": "brand_visual",
+    "confidence": 0.99
+  },
+  {
+    "file": "tweet_2029150138367709466.png",
+    "class": "brand_visual",
+    "confidence": 0.99
+  },
+  {
+    "file": "tweet_2028447542640267753.png",
+    "class": "brand_visual",
+    "confidence": 0.99
+  },
+  {
+    "file": "tweet_2028086695179034879.png",
+    "class": "brand_visual",
+    "confidence": 0.99
+  },
+  {
+    "file": "tweet_2028444532216672552.png",
+    "class": "brand_visual",
+    "confidence": 0.99
+  },
+  {
+    "file": "tweet_2028446284320059422.png",
+    "class": "brand_visual",
+    "confidence": 0.99
+  },
+  {
+    "file": "tweet_2027786026551226808.png",
+    "class": "brand_visual",
+    "confidence": 0.99
+  },
+  {
+    "file": "tweet_2027747047072231550.png",
+    "class": "brand_visual",
+    "confidence": 0.99
   }
 ]

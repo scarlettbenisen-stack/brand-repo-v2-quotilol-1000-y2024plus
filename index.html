@@ -187,6 +187,12 @@
     ])
       .then(([payload, thumbs]) => {
         allItems = payload.items || [];
+        // Default ordering: newest tweet first (recency by tweet id), filters unchanged.
+        allItems.sort((a, b) => {
+          const idA = Number((a.file || '').match(/tweet_(\d+)\.png/)?.[1] || 0);
+          const idB = Number((b.file || '').match(/tweet_(\d+)\.png/)?.[1] || 0);
+          return idB - idA;
+        });
         thumbMeta = thumbs;
         
         // Populate author filter

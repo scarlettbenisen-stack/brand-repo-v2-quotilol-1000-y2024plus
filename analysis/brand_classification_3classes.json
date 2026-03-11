@@ -2910,5 +2910,40 @@
     "file": "tweet_2030939034093248526.png",
     "class": "brand_visual",
     "confidence": 0.99
+  },
+  {
+    "file": "tweet_2030683443726881105.png",
+    "class": "brand_visual",
+    "confidence": 0.99
+  },
+  {
+    "file": "tweet_2030617061580227017.png",
+    "class": "brand_visual",
+    "confidence": 0.99
+  },
+  {
+    "file": "tweet_2030946832180990234.png",
+    "class": "brand_visual",
+    "confidence": 0.99
+  },
+  {
+    "file": "tweet_2030939216520323370.png",
+    "class": "brand_visual",
+    "confidence": 0.99
+  },
+  {
+    "file": "tweet_2030817315772870768.png",
+    "class": "brand_visual",
+    "confidence": 0.99
+  },
+  {
+    "file": "tweet_2030963325220401197.png",
+    "class": "brand_visual",
+    "confidence": 0.99
+  },
+  {
+    "file": "tweet_2030965498134089887.png",
+    "class": "brand_visual",
+    "confidence": 0.99
   }
 ]

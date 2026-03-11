@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "count": 493,
+  "count": 500,
   "fields": [
     "class",
     "confidence",
@@ -24,7 +24,8 @@
     "typo_primary_v3",
     "typo_case_v3",
     "typo_confidence_v3",
-    "author_handle"
+    "author_handle",
+    "thumb_v2"
   ],
   "items": [
     {
@@ -18026,6 +18027,251 @@
       "typo_case_v3": "unknown",
       "typo_confidence_v3": 0.42,
       "author_handle": 1095
+    },
+    {
+      "file": "tweet_2030683443726881105.png",
+      "dominant_color": "red",
+      "palette_temperature": "warm",
+      "monochrome": false,
+      "saturation_level": "vivid",
+      "contrast_level": "medium",
+      "brightness_level": "mid",
+      "composition_density": "balanced",
+      "negative_space": "medium",
+      "visual_mode": "mixed",
+      "metrics": {
+        "edge_density": 0.1797,
+        "colorfulness": 85.32,
+        "mean_saturation": 0.7341,
+        "mean_value": 0.5099
+      },
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "previews_v2/tweet_2030683443726881105.webp",
+      "dominant_color_v2": "red",
+      "top2_colors_v2": [
+        "red"
+      ],
+      "palette_temperature_v2": "warm",
+      "dominant_ratio_v2": 0.0,
+      "typo_primary_v2": "unknown",
+      "typo_case_v2": "unknown",
+      "typo_confidence_v2": 0.0,
+      "typo_present_v3": null,
+      "typo_primary_v3": "unknown",
+      "typo_case_v3": "unknown",
+      "typo_confidence_v3": 0.0,
+      "author_handle": "hasib_design"
+    },
+    {
+      "file": "tweet_2030617061580227017.png",
+      "dominant_color": "green",
+      "palette_temperature": "neutral",
+      "monochrome": false,
+      "saturation_level": "balanced",
+      "contrast_level": "high",
+      "brightness_level": "mid",
+      "composition_density": "balanced",
+      "negative_space": "medium",
+      "visual_mode": "mixed",
+      "metrics": {
+        "edge_density": 0.18,
+        "colorfulness": 66.43,
+        "mean_saturation": 0.246,
+        "mean_value": 0.5302
+      },
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "previews_v2/tweet_2030617061580227017.webp",
+      "dominant_color_v2": "green",
+      "top2_colors_v2": [
+        "green"
+      ],
+      "palette_temperature_v2": "neutral",
+      "dominant_ratio_v2": 0.0,
+      "typo_primary_v2": "unknown",
+      "typo_case_v2": "unknown",
+      "typo_confidence_v2": 0.0,
+      "typo_present_v3": null,
+      "typo_primary_v3": "unknown",
+      "typo_case_v3": "unknown",
+      "typo_confidence_v3": 0.0,
+      "author_handle": "atsvisuals_"
+    },
+    {
+      "file": "tweet_2030946832180990234.png",
+      "dominant_color": "green",
+      "palette_temperature": "neutral",
+      "monochrome": false,
+      "saturation_level": "vivid",
+      "contrast_level": "high",
+      "brightness_level": "mid",
+      "composition_density": "balanced",
+      "negative_space": "medium",
+      "visual_mode": "mixed",
+      "metrics": {
+        "edge_density": 0.18,
+        "colorfulness": 53.35,
+        "mean_saturation": 0.5348,
+        "mean_value": 0.3843
+      },
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "previews_v2/tweet_2030946832180990234.webp",
+      "dominant_color_v2": "green",
+      "top2_colors_v2": [
+        "green"
+      ],
+      "palette_temperature_v2": "neutral",
+      "dominant_ratio_v2": 0.0,
+      "typo_primary_v2": "unknown",
+      "typo_case_v2": "unknown",
+      "typo_confidence_v2": 0.0,
+      "typo_present_v3": null,
+      "typo_primary_v3": "unknown",
+      "typo_case_v3": "unknown",
+      "typo_confidence_v3": 0.0,
+      "author_handle": "TweetsByTBI"
+    },
+    {
+      "file": "tweet_2030939216520323370.png",
+      "dominant_color": "green",
+      "palette_temperature": "neutral",
+      "monochrome": false,
+      "saturation_level": "vivid",
+      "contrast_level": "high",
+      "brightness_level": "mid",
+      "composition_density": "balanced",
+      "negative_space": "medium",
+      "visual_mode": "mixed",
+      "metrics": {
+        "edge_density": 0.18,
+        "colorfulness": 48.94,
+        "mean_saturation": 0.5897,
+        "mean_value": 0.525
+      },
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "previews_v2/tweet_2030939216520323370.webp",
+      "dominant_color_v2": "green",
+      "top2_colors_v2": [
+        "green"
+      ],
+      "palette_temperature_v2": "neutral",
+      "dominant_ratio_v2": 0.0,
+      "typo_primary_v2": "unknown",
+      "typo_case_v2": "unknown",
+      "typo_confidence_v2": 0.0,
+      "typo_present_v3": null,
+      "typo_primary_v3": "unknown",
+      "typo_case_v3": "unknown",
+      "typo_confidence_v3": 0.0,
+      "author_handle": "rahulluthra22"
+    },
+    {
+      "file": "tweet_2030817315772870768.png",
+      "dominant_color": "yellow",
+      "palette_temperature": "warm",
+      "monochrome": false,
+      "saturation_level": "vivid",
+      "contrast_level": "high",
+      "brightness_level": "bright",
+      "composition_density": "airy",
+      "negative_space": "high",
+      "visual_mode": "mixed",
+      "metrics": {
+        "edge_density": 0.0371,
+        "colorfulness": 85.01,
+        "mean_saturation": 0.7214,
+        "mean_value": 0.9604
+      },
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "previews_v2/tweet_2030817315772870768.webp",
+      "dominant_color_v2": "yellow",
+      "top2_colors_v2": [
+        "yellow"
+      ],
+      "palette_temperature_v2": "warm",
+      "dominant_ratio_v2": 0.0,
+      "typo_primary_v2": "unknown",
+      "typo_case_v2": "unknown",
+      "typo_confidence_v2": 0.0,
+      "typo_present_v3": null,
+      "typo_primary_v3": "unknown",
+      "typo_case_v3": "unknown",
+      "typo_confidence_v3": 0.0,
+      "author_handle": "kartikhq"
+    },
+    {
+      "file": "tweet_2030963325220401197.png",
+      "dominant_color": "green",
+      "palette_temperature": "neutral",
+      "monochrome": false,
+      "saturation_level": "vivid",
+      "contrast_level": "high",
+      "brightness_level": "bright",
+      "composition_density": "airy",
+      "negative_space": "high",
+      "visual_mode": "photo_likely",
+      "metrics": {
+        "edge_density": 0.1391,
+        "colorfulness": 124.47,
+        "mean_saturation": 0.6517,
+        "mean_value": 0.8621
+      },
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "previews_v2/tweet_2030963325220401197.webp",
+      "dominant_color_v2": "green",
+      "top2_colors_v2": [
+        "green"
+      ],
+      "palette_temperature_v2": "neutral",
+      "dominant_ratio_v2": 0.0,
+      "typo_primary_v2": "unknown",
+      "typo_case_v2": "unknown",
+      "typo_confidence_v2": 0.0,
+      "typo_present_v3": null,
+      "typo_primary_v3": "unknown",
+      "typo_case_v3": "unknown",
+      "typo_confidence_v3": 0.0,
+      "author_handle": "ayushsoni_io"
+    },
+    {
+      "file": "tweet_2030965498134089887.png",
+      "dominant_color": "green",
+      "palette_temperature": "neutral",
+      "monochrome": false,
+      "saturation_level": "balanced",
+      "contrast_level": "high",
+      "brightness_level": "bright",
+      "composition_density": "balanced",
+      "negative_space": "medium",
+      "visual_mode": "mixed",
+      "metrics": {
+        "edge_density": 0.18,
+        "colorfulness": 57.94,
+        "mean_saturation": 0.2244,
+        "mean_value": 0.7229
+      },
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "previews_v2/tweet_2030965498134089887.webp",
+      "dominant_color_v2": "green",
+      "top2_colors_v2": [
+        "green"
+      ],
+      "palette_temperature_v2": "neutral",
+      "dominant_ratio_v2": 0.0,
+      "typo_primary_v2": "unknown",
+      "typo_case_v2": "unknown",
+      "typo_confidence_v2": 0.0,
+      "typo_present_v3": null,
+      "typo_primary_v3": "unknown",
+      "typo_case_v3": "unknown",
+      "typo_confidence_v3": 0.0,
+      "author_handle": "ayushsoni_io"
     }
   ],
   "thumb_v2_meta": {

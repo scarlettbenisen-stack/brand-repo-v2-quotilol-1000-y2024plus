@@ -1,501 +1,551 @@
-file,class,confidence
-tweet_1761066927684776222.png,brand_visual,0.99
-tweet_1761103353759531316.png,brand_visual,0.66
-tweet_1863937010005590247.png,brand_visual,0.99
-tweet_1891693757935853969.png,brand_visual,0.99
-tweet_1929481126109954400.png,brand_visual,0.66
-tweet_1934649206247186834.png,brand_visual,0.66
-tweet_1935548193191903375.png,brand_visual,0.66
-tweet_1939363927478948214.png,brand_visual,0.66
-tweet_1942607766993928544.png,brand_visual,0.99
-tweet_1946239010822652016.png,brand_visual,0.99
-tweet_1947652985481527777.png,brand_visual,0.99
-tweet_1947969930059465065.png,brand_visual,0.99
-tweet_1949379295295816177.png,brand_visual,0.66
-tweet_1952673836107018409.png,brand_visual,0.66
-tweet_1952686773051814252.png,brand_visual,0.66
-tweet_1952762363045945674.png,brand_visual,0.66
-tweet_1953854233574617138.png,brand_visual,0.66
-tweet_1954675714604810426.png,brand_visual,0.66
-tweet_1954814058265289084.png,brand_visual,0.66
-tweet_1954818191537930378.png,brand_visual,0.66
-tweet_1954870524330258492.png,brand_visual,0.66
-tweet_1954955564099965433.png,brand_visual,0.66
-tweet_1956008350778331316.png,brand_visual,0.66
-tweet_1956385495052910893.png,brand_visual,0.66
-tweet_1957217738390396984.png,brand_visual,0.66
-tweet_1957439063276880147.png,brand_visual,0.99
-tweet_1957747966896480518.png,brand_visual,0.99
-tweet_1957777939187081356.png,brand_visual,0.99
-tweet_1958553704430522721.png,brand_visual,0.66
-tweet_1958836358560325685.png,brand_visual,0.99
-tweet_1958922118340718803.png,brand_visual,0.66
-tweet_1959021654392054179.png,brand_visual,0.66
-tweet_1959114536457576675.png,brand_visual,0.99
-tweet_1959238410234961938.png,brand_visual,0.99
-tweet_1959243921663340651.png,brand_visual,0.66
-tweet_1959604298419237324.png,brand_visual,0.66
-tweet_1959752642235891748.png,brand_visual,0.66
-tweet_1959980774049919099.png,brand_visual,0.66
-tweet_1960272743460642865.png,brand_visual,0.66
-tweet_1960285660558020895.png,brand_visual,0.99
-tweet_1960328195711844514.png,brand_visual,0.99
-tweet_1960462263284064531.png,brand_visual,0.66
-tweet_1960651511077245366.png,brand_visual,0.66
-tweet_1960675148387794947.png,brand_visual,0.99
-tweet_1960780018101182953.png,brand_visual,0.66
-tweet_1961467409249849537.png,brand_visual,0.66
-tweet_1961805522111209713.png,brand_visual,0.99
-tweet_1962192040344887696.png,brand_visual,0.99
-tweet_1962785558213607522.png,brand_visual,0.66
-tweet_1962918293234212903.png,brand_visual,0.66
-tweet_1963124605922734481.png,brand_visual,0.99
-tweet_1963205543612326069.png,brand_visual,0.99
-tweet_1963547161930633507.png,brand_visual,0.99
-tweet_1963629551604453847.png,brand_visual,0.99
-tweet_1963965345385132270.png,brand_visual,0.66
-tweet_1963989332936565038.png,brand_visual,0.99
-tweet_1964600198262390888.png,brand_visual,0.66
-tweet_1964969884913426466.png,brand_visual,0.66
-tweet_1965022314904289732.png,brand_visual,0.99
-tweet_1965430048632242410.png,brand_visual,0.66
-tweet_1965830185510457576.png,brand_visual,0.66
-tweet_1965878951491829938.png,brand_visual,0.99
-tweet_1965898134535762259.png,brand_visual,0.66
-tweet_1966157539914956802.png,brand_visual,0.99
-tweet_1966183543308276210.png,brand_visual,0.66
-tweet_1966204682009018869.png,brand_visual,0.99
-tweet_1966290970527605140.png,brand_visual,0.99
-tweet_1966378635302154310.png,brand_visual,0.66
-tweet_1966414211132621279.png,brand_visual,0.66
-tweet_1966445268339159546.png,brand_visual,0.99
-tweet_1966468746773499987.png,brand_visual,0.99
-tweet_1966544319516402105.png,brand_visual,0.66
-tweet_1966595436845670873.png,brand_visual,0.66
-tweet_1967143137190834267.png,brand_visual,0.66
-tweet_1967172492159816138.png,brand_visual,0.66
-tweet_1967226014960078887.png,brand_visual,0.66
-tweet_1967266768164114876.png,brand_visual,0.66
-tweet_1968616026121068695.png,brand_visual,0.99
-tweet_1969162561590354108.png,brand_visual,0.66
-tweet_1969732357700587708.png,brand_visual,0.99
-tweet_1970939120265658779.png,brand_visual,0.66
-tweet_1971660381560230315.png,brand_visual,0.66
-tweet_1971676668256571392.png,brand_visual,0.66
-tweet_1971967929446175128.png,brand_visual,0.66
-tweet_1972060890389533168.png,brand_visual,0.99
-tweet_1972958605168242948.png,brand_visual,0.99
-tweet_1973012868808511771.png,brand_visual,0.66
-tweet_1973092987610579337.png,brand_visual,0.66
-tweet_1974140950592024795.png,brand_visual,0.66
-tweet_1975112347741299187.png,brand_visual,0.66
-tweet_1975123866553840118.png,brand_visual,0.99
-tweet_1975161678313791878.png,brand_visual,0.66
-tweet_1975512526633799935.png,brand_visual,0.99
-tweet_1975544197425094729.png,brand_visual,0.66
-tweet_1975558092634136834.png,brand_visual,0.99
-tweet_1975574103156195771.png,brand_visual,0.66
-tweet_1975575345198997566.png,brand_visual,0.99
-tweet_1975871553951961370.png,brand_visual,0.66
-tweet_1975886393831297328.png,brand_visual,0.66
-tweet_1975886683913769390.png,brand_visual,0.99
-tweet_1975915449801224434.png,brand_visual,0.66
-tweet_1975939251670831140.png,brand_visual,0.66
-tweet_1976145210573746534.png,brand_visual,0.66
-tweet_1976152046630998387.png,brand_visual,0.66
-tweet_1976182603414962273.png,brand_visual,0.66
-tweet_1976199220932776261.png,brand_visual,0.99
-tweet_1976208301307330989.png,brand_visual,0.66
-tweet_1976264605836976295.png,brand_visual,0.99
-tweet_1976274793226748229.png,brand_visual,0.66
-tweet_1976295405605556395.png,brand_visual,0.99
-tweet_1976328515160268921.png,brand_visual,0.66
-tweet_1976685614444810410.png,brand_visual,0.99
-tweet_1976688980268839410.png,brand_visual,0.99
-tweet_1976879563478356377.png,brand_visual,0.66
-tweet_1976986736191492479.png,brand_visual,0.99
-tweet_1977066774391931073.png,brand_visual,0.66
-tweet_1977472044607611116.png,brand_visual,0.99
-tweet_1977509970854752278.png,brand_visual,0.66
-tweet_1977644724824711492.png,brand_visual,0.66
-tweet_1977659164538069225.png,brand_visual,0.99
-tweet_1977661877896257816.png,brand_visual,0.66
-tweet_1977665958962487459.png,brand_visual,0.99
-tweet_1977699422575173982.png,brand_visual,0.99
-tweet_1977720985001382205.png,brand_visual,0.66
-tweet_1977755792213151924.png,brand_visual,0.99
-tweet_1977831782100992093.png,brand_visual,0.66
-tweet_1978075068040192276.png,brand_visual,0.66
-tweet_1978255852554387867.png,brand_visual,0.99
-tweet_1978279224378007816.png,brand_visual,0.66
-tweet_1978403799938236599.png,brand_visual,0.99
-tweet_1978428143326151108.png,brand_visual,0.66
-tweet_1978431643690905634.png,brand_visual,0.99
-tweet_1978475957175324775.png,brand_visual,0.99
-tweet_1978479691687235631.png,brand_visual,0.66
-tweet_1978498976136491448.png,brand_visual,0.66
-tweet_1978531949682508193.png,brand_visual,0.99
-tweet_1978728895701815704.png,brand_visual,0.99
-tweet_1978769691582603551.png,brand_visual,0.66
-tweet_1978836528957739018.png,brand_visual,0.99
-tweet_1978984966353477801.png,brand_visual,0.66
-tweet_1979009952606781930.png,brand_visual,0.66
-tweet_1979115574421516617.png,brand_visual,0.66
-tweet_1979203328018964987.png,brand_visual,0.66
-tweet_1979209699560919496.png,brand_visual,0.99
-tweet_1979292037028647109.png,brand_visual,0.66
-tweet_1979432693830996292.png,brand_visual,0.99
-tweet_1979460624187805698.png,brand_visual,0.66
-tweet_1979532786785488950.png,brand_visual,0.99
-tweet_1979536479773667450.png,brand_visual,0.99
-tweet_1979692658420228526.png,brand_visual,0.66
-tweet_1979967480853655636.png,brand_visual,0.99
-tweet_1980215246116786444.png,brand_visual,0.99
-tweet_1980254037674021258.png,brand_visual,0.66
-tweet_1980271439556096005.png,brand_visual,0.99
-tweet_1980294829159682347.png,brand_visual,0.99
-tweet_1980302998623723942.png,brand_visual,0.99
-tweet_1980342349151732155.png,brand_visual,0.66
-tweet_1980350260028600497.png,brand_visual,0.66
-tweet_1980608042929426932.png,brand_visual,0.99
-tweet_1980625881623326797.png,brand_visual,0.66
-tweet_1980664140332253220.png,brand_visual,0.66
-tweet_1980679209031987600.png,brand_visual,0.66
-tweet_1980691362954784847.png,brand_visual,0.66
-tweet_1980725639956062496.png,brand_visual,0.66
-tweet_1980784521558872106.png,brand_visual,0.99
-tweet_1980946839122870613.png,brand_visual,0.66
-tweet_1980956658315464714.png,brand_visual,0.99
-tweet_1981039703550750986.png,brand_visual,0.66
-tweet_1981186590572483005.png,brand_visual,0.99
-tweet_1981326173499015285.png,brand_visual,0.99
-tweet_1981340009949970609.png,brand_visual,0.99
-tweet_1981342279689523532.png,brand_visual,0.66
-tweet_1981377106199400895.png,brand_visual,0.99
-tweet_1981708095299764336.png,brand_visual,0.66
-tweet_1981725365178364356.png,brand_visual,0.66
-tweet_1981814074179825856.png,brand_visual,0.99
-tweet_1981832100316610836.png,brand_visual,0.99
-tweet_1981850472177602731.png,brand_visual,0.99
-tweet_1981941820364890177.png,brand_visual,0.66
-tweet_1981962458303504872.png,brand_visual,0.66
-tweet_1982151138376900847.png,brand_visual,0.66
-tweet_1982930437996679462.png,brand_visual,0.66
-tweet_1982964266920751467.png,brand_visual,0.99
-tweet_1983141957380546697.png,brand_visual,0.99
-tweet_1983215063654600796.png,brand_visual,0.99
-tweet_1983463210847244657.png,brand_visual,0.66
-tweet_1983498126804521250.png,brand_visual,0.66
-tweet_1983555135470031255.png,brand_visual,0.99
-tweet_1983934447088009707.png,brand_visual,0.66
-tweet_1984098674478309585.png,brand_visual,0.66
-tweet_1984203222815240221.png,brand_visual,0.66
-tweet_1984226576658256100.png,brand_visual,0.66
-tweet_1984325826163458313.png,brand_visual,0.66
-tweet_1984352387512062269.png,brand_visual,0.99
-tweet_1984355216482058728.png,brand_visual,0.66
-tweet_1984481688932794767.png,brand_visual,0.99
-tweet_1984586651533000738.png,brand_visual,0.66
-tweet_1984628242309951657.png,brand_visual,0.66
-tweet_1984660437833793774.png,brand_visual,0.66
-tweet_1984675149199917421.png,brand_visual,0.66
-tweet_1984906012693016781.png,brand_visual,0.66
-tweet_1984911671148904737.png,brand_visual,0.66
-tweet_1984974510550851835.png,brand_visual,0.66
-tweet_1985013020586610869.png,brand_visual,0.99
-tweet_1985017796305015133.png,brand_visual,0.66
-tweet_1985112524958961780.png,brand_visual,0.99
-tweet_1985256481134944731.png,brand_visual,0.99
-tweet_1985323129921560999.png,brand_visual,0.66
-tweet_1985356140595511688.png,brand_visual,0.66
-tweet_1985376785500893549.png,brand_visual,0.99
-tweet_1985418556172055028.png,brand_visual,0.99
-tweet_1985628357221068906.png,brand_visual,0.99
-tweet_1985693853895065663.png,brand_visual,0.99
-tweet_1985703094509060404.png,brand_visual,0.66
-tweet_1985714647476158782.png,brand_visual,0.99
-tweet_1985721046289584445.png,brand_visual,0.99
-tweet_1985727323727872077.png,brand_visual,0.66
-tweet_1985759647244902651.png,brand_visual,0.66
-tweet_1985765414324908495.png,brand_visual,0.66
-tweet_1985775761425400200.png,brand_visual,0.99
-tweet_1985782930548138449.png,brand_visual,0.99
-tweet_1985786103262331385.png,brand_visual,0.99
-tweet_1985786999563812885.png,brand_visual,0.99
-tweet_1985788265136574627.png,brand_visual,0.99
-tweet_1985794570035044861.png,brand_visual,0.99
-tweet_1985832542608769485.png,brand_visual,0.99
-tweet_1985935108147462322.png,brand_visual,0.99
-tweet_1986009371705282601.png,brand_visual,0.66
-tweet_1986029306364285155.png,brand_visual,0.66
-tweet_1986154437128475117.png,brand_visual,0.99
-tweet_1986268789034655826.png,brand_visual,0.66
-tweet_1986357703959253166.png,brand_visual,0.66
-tweet_1986390353377968520.png,brand_visual,0.66
-tweet_1986416319550332975.png,brand_visual,0.66
-tweet_1986420974091223144.png,brand_visual,0.99
-tweet_1986428642994364905.png,brand_visual,0.66
-tweet_1986449326173004273.png,brand_visual,0.99
-tweet_1986463640245948891.png,brand_visual,0.99
-tweet_1986478689492647967.png,brand_visual,0.99
-tweet_1986487521757270216.png,brand_visual,0.99
-tweet_1986539086988124425.png,brand_visual,0.99
-tweet_1986700944898154607.png,brand_visual,0.66
-tweet_1986739937845067897.png,brand_visual,0.66
-tweet_1986786276616388721.png,brand_visual,0.99
-tweet_1986823026852102349.png,brand_visual,0.99
-tweet_1986862660772655320.png,brand_visual,0.66
-tweet_1986984822598775070.png,brand_visual,0.99
-tweet_1987203716051538370.png,brand_visual,0.99
-tweet_1987213627632255219.png,brand_visual,0.66
-tweet_1987220322358272205.png,brand_visual,0.66
-tweet_1987478233814548754.png,brand_visual,0.66
-tweet_1987490408985948288.png,brand_visual,0.66
-tweet_1987504071897387227.png,brand_visual,0.66
-tweet_1987731993866702921.png,brand_visual,0.99
-tweet_1987790693180313923.png,brand_visual,0.66
-tweet_1987841859264376876.png,brand_visual,0.66
-tweet_1987890015309803689.png,brand_visual,0.99
-tweet_1987904637467533313.png,brand_visual,0.99
-tweet_1987935553384251446.png,brand_visual,0.99
-tweet_1988349385403437506.png,brand_visual,0.99
-tweet_1988361481671307501.png,brand_visual,0.66
-tweet_1988488050746282435.png,brand_visual,0.99
-tweet_1988623007082860776.png,brand_visual,0.99
-tweet_1988665770046550326.png,brand_visual,0.99
-tweet_1988666350336929969.png,brand_visual,0.99
-tweet_1988682304840249494.png,brand_visual,0.99
-tweet_1988685034111520888.png,brand_visual,0.66
-tweet_1988713725516476592.png,brand_visual,0.66
-tweet_1988870883843178964.png,brand_visual,0.99
-tweet_1988958830089170944.png,brand_visual,0.66
-tweet_1988959799137140966.png,brand_visual,0.66
-tweet_1988993617898176983.png,brand_visual,0.99
-tweet_1989027302131577046.png,brand_visual,0.99
-tweet_1989027518951625032.png,brand_visual,0.99
-tweet_1989218677032644747.png,brand_visual,0.66
-tweet_1989229310293733798.png,brand_visual,0.66
-tweet_1989289956494516647.png,brand_visual,0.66
-tweet_1989317179582361707.png,brand_visual,0.66
-tweet_1989318380201869437.png,brand_visual,0.66
-tweet_1989318864161722535.png,brand_visual,0.99
-tweet_1989335865588380141.png,brand_visual,0.66
-tweet_1989350030835376283.png,brand_visual,0.66
-tweet_1989403613664612810.png,brand_visual,0.99
-tweet_1989710777650172306.png,brand_visual,0.66
-tweet_1989761759440253187.png,brand_visual,0.99
-tweet_1990005092196696083.png,brand_visual,0.66
-tweet_1990335550503751829.png,brand_visual,0.99
-tweet_1990368577887916322.png,brand_visual,0.99
-tweet_1990375541208138209.png,brand_visual,0.99
-tweet_1990377226203001084.png,brand_visual,0.99
-tweet_1990411493137949101.png,brand_visual,0.66
-tweet_1990414599380771121.png,brand_visual,0.99
-tweet_1990429950286115325.png,brand_visual,0.66
-tweet_1990455538027540684.png,brand_visual,0.66
-tweet_1990481183277224025.png,brand_visual,0.66
-tweet_1990488424353312960.png,brand_visual,0.66
-tweet_1990489123526709423.png,brand_visual,0.99
-tweet_1990565944499077142.png,brand_visual,0.66
-tweet_1990716265363648692.png,brand_visual,0.66
-tweet_1990791707760447836.png,brand_visual,0.99
-tweet_1990793834566214067.png,brand_visual,0.99
-tweet_1990853763922325735.png,brand_visual,0.99
-tweet_1991129700924596303.png,brand_visual,0.99
-tweet_1991170660698079431.png,brand_visual,0.99
-tweet_1991267302747042183.png,brand_visual,0.66
-tweet_1991470123996311953.png,brand_visual,0.99
-tweet_1991571542896177176.png,brand_visual,0.66
-tweet_1991690791648112913.png,brand_visual,0.66
-tweet_1991809108442222618.png,brand_visual,0.66
-tweet_1992535252083073413.png,brand_visual,0.66
-tweet_1992713120129900573.png,brand_visual,0.99
-tweet_1992760439080624421.png,brand_visual,0.99
-tweet_1992892873159610841.png,brand_visual,0.99
-tweet_1992923999052128676.png,brand_visual,0.66
-tweet_1992980017584967708.png,brand_visual,0.66
-tweet_1993050706778140734.png,brand_visual,0.99
-tweet_1993276818498134045.png,brand_visual,0.99
-tweet_1993400496678486410.png,brand_visual,0.99
-tweet_1993756195728118181.png,brand_visual,0.99
-tweet_1994077067345055946.png,brand_visual,0.99
-tweet_1994654878803599852.png,brand_visual,0.99
-tweet_1994743526433964430.png,brand_visual,0.99
-tweet_1995385143910138217.png,brand_visual,0.99
-tweet_1995666763351294147.png,brand_visual,0.99
-tweet_1995814398921736373.png,brand_visual,0.66
-tweet_1995910758169752059.png,brand_visual,0.66
-tweet_1995913620899680740.png,brand_visual,0.66
-tweet_1995945199194017925.png,brand_visual,0.66
-tweet_1996104663737991269.png,brand_visual,0.66
-tweet_1996175223687946414.png,brand_visual,0.66
-tweet_1996175653901943061.png,brand_visual,0.99
-tweet_2002355869732794727.png,brand_visual,0.66
-tweet_2012925066237915490.png,brand_visual,0.99
-tweet_2012937057585315961.png,brand_visual,0.66
-tweet_2012943485586829655.png,brand_visual,0.66
-tweet_2013057837946057189.png,brand_visual,0.66
-tweet_2013061898984415722.png,brand_visual,0.66
-tweet_2013124223288435109.png,brand_visual,0.66
-tweet_2013133836356407417.png,brand_visual,0.99
-tweet_2013224450507051211.png,brand_visual,0.66
-tweet_2013274703394140623.png,brand_visual,0.66
-tweet_2013276377785520281.png,brand_visual,0.99
-tweet_2013276948747948404.png,brand_visual,0.99
-tweet_2013284113780978172.png,brand_visual,0.66
-tweet_2013288023819956398.png,brand_visual,0.66
-tweet_2013289479767728477.png,brand_visual,0.99
-tweet_2013293349201920191.png,brand_visual,0.66
-tweet_2013295389084876870.png,brand_visual,0.99
-tweet_2013306158635687992.png,brand_visual,0.66
-tweet_2013307978300985822.png,brand_visual,0.99
-tweet_2013310534397898879.png,brand_visual,0.66
-tweet_2013355791357747253.png,brand_visual,0.66
-tweet_2013464268713144673.png,brand_visual,0.66
-tweet_2013513355420672424.png,brand_visual,0.66
-tweet_2013531205703020739.png,brand_visual,0.66
-tweet_2013617128088162489.png,brand_visual,0.99
-tweet_2013617978655506771.png,brand_visual,0.99
-tweet_2013651024859300073.png,brand_visual,0.99
-tweet_2013672914890170619.png,brand_visual,0.66
-tweet_2013759209318342865.png,brand_visual,0.66
-tweet_2013859366558937570.png,brand_visual,0.99
-tweet_2013860661579915762.png,brand_visual,0.66
-tweet_2013861056221979070.png,brand_visual,0.99
-tweet_2013868903940739417.png,brand_visual,0.99
-tweet_2013962720153076187.png,brand_visual,0.66
-tweet_2014162636313874736.png,brand_visual,0.66
-tweet_2014269305610002613.png,brand_visual,0.99
-tweet_2014307097190846513.png,brand_visual,0.99
-tweet_2014307192157999302.png,brand_visual,0.99
-tweet_2014325821771547023.png,brand_visual,0.99
-tweet_2014342478904914043.png,brand_visual,0.66
-tweet_2014358809121292781.png,brand_visual,0.66
-tweet_2014375986507247754.png,brand_visual,0.66
-tweet_2014385423142056282.png,brand_visual,0.66
-tweet_2014521181919912183.png,brand_visual,0.99
-tweet_2014663874679652532.png,brand_visual,0.66
-tweet_2014686387518488736.png,brand_visual,0.99
-tweet_2014688872840491408.png,brand_visual,0.66
-tweet_2014704509063143670.png,brand_visual,0.66
-tweet_2014710210355728515.png,brand_visual,0.66
-tweet_2014728699472707694.png,brand_visual,0.66
-tweet_2014743293146407281.png,brand_visual,0.66
-tweet_2014759316603990467.png,brand_visual,0.99
-tweet_2014782900466594011.png,brand_visual,0.66
-tweet_2014975632191410462.png,brand_visual,0.99
-tweet_2015020119714398486.png,brand_visual,0.99
-tweet_2015039443900485949.png,brand_visual,0.66
-tweet_2015085547031839068.png,brand_visual,0.66
-tweet_2015104748425183652.png,brand_visual,0.66
-tweet_2015130354953179461.png,brand_visual,0.66
-tweet_2015341554651844982.png,brand_visual,0.99
-tweet_2015347425079410707.png,brand_visual,0.66
-tweet_2015348452063076535.png,brand_visual,0.99
-tweet_2015409385720463641.png,brand_visual,0.99
-tweet_2015437698702438598.png,brand_visual,0.99
-tweet_2015499193700241692.png,brand_visual,0.99
-tweet_2015673244980850879.png,brand_visual,0.66
-tweet_2015695321087836583.png,brand_visual,0.66
-tweet_2015699325075247529.png,brand_visual,0.66
-tweet_2015726481314398320.png,brand_visual,0.66
-tweet_2015734302856659248.png,brand_visual,0.66
-tweet_2015753356501762512.png,brand_visual,0.99
-tweet_2015771116741050810.png,brand_visual,0.99
-tweet_2015779157624430968.png,brand_visual,0.99
-tweet_2015871268176699477.png,brand_visual,0.99
-tweet_2015918217235939760.png,brand_visual,0.66
-tweet_2016134148235378971.png,brand_visual,0.66
-tweet_2016148160796578152.png,brand_visual,0.99
-tweet_2016255277029371959.png,brand_visual,0.99
-tweet_2016390786397421746.png,brand_visual,0.66
-tweet_2016447097516728661.png,brand_visual,0.66
-tweet_2016563516719714774.png,brand_visual,0.99
-tweet_2016573565080928429.png,brand_visual,0.99
-tweet_2016766423914229952.png,brand_visual,0.66
-tweet_2016812355707949068.png,brand_visual,0.66
-tweet_2016843830365212969.png,brand_visual,0.99
-tweet_2016876507969282083.png,brand_visual,0.66
-tweet_2016903357860815038.png,brand_visual,0.66
-tweet_2017238145570312403.png,brand_visual,0.66
-tweet_2017296799447585167.png,brand_visual,0.66
-tweet_2017569309673804064.png,brand_visual,0.66
-tweet_2017575042964443217.png,brand_visual,0.99
-tweet_2017578264378937482.png,brand_visual,0.66
-tweet_2017583655590478042.png,brand_visual,0.66
-tweet_2017585857478238657.png,brand_visual,0.99
-tweet_2017638807772795240.png,brand_visual,0.99
-tweet_2017859540927037824.png,brand_visual,0.66
-tweet_2017940929446113600.png,brand_visual,0.66
-tweet_2017941049981677678.png,brand_visual,0.66
-tweet_2017941379075473543.png,brand_visual,0.66
-tweet_2017962869472842117.png,brand_visual,0.99
-tweet_2017983403145249046.png,brand_visual,0.99
-tweet_2018291481639809132.png,brand_visual,0.99
-tweet_2018334061379629188.png,brand_visual,0.66
-tweet_2018366517067362514.png,brand_visual,0.66
-tweet_2018368249759690875.png,brand_visual,0.66
-tweet_2018584197292609651.png,brand_visual,0.66
-tweet_2018589601594851705.png,brand_visual,0.99
-tweet_2018641406936449270.png,brand_visual,0.99
-tweet_2018691884848464035.png,brand_visual,0.66
-tweet_2018694657639657603.png,brand_visual,0.66
-tweet_2018775504027804007.png,brand_visual,0.66
-tweet_2018776336194732499.png,brand_visual,0.99
-tweet_2018821833458626882.png,brand_visual,0.99
-tweet_2025995405159244079.png,brand_visual,0.66
-tweet_2026220589938315548.png,brand_visual,0.99
-tweet_2026322476427248012.png,brand_visual,0.66
-tweet_2027747047072231550.png,brand_visual,0.99
-tweet_2027786026551226808.png,brand_visual,0.99
-tweet_2028086695179034879.png,brand_visual,0.99
-tweet_2028444532216672552.png,brand_visual,0.99
-tweet_2028446284320059422.png,brand_visual,0.99
-tweet_2028447542640267753.png,brand_visual,0.99
-tweet_2028471486760038897.png,brand_visual,0.99
-tweet_2028787551008325901.png,brand_visual,0.99
-tweet_2028916038415290495.png,brand_visual,0.99
-tweet_2029106289528185211.png,brand_visual,0.99
-tweet_2029150138367709466.png,brand_visual,0.99
-tweet_2029175595720962179.png,brand_visual,0.99
-tweet_2029201532994928960.png,brand_visual,0.99
-tweet_2029255596017631306.png,brand_visual,0.99
-tweet_2029941480983343500.png,brand_visual,0.99
-tweet_2029949367801483712.png,brand_visual,0.99
-tweet_2029969979920056562.png,brand_visual,0.99
-tweet_2030041415426740518.png,brand_visual,0.99
-tweet_2030189289741692948.png,brand_visual,0.99
-tweet_2030262306341335443.png,brand_visual,0.99
-tweet_2030301854899564868.png,brand_visual,0.99
-tweet_2030312152561746342.png,brand_visual,0.99
-tweet_2030316041222377855.png,brand_visual,0.99
-tweet_2030326720604082313.png,brand_visual,0.99
-tweet_2030428028699038055.png,brand_visual,0.99
-tweet_2030490951354081634.png,brand_visual,0.99
-tweet_2030506660360269866.png,brand_visual,0.99
-tweet_2030579063484469616.png,brand_visual,0.99
-tweet_2030598937267392959.png,brand_visual,0.99
-tweet_2030629355647578605.png,brand_visual,0.99
-tweet_2030674437838623202.png,brand_visual,0.99
-tweet_2030690508515995874.png,brand_visual,0.99
-tweet_2030705386853212320.png,brand_visual,0.99
-tweet_2030709255339421944.png,brand_visual,0.99
-tweet_2030714497036394533.png,brand_visual,0.99
-tweet_2030720204011917320.png,brand_visual,0.99
-tweet_2030729762298277970.png,brand_visual,0.99
-tweet_2030734419645075665.png,brand_visual,0.99
-tweet_2030744908290552253.png,brand_visual,0.99
-tweet_2030765597974528266.png,brand_visual,0.99
-tweet_2030789680468488528.png,brand_visual,0.99
-tweet_2030794197616197765.png,brand_visual,0.99
-tweet_2030826954740691018.png,brand_visual,0.99
-tweet_2030899275413254251.png,brand_visual,0.99
-tweet_2030901472007999898.png,brand_visual,0.99
-tweet_2030939034093248526.png,brand_visual,0.99
-tweet_2030683443726881105.png,brand_visual,0.99
-tweet_2030617061580227017.png,brand_visual,0.99
-tweet_2030946832180990234.png,brand_visual,0.99
-tweet_2030939216520323370.png,brand_visual,0.99
-tweet_2030817315772870768.png,brand_visual,0.99
-tweet_2030963325220401197.png,brand_visual,0.99
-tweet_2030965498134089887.png,brand_visual,0.99
+file,class,confidence,reason_short
+tweet_2032155526516391998.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2032146362276442307.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2032146037889262033.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2032142752167645444.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2032127425962733585.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2032120057854382206.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2032109361573629965.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2032108482426781830.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2032098531922915329.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2032091386661528062.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2032087375799787620.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2032083525714002396.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2032081541753409583.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2032079323075919915.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2032063062413340832.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2032057797458723024.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2032057539605729745.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2032050911078727861.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2032033922725376513.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2032028749630418998.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2032021277192434017.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031993777238536400.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031943360286769520.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031922111145464287.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031855183207285173.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031852394506547344.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031844370391925205.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031807481018732610.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031792393981157869.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031787251659612377.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031785692704227652.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031775666106970606.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031767727892029883.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031763514738540645.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031763059073511632.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031752110774125010.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031749170768298231.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031746974245154868.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031720293845303594.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031716830503461249.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031706029474332740.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031697002229031020.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031679551542358404.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031675308311490913.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031641088264646796.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031626277728432615.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031609421097312266.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031486220795261157.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031442755524706788.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2031431426407579673.png,brand_visual,0.99,manual_batch_ingest: brand-only URL batch
+tweet_2030965498134089887.png,brand_visual,0.99,
+tweet_2030963325220401197.png,brand_visual,0.99,
+tweet_2030946832180990234.png,brand_visual,0.99,
+tweet_2030939216520323370.png,brand_visual,0.99,
+tweet_2030939034093248526.png,brand_visual,0.99,
+tweet_2030901472007999898.png,brand_visual,0.99,
+tweet_2030899275413254251.png,brand_visual,0.99,
+tweet_2030826954740691018.png,brand_visual,0.99,
+tweet_2030817315772870768.png,brand_visual,0.99,
+tweet_2030794197616197765.png,brand_visual,0.99,
+tweet_2030789680468488528.png,brand_visual,0.99,
+tweet_2030765597974528266.png,brand_visual,0.99,
+tweet_2030744908290552253.png,brand_visual,0.99,
+tweet_2030734419645075665.png,brand_visual,0.99,
+tweet_2030729762298277970.png,brand_visual,0.99,
+tweet_2030720204011917320.png,brand_visual,0.99,
+tweet_2030714497036394533.png,brand_visual,0.99,
+tweet_2030709255339421944.png,brand_visual,0.99,
+tweet_2030705386853212320.png,brand_visual,0.99,
+tweet_2030690508515995874.png,brand_visual,0.99,
+tweet_2030683443726881105.png,brand_visual,0.99,
+tweet_2030674437838623202.png,brand_visual,0.99,
+tweet_2030629355647578605.png,brand_visual,0.99,
+tweet_2030617061580227017.png,brand_visual,0.99,
+tweet_2030598937267392959.png,brand_visual,0.99,
+tweet_2030579063484469616.png,brand_visual,0.99,
+tweet_2030506660360269866.png,brand_visual,0.99,
+tweet_2030490951354081634.png,brand_visual,0.99,
+tweet_2030428028699038055.png,brand_visual,0.99,
+tweet_2030326720604082313.png,brand_visual,0.99,
+tweet_2030316041222377855.png,brand_visual,0.99,
+tweet_2030312152561746342.png,brand_visual,0.99,
+tweet_2030301854899564868.png,brand_visual,0.99,
+tweet_2030262306341335443.png,brand_visual,0.99,
+tweet_2030189289741692948.png,brand_visual,0.99,
+tweet_2030041415426740518.png,brand_visual,0.99,
+tweet_2029969979920056562.png,brand_visual,0.99,
+tweet_2029949367801483712.png,brand_visual,0.99,
+tweet_2029941480983343500.png,brand_visual,0.99,
+tweet_2029255596017631306.png,brand_visual,0.99,
+tweet_2029201532994928960.png,brand_visual,0.99,
+tweet_2029175595720962179.png,brand_visual,0.99,
+tweet_2029150138367709466.png,brand_visual,0.99,
+tweet_2029106289528185211.png,brand_visual,0.99,
+tweet_2028916038415290495.png,brand_visual,0.99,
+tweet_2028787551008325901.png,brand_visual,0.99,
+tweet_2028471486760038897.png,brand_visual,0.99,
+tweet_2028447542640267753.png,brand_visual,0.99,
+tweet_2028446284320059422.png,brand_visual,0.99,
+tweet_2028444532216672552.png,brand_visual,0.99,
+tweet_2028086695179034879.png,brand_visual,0.99,
+tweet_2027786026551226808.png,brand_visual,0.99,
+tweet_2027747047072231550.png,brand_visual,0.99,
+tweet_2026322476427248012.png,brand_visual,0.66,layout-like cf=75.2 ed=0.20 std=86.2
+tweet_2026220589938315548.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2025995405159244079.png,brand_visual,0.66,layout-like cf=5.4 ed=0.20 std=95.3
+tweet_2018821833458626882.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2018776336194732499.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2018775504027804007.png,brand_visual,0.66,layout-like cf=1.3 ed=0.19 std=53.9
+tweet_2018694657639657603.png,brand_visual,0.66,layout-like cf=60.8 ed=0.20 std=84.6
+tweet_2018691884848464035.png,brand_visual,0.66,layout-like cf=13.5 ed=0.20 std=104.0
+tweet_2018641406936449270.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2018589601594851705.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2018584197292609651.png,brand_visual,0.66,layout-like cf=42.6 ed=0.20 std=106.2
+tweet_2018368249759690875.png,brand_visual,0.66,layout-like cf=50.1 ed=0.20 std=95.7
+tweet_2018366517067362514.png,brand_visual,0.66,layout-like cf=115.5 ed=0.20 std=64.9
+tweet_2018334061379629188.png,brand_visual,0.66,layout-like cf=22.1 ed=0.20 std=100.6
+tweet_2018291481639809132.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2017983403145249046.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2017962869472842117.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2017941379075473543.png,brand_visual,0.66,layout-like cf=24.9 ed=0.20 std=97.7
+tweet_2017941049981677678.png,brand_visual,0.66,layout-like cf=5.1 ed=0.20 std=107.3
+tweet_2017940929446113600.png,brand_visual,0.66,layout-like cf=4.7 ed=0.20 std=111.0
+tweet_2017859540927037824.png,brand_visual,0.66,layout-like cf=28.8 ed=0.20 std=81.7
+tweet_2017638807772795240.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2017585857478238657.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2017583655590478042.png,brand_visual,0.66,layout-like cf=36.6 ed=0.19 std=87.7
+tweet_2017578264378937482.png,brand_visual,0.66,layout-like cf=33.5 ed=0.19 std=83.0
+tweet_2017575042964443217.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2017569309673804064.png,brand_visual,0.66,layout-like cf=45.8 ed=0.19 std=66.6
+tweet_2017296799447585167.png,brand_visual,0.66,layout-like cf=36.8 ed=0.20 std=52.5
+tweet_2017238145570312403.png,brand_visual,0.66,layout-like cf=14.7 ed=0.19 std=34.7
+tweet_2016903357860815038.png,brand_visual,0.66,layout-like cf=18.0 ed=0.20 std=72.2
+tweet_2016876507969282083.png,brand_visual,0.66,layout-like cf=24.8 ed=0.20 std=82.3
+tweet_2016843830365212969.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2016812355707949068.png,brand_visual,0.66,layout-like cf=79.9 ed=0.20 std=74.5
+tweet_2016766423914229952.png,brand_visual,0.66,layout-like cf=35.3 ed=0.20 std=117.7
+tweet_2016573565080928429.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2016563516719714774.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2016447097516728661.png,brand_visual,0.66,layout-like cf=93.1 ed=0.20 std=65.2
+tweet_2016390786397421746.png,brand_visual,0.66,layout-like cf=15.8 ed=0.20 std=86.3
+tweet_2016255277029371959.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2016148160796578152.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2016134148235378971.png,brand_visual,0.66,layout-like cf=54.9 ed=0.20 std=76.6
+tweet_2015918217235939760.png,brand_visual,0.66,layout-like cf=59.4 ed=0.20 std=82.4
+tweet_2015871268176699477.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2015779157624430968.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2015771116741050810.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2015753356501762512.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2015734302856659248.png,brand_visual,0.66,layout-like cf=34.5 ed=0.20 std=62.7
+tweet_2015726481314398320.png,brand_visual,0.66,layout-like cf=29.1 ed=0.20 std=69.2
+tweet_2015699325075247529.png,brand_visual,0.66,layout-like cf=43.7 ed=0.20 std=82.2
+tweet_2015695321087836583.png,brand_visual,0.66,layout-like cf=6.5 ed=0.20 std=93.0
+tweet_2015673244980850879.png,brand_visual,0.66,layout-like cf=29.1 ed=0.20 std=101.8
+tweet_2015499193700241692.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2015437698702438598.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2015409385720463641.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2015348452063076535.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2015347425079410707.png,brand_visual,0.66,layout-like cf=41.0 ed=0.20 std=74.0
+tweet_2015341554651844982.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2015130354953179461.png,brand_visual,0.66,layout-like cf=100.2 ed=0.20 std=82.1
+tweet_2015104748425183652.png,brand_visual,0.66,layout-like cf=18.4 ed=0.20 std=93.5
+tweet_2015085547031839068.png,brand_visual,0.66,layout-like cf=51.1 ed=0.20 std=88.4
+tweet_2015039443900485949.png,brand_visual,0.66,layout-like cf=36.9 ed=0.20 std=78.2
+tweet_2015020119714398486.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2014975632191410462.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2014782900466594011.png,brand_visual,0.66,layout-like cf=84.3 ed=0.20 std=91.7
+tweet_2014759316603990467.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2014743293146407281.png,brand_visual,0.66,layout-like cf=81.9 ed=0.20 std=76.8
+tweet_2014728699472707694.png,brand_visual,0.66,layout-like cf=62.8 ed=0.20 std=102.2
+tweet_2014710210355728515.png,brand_visual,0.66,layout-like cf=30.3 ed=0.20 std=103.2
+tweet_2014704509063143670.png,brand_visual,0.66,layout-like cf=33.9 ed=0.20 std=49.1
+tweet_2014688872840491408.png,brand_visual,0.66,layout-like cf=35.1 ed=0.20 std=87.0
+tweet_2014686387518488736.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2014663874679652532.png,brand_visual,0.66,layout-like cf=32.2 ed=0.20 std=38.6
+tweet_2014521181919912183.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2014385423142056282.png,brand_visual,0.66,layout-like cf=55.5 ed=0.20 std=101.2
+tweet_2014375986507247754.png,brand_visual,0.66,layout-like cf=32.8 ed=0.20 std=66.6
+tweet_2014358809121292781.png,brand_visual,0.66,layout-like cf=49.8 ed=0.19 std=61.7
+tweet_2014342478904914043.png,brand_visual,0.66,layout-like cf=40.7 ed=0.20 std=61.5
+tweet_2014325821771547023.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2014307192157999302.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2014307097190846513.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2014269305610002613.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2014162636313874736.png,brand_visual,0.66,layout-like cf=25.2 ed=0.20 std=36.9
+tweet_2013962720153076187.png,brand_visual,0.66,layout-like cf=63.5 ed=0.20 std=54.7
+tweet_2013868903940739417.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2013861056221979070.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2013860661579915762.png,brand_visual,0.66,layout-like cf=44.8 ed=0.20 std=107.2
+tweet_2013859366558937570.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2013759209318342865.png,brand_visual,0.66,layout-like cf=35.0 ed=0.20 std=64.9
+tweet_2013672914890170619.png,brand_visual,0.66,layout-like cf=22.2 ed=0.20 std=58.2
+tweet_2013651024859300073.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2013617978655506771.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2013617128088162489.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2013531205703020739.png,brand_visual,0.66,layout-like cf=57.7 ed=0.20 std=81.2
+tweet_2013513355420672424.png,brand_visual,0.66,layout-like cf=32.3 ed=0.20 std=41.3
+tweet_2013464268713144673.png,brand_visual,0.66,layout-like cf=54.5 ed=0.20 std=87.5
+tweet_2013355791357747253.png,brand_visual,0.66,layout-like cf=51.6 ed=0.20 std=89.7
+tweet_2013310534397898879.png,brand_visual,0.66,layout-like cf=90.2 ed=0.20 std=80.8
+tweet_2013307978300985822.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2013306158635687992.png,brand_visual,0.66,layout-like cf=35.6 ed=0.20 std=90.4
+tweet_2013295389084876870.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2013293349201920191.png,brand_visual,0.66,layout-like cf=49.4 ed=0.18 std=91.7
+tweet_2013289479767728477.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2013288023819956398.png,brand_visual,0.66,layout-like cf=8.4 ed=0.20 std=58.7
+tweet_2013284113780978172.png,brand_visual,0.66,layout-like cf=46.2 ed=0.20 std=90.9
+tweet_2013276948747948404.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2013276377785520281.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2013274703394140623.png,brand_visual,0.66,layout-like cf=74.4 ed=0.20 std=100.5
+tweet_2013224450507051211.png,brand_visual,0.66,layout-like cf=40.5 ed=0.20 std=88.0
+tweet_2013133836356407417.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2013124223288435109.png,brand_visual,0.66,layout-like cf=22.3 ed=0.20 std=111.3
+tweet_2013061898984415722.png,brand_visual,0.66,layout-like cf=58.7 ed=0.20 std=86.7
+tweet_2013057837946057189.png,brand_visual,0.66,layout-like cf=71.7 ed=0.20 std=85.1
+tweet_2012943485586829655.png,brand_visual,0.66,layout-like cf=65.8 ed=0.20 std=91.3
+tweet_2012937057585315961.png,brand_visual,0.66,layout-like cf=36.7 ed=0.20 std=83.6
+tweet_2012925066237915490.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_2002355869732794727.png,brand_visual,0.66,layout-like cf=66.3 ed=0.20 std=76.3
+tweet_1996175653901943061.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1996175223687946414.png,brand_visual,0.66,layout-like cf=23.2 ed=0.20 std=97.3
+tweet_1996104663737991269.png,brand_visual,0.66,layout-like cf=9.2 ed=0.20 std=49.1
+tweet_1995945199194017925.png,brand_visual,0.66,layout-like cf=3.3 ed=0.20 std=33.1
+tweet_1995913620899680740.png,brand_visual,0.66,layout-like cf=60.5 ed=0.20 std=47.0
+tweet_1995910758169752059.png,brand_visual,0.66,layout-like cf=10.7 ed=0.20 std=79.6
+tweet_1995814398921736373.png,brand_visual,0.66,layout-like cf=28.1 ed=0.20 std=89.5
+tweet_1995666763351294147.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1995385143910138217.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1994743526433964430.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1994654878803599852.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1994077067345055946.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1993756195728118181.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1993400496678486410.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1993276818498134045.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1993050706778140734.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1992980017584967708.png,brand_visual,0.66,layout-like cf=55.7 ed=0.20 std=104.3
+tweet_1992923999052128676.png,brand_visual,0.66,layout-like cf=77.4 ed=0.20 std=77.9
+tweet_1992892873159610841.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1992760439080624421.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1992713120129900573.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1992535252083073413.png,brand_visual,0.66,layout-like cf=114.0 ed=0.20 std=79.6
+tweet_1991809108442222618.png,brand_visual,0.66,layout-like cf=86.0 ed=0.20 std=63.4
+tweet_1991690791648112913.png,brand_visual,0.66,layout-like cf=40.3 ed=0.19 std=108.1
+tweet_1991571542896177176.png,brand_visual,0.66,layout-like cf=42.8 ed=0.20 std=82.8
+tweet_1991470123996311953.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1991267302747042183.png,brand_visual,0.66,layout-like cf=35.6 ed=0.20 std=85.5
+tweet_1991170660698079431.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1991129700924596303.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1990853763922325735.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1990793834566214067.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1990791707760447836.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1990716265363648692.png,brand_visual,0.66,layout-like cf=77.3 ed=0.20 std=109.0
+tweet_1990565944499077142.png,brand_visual,0.66,layout-like cf=51.3 ed=0.20 std=31.8
+tweet_1990489123526709423.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1990488424353312960.png,brand_visual,0.66,layout-like cf=59.0 ed=0.20 std=47.4
+tweet_1990481183277224025.png,brand_visual,0.66,layout-like cf=24.3 ed=0.19 std=67.3
+tweet_1990455538027540684.png,brand_visual,0.66,layout-like cf=6.6 ed=0.20 std=100.3
+tweet_1990429950286115325.png,brand_visual,0.66,layout-like cf=21.6 ed=0.20 std=64.1
+tweet_1990414599380771121.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1990411493137949101.png,brand_visual,0.66,layout-like cf=85.2 ed=0.20 std=72.8
+tweet_1990377226203001084.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1990375541208138209.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1990368577887916322.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1990335550503751829.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1990005092196696083.png,brand_visual,0.66,layout-like cf=31.4 ed=0.20 std=90.5
+tweet_1989761759440253187.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1989710777650172306.png,brand_visual,0.66,layout-like cf=36.5 ed=0.20 std=89.3
+tweet_1989403613664612810.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1989350030835376283.png,brand_visual,0.66,layout-like cf=41.1 ed=0.20 std=109.9
+tweet_1989335865588380141.png,brand_visual,0.66,layout-like cf=63.5 ed=0.20 std=75.3
+tweet_1989318864161722535.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1989318380201869437.png,brand_visual,0.66,layout-like cf=50.9 ed=0.20 std=72.2
+tweet_1989317179582361707.png,brand_visual,0.66,layout-like cf=20.7 ed=0.20 std=95.1
+tweet_1989289956494516647.png,brand_visual,0.66,layout-like cf=30.7 ed=0.20 std=47.5
+tweet_1989229310293733798.png,brand_visual,0.66,layout-like cf=91.7 ed=0.20 std=103.1
+tweet_1989218677032644747.png,brand_visual,0.66,layout-like cf=47.5 ed=0.20 std=64.2
+tweet_1989027518951625032.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1989027302131577046.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1988993617898176983.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1988959799137140966.png,brand_visual,0.66,layout-like cf=118.5 ed=0.20 std=84.9
+tweet_1988958830089170944.png,brand_visual,0.66,layout-like cf=17.2 ed=0.20 std=81.3
+tweet_1988870883843178964.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1988713725516476592.png,brand_visual,0.66,layout-like cf=11.3 ed=0.20 std=80.5
+tweet_1988685034111520888.png,brand_visual,0.66,layout-like cf=41.1 ed=0.20 std=118.0
+tweet_1988682304840249494.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1988666350336929969.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1988665770046550326.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1988623007082860776.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1988488050746282435.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1988361481671307501.png,brand_visual,0.66,layout-like cf=1.3 ed=0.20 std=58.8
+tweet_1988349385403437506.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1987935553384251446.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1987904637467533313.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1987890015309803689.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1987841859264376876.png,brand_visual,0.66,layout-like cf=75.2 ed=0.20 std=80.8
+tweet_1987790693180313923.png,brand_visual,0.66,layout-like cf=57.1 ed=0.20 std=87.2
+tweet_1987731993866702921.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1987504071897387227.png,brand_visual,0.66,layout-like cf=49.5 ed=0.19 std=103.7
+tweet_1987490408985948288.png,brand_visual,0.66,layout-like cf=49.3 ed=0.20 std=83.6
+tweet_1987478233814548754.png,brand_visual,0.66,layout-like cf=64.1 ed=0.20 std=75.5
+tweet_1987220322358272205.png,brand_visual,0.66,layout-like cf=54.5 ed=0.20 std=86.2
+tweet_1987213627632255219.png,brand_visual,0.66,layout-like cf=66.7 ed=0.20 std=109.9
+tweet_1987203716051538370.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1986984822598775070.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1986862660772655320.png,brand_visual,0.66,layout-like cf=26.3 ed=0.20 std=110.7
+tweet_1986823026852102349.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1986786276616388721.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1986739937845067897.png,brand_visual,0.66,layout-like cf=61.2 ed=0.20 std=84.4
+tweet_1986700944898154607.png,brand_visual,0.66,layout-like cf=84.8 ed=0.19 std=102.2
+tweet_1986539086988124425.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1986487521757270216.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1986478689492647967.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1986463640245948891.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1986449326173004273.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1986428642994364905.png,brand_visual,0.66,layout-like cf=66.2 ed=0.20 std=99.8
+tweet_1986420974091223144.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1986416319550332975.png,brand_visual,0.66,layout-like cf=28.2 ed=0.20 std=56.7
+tweet_1986390353377968520.png,brand_visual,0.66,layout-like cf=23.3 ed=0.20 std=96.5
+tweet_1986357703959253166.png,brand_visual,0.66,layout-like cf=43.7 ed=0.20 std=83.3
+tweet_1986268789034655826.png,brand_visual,0.66,layout-like cf=47.9 ed=0.20 std=94.5
+tweet_1986154437128475117.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1986029306364285155.png,brand_visual,0.66,layout-like cf=45.5 ed=0.20 std=91.2
+tweet_1986009371705282601.png,brand_visual,0.66,layout-like cf=112.8 ed=0.20 std=79.4
+tweet_1985935108147462322.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1985832542608769485.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1985794570035044861.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1985788265136574627.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1985786999563812885.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1985786103262331385.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1985782930548138449.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1985775761425400200.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1985765414324908495.png,brand_visual,0.66,layout-like cf=38.2 ed=0.20 std=94.4
+tweet_1985759647244902651.png,brand_visual,0.66,layout-like cf=16.7 ed=0.19 std=99.5
+tweet_1985727323727872077.png,brand_visual,0.66,layout-like cf=30.3 ed=0.20 std=37.7
+tweet_1985721046289584445.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1985714647476158782.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1985703094509060404.png,brand_visual,0.66,layout-like cf=82.4 ed=0.20 std=88.1
+tweet_1985693853895065663.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1985628357221068906.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1985418556172055028.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1985376785500893549.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1985356140595511688.png,brand_visual,0.66,layout-like cf=94.5 ed=0.20 std=86.5
+tweet_1985323129921560999.png,brand_visual,0.66,layout-like cf=93.5 ed=0.20 std=96.6
+tweet_1985256481134944731.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1985112524958961780.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1985017796305015133.png,brand_visual,0.66,layout-like cf=60.5 ed=0.20 std=75.8
+tweet_1985013020586610869.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1984974510550851835.png,brand_visual,0.66,layout-like cf=39.1 ed=0.20 std=73.9
+tweet_1984911671148904737.png,brand_visual,0.66,layout-like cf=70.1 ed=0.20 std=68.3
+tweet_1984906012693016781.png,brand_visual,0.66,layout-like cf=105.0 ed=0.20 std=80.1
+tweet_1984675149199917421.png,brand_visual,0.66,layout-like cf=98.8 ed=0.20 std=94.3
+tweet_1984660437833793774.png,brand_visual,0.66,layout-like cf=48.1 ed=0.20 std=90.4
+tweet_1984628242309951657.png,brand_visual,0.66,layout-like cf=29.4 ed=0.20 std=48.4
+tweet_1984586651533000738.png,brand_visual,0.66,layout-like cf=32.5 ed=0.20 std=90.0
+tweet_1984481688932794767.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1984355216482058728.png,brand_visual,0.66,layout-like cf=43.0 ed=0.20 std=85.6
+tweet_1984352387512062269.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1984325826163458313.png,brand_visual,0.66,layout-like cf=22.6 ed=0.20 std=85.4
+tweet_1984226576658256100.png,brand_visual,0.66,layout-like cf=5.4 ed=0.19 std=108.4
+tweet_1984203222815240221.png,brand_visual,0.66,layout-like cf=110.7 ed=0.20 std=95.3
+tweet_1984098674478309585.png,brand_visual,0.66,layout-like cf=29.1 ed=0.20 std=115.7
+tweet_1983934447088009707.png,brand_visual,0.66,layout-like cf=48.1 ed=0.20 std=49.6
+tweet_1983555135470031255.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1983498126804521250.png,brand_visual,0.66,layout-like cf=32.9 ed=0.20 std=71.1
+tweet_1983463210847244657.png,brand_visual,0.66,layout-like cf=90.0 ed=0.20 std=83.8
+tweet_1983215063654600796.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1983141957380546697.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1982964266920751467.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1982930437996679462.png,brand_visual,0.66,layout-like cf=73.8 ed=0.20 std=48.2
+tweet_1982151138376900847.png,brand_visual,0.66,layout-like cf=93.2 ed=0.20 std=87.6
+tweet_1981962458303504872.png,brand_visual,0.66,layout-like cf=19.0 ed=0.20 std=32.4
+tweet_1981941820364890177.png,brand_visual,0.66,layout-like cf=29.2 ed=0.20 std=56.1
+tweet_1981850472177602731.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1981832100316610836.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1981814074179825856.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1981725365178364356.png,brand_visual,0.66,layout-like cf=10.3 ed=0.20 std=120.4
+tweet_1981708095299764336.png,brand_visual,0.66,layout-like cf=26.2 ed=0.20 std=105.2
+tweet_1981377106199400895.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1981342279689523532.png,brand_visual,0.66,layout-like cf=76.1 ed=0.19 std=90.6
+tweet_1981340009949970609.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1981326173499015285.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1981186590572483005.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1981039703550750986.png,brand_visual,0.66,layout-like cf=146.1 ed=0.20 std=84.3
+tweet_1980956658315464714.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1980946839122870613.png,brand_visual,0.66,layout-like cf=27.4 ed=0.20 std=44.5
+tweet_1980784521558872106.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1980725639956062496.png,brand_visual,0.66,layout-like cf=28.6 ed=0.20 std=79.0
+tweet_1980691362954784847.png,brand_visual,0.66,layout-like cf=28.0 ed=0.20 std=90.6
+tweet_1980679209031987600.png,brand_visual,0.66,layout-like cf=18.8 ed=0.20 std=77.2
+tweet_1980664140332253220.png,brand_visual,0.66,layout-like cf=39.7 ed=0.20 std=47.4
+tweet_1980625881623326797.png,brand_visual,0.66,layout-like cf=18.3 ed=0.20 std=52.5
+tweet_1980608042929426932.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1980350260028600497.png,brand_visual,0.66,layout-like cf=130.5 ed=0.20 std=80.9
+tweet_1980342349151732155.png,brand_visual,0.66,layout-like cf=23.6 ed=0.19 std=87.6
+tweet_1980302998623723942.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1980294829159682347.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1980271439556096005.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1980254037674021258.png,brand_visual,0.66,layout-like cf=1.8 ed=0.20 std=105.5
+tweet_1980215246116786444.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1979967480853655636.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1979692658420228526.png,brand_visual,0.66,layout-like cf=68.4 ed=0.20 std=73.0
+tweet_1979536479773667450.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1979532786785488950.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1979460624187805698.png,brand_visual,0.66,layout-like cf=42.0 ed=0.20 std=49.9
+tweet_1979432693830996292.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1979292037028647109.png,brand_visual,0.66,layout-like cf=5.0 ed=0.20 std=47.0
+tweet_1979209699560919496.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1979203328018964987.png,brand_visual,0.66,layout-like cf=32.2 ed=0.20 std=90.6
+tweet_1979115574421516617.png,brand_visual,0.66,layout-like cf=27.4 ed=0.20 std=85.2
+tweet_1979009952606781930.png,brand_visual,0.66,layout-like cf=79.3 ed=0.20 std=91.7
+tweet_1978984966353477801.png,brand_visual,0.66,layout-like cf=3.1 ed=0.20 std=90.5
+tweet_1978836528957739018.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1978769691582603551.png,brand_visual,0.66,layout-like cf=33.5 ed=0.20 std=69.2
+tweet_1978728895701815704.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1978531949682508193.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1978498976136491448.png,brand_visual,0.66,layout-like cf=37.0 ed=0.20 std=99.0
+tweet_1978479691687235631.png,brand_visual,0.66,layout-like cf=84.2 ed=0.20 std=65.0
+tweet_1978475957175324775.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1978431643690905634.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1978428143326151108.png,brand_visual,0.66,layout-like cf=67.6 ed=0.20 std=81.0
+tweet_1978403799938236599.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1978279224378007816.png,brand_visual,0.66,layout-like cf=53.1 ed=0.20 std=63.6
+tweet_1978255852554387867.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1978075068040192276.png,brand_visual,0.66,layout-like cf=12.5 ed=0.20 std=93.1
+tweet_1977831782100992093.png,brand_visual,0.66,layout-like cf=19.2 ed=0.20 std=80.1
+tweet_1977755792213151924.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1977720985001382205.png,brand_visual,0.66,layout-like cf=30.6 ed=0.20 std=113.8
+tweet_1977699422575173982.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1977665958962487459.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1977661877896257816.png,brand_visual,0.66,layout-like cf=16.7 ed=0.20 std=37.1
+tweet_1977659164538069225.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1977644724824711492.png,brand_visual,0.66,layout-like cf=73.9 ed=0.20 std=80.0
+tweet_1977509970854752278.png,brand_visual,0.66,layout-like cf=32.9 ed=0.20 std=104.3
+tweet_1977472044607611116.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1977066774391931073.png,brand_visual,0.66,layout-like cf=6.7 ed=0.20 std=97.4
+tweet_1976986736191492479.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1976879563478356377.png,brand_visual,0.66,layout-like cf=4.1 ed=0.20 std=35.3
+tweet_1976688980268839410.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1976685614444810410.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1976328515160268921.png,brand_visual,0.66,layout-like cf=44.4 ed=0.20 std=101.9
+tweet_1976295405605556395.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1976274793226748229.png,brand_visual,0.66,layout-like cf=37.6 ed=0.20 std=97.3
+tweet_1976264605836976295.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1976208301307330989.png,brand_visual,0.66,layout-like cf=10.0 ed=0.20 std=35.6
+tweet_1976199220932776261.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1976182603414962273.png,brand_visual,0.66,layout-like cf=10.7 ed=0.20 std=82.2
+tweet_1976152046630998387.png,brand_visual,0.66,layout-like cf=130.2 ed=0.20 std=80.8
+tweet_1976145210573746534.png,brand_visual,0.66,layout-like cf=70.6 ed=0.20 std=52.5
+tweet_1975939251670831140.png,brand_visual,0.66,layout-like cf=53.4 ed=0.20 std=77.5
+tweet_1975915449801224434.png,brand_visual,0.66,layout-like cf=29.0 ed=0.20 std=54.1
+tweet_1975886683913769390.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1975886393831297328.png,brand_visual,0.66,layout-like cf=27.6 ed=0.20 std=92.0
+tweet_1975871553951961370.png,brand_visual,0.66,layout-like cf=48.2 ed=0.20 std=41.5
+tweet_1975575345198997566.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1975574103156195771.png,brand_visual,0.66,layout-like cf=24.9 ed=0.20 std=63.5
+tweet_1975558092634136834.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1975544197425094729.png,brand_visual,0.66,layout-like cf=9.6 ed=0.20 std=120.6
+tweet_1975512526633799935.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1975161678313791878.png,brand_visual,0.66,layout-like cf=11.2 ed=0.18 std=106.8
+tweet_1975123866553840118.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1975112347741299187.png,brand_visual,0.66,layout-like cf=8.5 ed=0.20 std=53.1
+tweet_1974140950592024795.png,brand_visual,0.66,layout-like cf=26.8 ed=0.20 std=90.3
+tweet_1973092987610579337.png,brand_visual,0.66,layout-like cf=55.8 ed=0.20 std=76.4
+tweet_1973012868808511771.png,brand_visual,0.66,layout-like cf=63.0 ed=0.20 std=93.4
+tweet_1972958605168242948.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1972060890389533168.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1971967929446175128.png,brand_visual,0.66,layout-like cf=54.7 ed=0.20 std=70.7
+tweet_1971676668256571392.png,brand_visual,0.66,layout-like cf=99.1 ed=0.20 std=81.2
+tweet_1971660381560230315.png,brand_visual,0.66,layout-like cf=39.7 ed=0.20 std=83.7
+tweet_1970939120265658779.png,brand_visual,0.66,layout-like cf=65.9 ed=0.20 std=89.6
+tweet_1969732357700587708.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1969162561590354108.png,brand_visual,0.66,layout-like cf=45.4 ed=0.20 std=100.4
+tweet_1968616026121068695.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1967266768164114876.png,brand_visual,0.66,layout-like cf=82.8 ed=0.20 std=87.4
+tweet_1967226014960078887.png,brand_visual,0.66,layout-like cf=39.7 ed=0.20 std=94.0
+tweet_1967172492159816138.png,brand_visual,0.66,layout-like cf=27.6 ed=0.20 std=41.3
+tweet_1967143137190834267.png,brand_visual,0.66,layout-like cf=89.7 ed=0.20 std=93.0
+tweet_1966595436845670873.png,brand_visual,0.66,layout-like cf=19.4 ed=0.20 std=92.7
+tweet_1966544319516402105.png,brand_visual,0.66,layout-like cf=10.1 ed=0.19 std=36.0
+tweet_1966468746773499987.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1966445268339159546.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1966414211132621279.png,brand_visual,0.66,layout-like cf=48.3 ed=0.20 std=65.2
+tweet_1966378635302154310.png,brand_visual,0.66,layout-like cf=45.4 ed=0.19 std=43.7
+tweet_1966290970527605140.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1966204682009018869.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1966183543308276210.png,brand_visual,0.66,layout-like cf=35.8 ed=0.20 std=89.3
+tweet_1966157539914956802.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1965898134535762259.png,brand_visual,0.66,layout-like cf=40.2 ed=0.20 std=106.0
+tweet_1965878951491829938.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1965830185510457576.png,brand_visual,0.66,layout-like cf=22.6 ed=0.19 std=57.2
+tweet_1965430048632242410.png,brand_visual,0.66,layout-like cf=42.8 ed=0.20 std=86.1
+tweet_1965022314904289732.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1964969884913426466.png,brand_visual,0.66,layout-like cf=71.6 ed=0.20 std=64.0
+tweet_1964600198262390888.png,brand_visual,0.66,layout-like cf=5.9 ed=0.20 std=59.9
+tweet_1963989332936565038.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1963965345385132270.png,brand_visual,0.66,layout-like cf=23.0 ed=0.20 std=50.8
+tweet_1963629551604453847.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1963547161930633507.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1963205543612326069.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1963124605922734481.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1962918293234212903.png,brand_visual,0.66,layout-like cf=7.0 ed=0.20 std=81.6
+tweet_1962785558213607522.png,brand_visual,0.66,layout-like cf=82.3 ed=0.20 std=95.4
+tweet_1962192040344887696.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1961805522111209713.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1961467409249849537.png,brand_visual,0.66,layout-like cf=1.2 ed=0.20 std=110.2
+tweet_1960780018101182953.png,brand_visual,0.66,layout-like cf=31.9 ed=0.20 std=73.7
+tweet_1960675148387794947.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1960651511077245366.png,brand_visual,0.66,layout-like cf=37.9 ed=0.20 std=112.0
+tweet_1960462263284064531.png,brand_visual,0.66,layout-like cf=112.9 ed=0.20 std=88.7
+tweet_1960328195711844514.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1960285660558020895.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1960272743460642865.png,brand_visual,0.66,layout-like cf=91.3 ed=0.19 std=45.9
+tweet_1959980774049919099.png,brand_visual,0.66,layout-like cf=80.2 ed=0.20 std=81.9
+tweet_1959752642235891748.png,brand_visual,0.66,layout-like cf=49.3 ed=0.20 std=75.4
+tweet_1959604298419237324.png,brand_visual,0.66,layout-like cf=15.0 ed=0.20 std=89.3
+tweet_1959243921663340651.png,brand_visual,0.66,layout-like cf=3.2 ed=0.20 std=86.1
+tweet_1959238410234961938.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1959114536457576675.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1959021654392054179.png,brand_visual,0.66,layout-like cf=32.6 ed=0.20 std=35.2
+tweet_1958922118340718803.png,brand_visual,0.66,layout-like cf=83.2 ed=0.20 std=81.1
+tweet_1958836358560325685.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1958553704430522721.png,brand_visual,0.66,layout-like cf=30.6 ed=0.20 std=53.8
+tweet_1957777939187081356.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1957747966896480518.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1957439063276880147.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1957217738390396984.png,brand_visual,0.66,layout-like cf=13.1 ed=0.20 std=94.5
+tweet_1956385495052910893.png,brand_visual,0.66,layout-like cf=53.5 ed=0.20 std=73.7
+tweet_1956008350778331316.png,brand_visual,0.66,layout-like cf=26.3 ed=0.20 std=100.7
+tweet_1954955564099965433.png,brand_visual,0.66,layout-like cf=111.5 ed=0.20 std=69.7
+tweet_1954870524330258492.png,brand_visual,0.66,layout-like cf=52.4 ed=0.20 std=85.4
+tweet_1954818191537930378.png,brand_visual,0.66,layout-like cf=12.3 ed=0.20 std=98.5
+tweet_1954814058265289084.png,brand_visual,0.66,layout-like cf=28.5 ed=0.20 std=72.2
+tweet_1954675714604810426.png,brand_visual,0.66,layout-like cf=17.5 ed=0.19 std=104.3
+tweet_1953854233574617138.png,brand_visual,0.66,layout-like cf=41.5 ed=0.19 std=92.2
+tweet_1952762363045945674.png,brand_visual,0.66,layout-like cf=59.6 ed=0.20 std=55.1
+tweet_1952686773051814252.png,brand_visual,0.66,layout-like cf=27.4 ed=0.20 std=61.1
+tweet_1952673836107018409.png,brand_visual,0.66,layout-like cf=36.6 ed=0.20 std=59.9
+tweet_1949379295295816177.png,brand_visual,0.66,layout-like cf=5.7 ed=0.20 std=34.2
+tweet_1947969930059465065.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1947652985481527777.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1946239010822652016.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1942607766993928544.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1939363927478948214.png,brand_visual,0.66,layout-like cf=52.1 ed=0.20 std=87.8
+tweet_1935548193191903375.png,brand_visual,0.66,layout-like cf=43.0 ed=0.20 std=85.7
+tweet_1934649206247186834.png,brand_visual,0.66,layout-like cf=49.7 ed=0.20 std=72.6
+tweet_1929481126109954400.png,brand_visual,0.66,layout-like cf=74.9 ed=0.20 std=56.8
+tweet_1891693757935853969.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1863937010005590247.png,brand_visual,0.99,manual_review: corrected to brand by user
+tweet_1761103353759531316.png,brand_visual,0.66,layout-like cf=1.3 ed=0.19 std=34.4
+tweet_1761066927684776222.png,brand_visual,0.99,manual_review: corrected to brand by user

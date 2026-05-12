@@ -2,7 +2,7 @@
 
 ## Scope
 - Dataset: `analysis/visual_tags.json`
-- Items processed: **447**
+- Items processed: **593**
 - Method: conservative computer-vision heuristics (no OCR dependency)
 - Policy enforced:
   - If meaningful readable typography is not present => `typo_present_v3=false`, `typo_primary_v3=no_typo`, `typo_case_v3=na`
@@ -12,31 +12,31 @@
 ## Distribution — typo_present_v3
 | value | count | pct |
 |---|---:|---:|
-| True | 319 | 71.36% |
-| False | 128 | 28.64% |
+| True | 538 | 90.73% |
+| False | 55 | 9.27% |
 
 ## Distribution — typo_primary_v3
 | value | count | pct |
 |---|---:|---:|
-| no_typo | 128 | 28.64% |
-| unknown | 34 | 7.61% |
-| sans | 81 | 18.12% |
+| no_typo | 55 | 9.27% |
+| unknown | 24 | 4.05% |
+| sans | 189 | 31.87% |
 | serif | 0 | 0.00% |
-| mixed | 104 | 23.27% |
-| display | 100 | 22.37% |
+| mixed | 255 | 43.00% |
+| display | 70 | 11.80% |
 
 ## Distribution — typo_case_v3
 | value | count | pct |
 |---|---:|---:|
-| na | 128 | 28.64% |
-| unknown | 45 | 10.07% |
-| mixed | 33 | 7.38% |
-| upper | 1 | 0.22% |
-| lower | 240 | 53.69% |
+| na | 55 | 9.27% |
+| unknown | 22 | 3.71% |
+| mixed | 15 | 2.53% |
+| upper | 1 | 0.17% |
+| lower | 500 | 84.32% |
 
 ## Confidence
-- mean typo_confidence_v3: **0.6820**
-- min typo_confidence_v3: **0.3148**
+- mean typo_confidence_v3: **0.7231**
+- min typo_confidence_v3: **0.4280**
 - max typo_confidence_v3: **1.0000**
 
 ## Heuristic rationale

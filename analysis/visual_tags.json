@@ -14110,7 +14110,11 @@
       "typo_present_v3": true,
       "typo_primary_v3": "display",
       "typo_case_v3": "unknown",
-      "typo_confidence_v3": 0.5618
+      "typo_confidence_v3": 0.5618,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2040031203169108379.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2041106960138027458.png",
@@ -14132,7 +14136,11 @@
       "typo_present_v3": true,
       "typo_primary_v3": "mixed",
       "typo_case_v3": "lower",
-      "typo_confidence_v3": 0.6328
+      "typo_confidence_v3": 0.6328,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2041106960138027458.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2041432697432674453.png",
@@ -14154,7 +14162,11 @@
       "typo_present_v3": true,
       "typo_primary_v3": "mixed",
       "typo_case_v3": "lower",
-      "typo_confidence_v3": 0.741
+      "typo_confidence_v3": 0.741,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2041432697432674453.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2043320527134105952.png",
@@ -14176,7 +14188,11 @@
       "typo_present_v3": false,
       "typo_primary_v3": "no_typo",
       "typo_case_v3": "na",
-      "typo_confidence_v3": 0.8086
+      "typo_confidence_v3": 0.8086,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2043320527134105952.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2043973167136301133.png",
@@ -14198,7 +14214,11 @@
       "typo_present_v3": true,
       "typo_primary_v3": "mixed",
       "typo_case_v3": "lower",
-      "typo_confidence_v3": 0.706
+      "typo_confidence_v3": 0.706,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2043973167136301133.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2044391739251736684.png",
@@ -14220,7 +14240,11 @@
       "typo_present_v3": true,
       "typo_primary_v3": "mixed",
       "typo_case_v3": "lower",
-      "typo_confidence_v3": 0.706
+      "typo_confidence_v3": 0.706,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2044391739251736684.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2046688464909791472.png",
@@ -14242,7 +14266,11 @@
       "typo_present_v3": true,
       "typo_primary_v3": "display",
       "typo_case_v3": "lower",
-      "typo_confidence_v3": 0.727
+      "typo_confidence_v3": 0.727,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2046688464909791472.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2046783134134628750.png",
@@ -14264,7 +14292,11 @@
       "typo_present_v3": true,
       "typo_primary_v3": "mixed",
       "typo_case_v3": "lower",
-      "typo_confidence_v3": 0.706
+      "typo_confidence_v3": 0.706,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2046783134134628750.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2047277259686371646.png",
@@ -14286,7 +14318,11 @@
       "typo_present_v3": true,
       "typo_primary_v3": "mixed",
       "typo_case_v3": "lower",
-      "typo_confidence_v3": 0.706
+      "typo_confidence_v3": 0.706,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2047277259686371646.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2051268423074652409.png",
@@ -14308,7 +14344,11 @@
       "typo_present_v3": true,
       "typo_primary_v3": "mixed",
       "typo_case_v3": "lower",
-      "typo_confidence_v3": 0.706
+      "typo_confidence_v3": 0.706,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2051268423074652409.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2051270480665928068.png",
@@ -14330,7 +14370,11 @@
       "typo_present_v3": true,
       "typo_primary_v3": "display",
       "typo_case_v3": "lower",
-      "typo_confidence_v3": 0.727
+      "typo_confidence_v3": 0.727,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2051270480665928068.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2051271622892413268.png",
@@ -14352,7 +14396,11 @@
       "typo_present_v3": true,
       "typo_primary_v3": "mixed",
       "typo_case_v3": "lower",
-      "typo_confidence_v3": 0.7289
+      "typo_confidence_v3": 0.7289,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2051271622892413268.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2051383228226003004.png",
@@ -14374,7 +14422,11 @@
       "typo_present_v3": true,
       "typo_primary_v3": "mixed",
       "typo_case_v3": "lower",
-      "typo_confidence_v3": 0.741
+      "typo_confidence_v3": 0.741,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2051383228226003004.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2051466460623749297.png",
@@ -14396,7 +14448,11 @@
       "typo_present_v3": true,
       "typo_primary_v3": "sans",
       "typo_case_v3": "lower",
-      "typo_confidence_v3": 0.7311
+      "typo_confidence_v3": 0.7311,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2051466460623749297.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2051644302212977085.png",
@@ -14418,7 +14474,11 @@
       "typo_present_v3": true,
       "typo_primary_v3": "mixed",
       "typo_case_v3": "lower",
-      "typo_confidence_v3": 0.706
+      "typo_confidence_v3": 0.706,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2051644302212977085.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2051647948707049544.png",
@@ -14440,7 +14500,11 @@
       "typo_present_v3": true,
       "typo_primary_v3": "mixed",
       "typo_case_v3": "lower",
-      "typo_confidence_v3": 0.706
+      "typo_confidence_v3": 0.706,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2051647948707049544.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2051673418068537426.png",
@@ -14462,7 +14526,11 @@
       "typo_present_v3": true,
       "typo_primary_v3": "mixed",
       "typo_case_v3": "lower",
-      "typo_confidence_v3": 0.706
+      "typo_confidence_v3": 0.706,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2051673418068537426.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2051679802432610411.png",
@@ -14484,7 +14552,11 @@
       "typo_present_v3": true,
       "typo_primary_v3": "mixed",
       "typo_case_v3": "lower",
-      "typo_confidence_v3": 0.6024
+      "typo_confidence_v3": 0.6024,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2051679802432610411.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2053116054369615892.png",
@@ -14506,7 +14578,11 @@
       "typo_present_v3": true,
       "typo_primary_v3": "sans",
       "typo_case_v3": "lower",
-      "typo_confidence_v3": 0.783
+      "typo_confidence_v3": 0.783,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2053116054369615892.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2053341721677660188.png",
@@ -14528,7 +14604,11 @@
       "typo_present_v3": true,
       "typo_primary_v3": "sans",
       "typo_case_v3": "lower",
-      "typo_confidence_v3": 0.783
+      "typo_confidence_v3": 0.783,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2053341721677660188.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2053680549521486296.png",
@@ -14550,7 +14630,11 @@
       "typo_present_v3": true,
       "typo_primary_v3": "sans",
       "typo_case_v3": "lower",
-      "typo_confidence_v3": 0.737
+      "typo_confidence_v3": 0.737,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2053680549521486296.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2053729316609880368.png",
@@ -14572,7 +14656,11 @@
       "typo_present_v3": true,
       "typo_primary_v3": "display",
       "typo_case_v3": "lower",
-      "typo_confidence_v3": 0.727
+      "typo_confidence_v3": 0.727,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2053729316609880368.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2053796396290175337.png",
@@ -14594,7 +14682,11 @@
       "typo_present_v3": true,
       "typo_primary_v3": "mixed",
       "typo_case_v3": "lower",
-      "typo_confidence_v3": 0.706
+      "typo_confidence_v3": 0.706,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2053796396290175337.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2053839393211707869.png",
@@ -14616,7 +14708,11 @@
       "typo_present_v3": true,
       "typo_primary_v3": "sans",
       "typo_case_v3": "unknown",
-      "typo_confidence_v3": 0.6286
+      "typo_confidence_v3": 0.6286,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2053839393211707869.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2054093950030332353.png",
@@ -14638,7 +14734,11 @@
       "typo_present_v3": false,
       "typo_primary_v3": "no_typo",
       "typo_case_v3": "na",
-      "typo_confidence_v3": 0.7627
+      "typo_confidence_v3": 0.7627,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2054093950030332353.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2054106161272566125.png",
@@ -14660,7 +14760,11 @@
       "typo_present_v3": true,
       "typo_primary_v3": "mixed",
       "typo_case_v3": "lower",
-      "typo_confidence_v3": 0.706
+      "typo_confidence_v3": 0.706,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2054106161272566125.png",
+      "author_handle": "unknown"
     },
     {
       "file": "tweet_2054146803537170604.png",
@@ -14682,7 +14786,11 @@
       "typo_present_v3": true,
       "typo_primary_v3": "sans",
       "typo_case_v3": "unknown",
-      "typo_confidence_v3": 0.724
+      "typo_confidence_v3": 0.724,
+      "class": "brand_visual",
+      "confidence": 0.99,
+      "thumb_v2": "./clean/tweet_2054146803537170604.png",
+      "author_handle": "unknown"
     }
   ],
   "thumb_v2_meta": {

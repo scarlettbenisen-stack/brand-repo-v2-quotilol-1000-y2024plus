@@ -512,16 +512,20 @@
 
     function normalizeItem(raw) {
       const id = String(raw.tweet_id || raw.id || '').trim();
+      const directImage = typeof raw.image === 'string' && raw.image.trim()
+        ? raw.image.trim()
+        : null;
       const filename = typeof raw.kept === 'string' && raw.kept.trim()
         ? raw.kept.trim()
         : (typeof raw.file === 'string' && raw.file.trim() ? raw.file.trim() : null);
+      const imagePath = directImage || (filename ? 'images/' + filename : null);
       return {
         id,
-        image: filename ? 'images/' + filename : null,
+        image: imagePath,
         source: typeof raw.url === 'string' && raw.url.trim()
           ? raw.url
           : (typeof raw.source === 'string' && raw.source.trim() ? raw.source : '#'),
-        hasImage: Boolean(filename),
+        hasImage: Boolean(imagePath),
         note: typeof raw.text === 'string' ? raw.text : ''
       };
     }

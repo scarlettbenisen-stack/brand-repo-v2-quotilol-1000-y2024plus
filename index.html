@@ -790,7 +790,10 @@
         }
         const payload = await response.json();
         ITEMS = Array.isArray(payload.items)
-          ? payload.items.map(normalizeItem).filter((item) => item.id)
+          ? payload.items
+              .map(normalizeItem)
+              .filter((item) => item.id)
+              .sort((a, b) => Number(b.id) - Number(a.id))
           : [];
         state.boards = loadBoards();
         if (!boardById(state.activeBoardId)) {

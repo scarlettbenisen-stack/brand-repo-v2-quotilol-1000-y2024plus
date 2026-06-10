@@ -1,0 +1,142 @@
+{
+  "total_inputs": 15,
+  "kept": 15,
+  "duplicates": 0,
+  "rows": [
+    {
+      "tweet_id": "2020893958801600868",
+      "file": "2020893958801600868.png",
+      "source": "crops-100",
+      "status": "kept",
+      "kept": "2020893958801600868.png",
+      "url": "https://x.com/i/web/status/2020893958801600868",
+      "text": ""
+    },
+    {
+      "tweet_id": "2019803647014477974",
+      "file": "2019803647014477974.png",
+      "source": "crops-100",
+      "status": "kept",
+      "kept": "2019803647014477974.png",
+      "url": "https://x.com/i/web/status/2019803647014477974",
+      "text": ""
+    },
+    {
+      "tweet_id": "2020552483987243121",
+      "file": "2020552483987243121.png",
+      "source": "crops-100",
+      "status": "kept",
+      "kept": "2020552483987243121.png",
+      "url": "https://x.com/i/web/status/2020552483987243121",
+      "text": ""
+    },
+    {
+      "tweet_id": "2020808740635599099",
+      "file": "2020808740635599099.png",
+      "source": "crops-100",
+      "status": "kept",
+      "kept": "2020808740635599099.png",
+      "url": "https://x.com/i/web/status/2020808740635599099",
+      "text": ""
+    },
+    {
+      "tweet_id": "2020837147339878866",
+      "file": "2020837147339878866.png",
+      "source": "crops-100",
+      "status": "kept",
+      "kept": "2020837147339878866.png",
+      "url": "https://x.com/i/web/status/2020837147339878866",
+      "text": ""
+    },
+    {
+      "tweet_id": "2020350345088836034",
+      "file": "2020350345088836034.png",
+      "source": "crops-sample",
+      "status": "kept",
+      "kept": "2020350345088836034.png",
+      "url": "https://x.com/i/web/status/2020350345088836034",
+      "text": ""
+    },
+    {
+      "tweet_id": "2020835478753419273",
+      "file": "2020835478753419273.png",
+      "source": "crops-sample",
+      "status": "kept",
+      "kept": "2020835478753419273.png",
+      "url": "https://x.com/i/web/status/2020835478753419273",
+      "text": ""
+    },
+    {
+      "tweet_id": "2020893958801600868",
+      "file": "2020893958801600868.png",
+      "source": "crops-sample",
+      "status": "kept",
+      "kept": "2020893958801600868.png",
+      "url": "https://x.com/i/web/status/2020893958801600868",
+      "text": ""
+    },
+    {
+      "tweet_id": "2020673424218329296",
+      "file": "2020673424218329296.png",
+      "source": "crops-sample",
+      "status": "kept",
+      "kept": "2020673424218329296.png",
+      "url": "https://x.com/i/web/status/2020673424218329296",
+      "text": ""
+    },
+    {
+      "tweet_id": "2020793761198973321",
+      "file": "2020793761198973321.png",
+      "source": "crops-sample",
+      "status": "kept",
+      "kept": "2020793761198973321.png",
+      "url": "https://x.com/i/web/status/2020793761198973321",
+      "text": ""
+    },
+    {
+      "tweet_id": "2020552483987243121",
+      "file": "2020552483987243121.png",
+      "source": "crops-sample",
+      "status": "kept",
+      "kept": "2020552483987243121.png",
+      "url": "https://x.com/i/web/status/2020552483987243121",
+      "text": ""
+    },
+    {
+      "tweet_id": "2020452149935628390",
+      "file": "2020452149935628390.png",
+      "source": "crops-sample",
+      "status": "kept",
+      "kept": "2020452149935628390.png",
+      "url": "https://x.com/i/web/status/2020452149935628390",
+      "text": ""
+    },
+    {
+      "tweet_id": "2020808740635599099",
+      "file": "2020808740635599099.png",
+      "source": "crops-sample",
+      "status": "kept",
+      "kept": "2020808740635599099.png",
+      "url": "https://x.com/i/web/status/2020808740635599099",
+      "text": ""
+    },
+    {
+      "tweet_id": "2020558797492605419",
+      "file": "2020558797492605419.png",
+      "source": "crops-sample",
+      "status": "kept",
+      "kept": "2020558797492605419.png",
+      "url": "https://x.com/i/web/status/2020558797492605419",
+      "text": ""
+    },
+    {
+      "tweet_id": "2020837147339878866",
+      "file": "2020837147339878866.png",
+      "source": "crops-sample",
+      "status": "kept",
+      "kept": "2020837147339878866.png",
+      "url": "https://x.com/i/web/status/2020837147339878866",
+      "text": ""
+    }
+  ]
+}

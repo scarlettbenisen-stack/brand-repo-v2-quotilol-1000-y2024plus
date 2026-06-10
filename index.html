@@ -120,6 +120,12 @@
       transition: transform 120ms ease, border-color 120ms ease, background 120ms ease;
     }
 
+    .button[disabled] {
+      opacity: 0.45;
+      cursor: not-allowed;
+      transform: none;
+    }
+
     .button:hover,
     .chip:hover,
     .board-card:hover {
@@ -410,7 +416,8 @@
 
       <div class="button-row">
         <button id="exportJsonButton" class="button primary" type="button">Export boards JSON</button>
-        <button id="printButton" class="button soft" type="button">Print / PDF</button>
+        <button id="exportActivePngButton" class="button soft" type="button">Export active board PNG</button>
+        <button id="printButton" class="button soft" type="button">Export boards PDF</button>
         <button id="clearBoardsButton" class="button ghost" type="button">Reset boards</button>
       </div>
 
@@ -506,6 +513,7 @@
       statAssigned: document.getElementById('statAssigned'),
       statBoards: document.getElementById('statBoards'),
       exportJsonButton: document.getElementById('exportJsonButton'),
+      exportActivePngButton: document.getElementById('exportActivePngButton'),
       printButton: document.getElementById('printButton'),
       clearBoardsButton: document.getElementById('clearBoardsButton')
     };
@@ -563,6 +571,10 @@
       return state.boards.find((board) => board.id === id);
     }
 
+    function itemsForBoard(board) {
+      return board.itemIds.map((id) => itemById(id)).filter(Boolean);
+    }
+
     function assignedBoardsForItem(id) {
       return state.boards.filter((board) => board.itemIds.includes(id));
     }
@@ -593,9 +605,10 @@
     function renderBoards() {
       elements.boardGrid.innerHTML = state.boards.map((board) => {
         const activeClass = board.id === state.activeBoardId ? ' active' : '';
+        const boardItems = itemsForBoard(board);
         const thumbs = [];
         for (let index = 0; index < 5; index += 1) {
-          const item = itemById(board.itemIds[index]);
+          const item = boardItems[index];
           if (item) {
             if (item.hasImage) {
               thumbs.push('<div class="thumb"><img src="' + item.image + '" alt="' + item.id + '" loading="lazy"></div>');
@@ -639,6 +652,8 @@
             warning +
             '<div class="board-actions">' +
               '<button class="button soft" type="button" data-action="set-active-board" data-board-id="' + board.id + '">Use as active</button>' +
+              '<button class="button soft" type="button" data-action="export-board-png" data-board-id="' + board.id + '"' + (boardItems.length ? '' : ' disabled') + '>Export PNG</button>' +
+              '<button class="button soft" type="button" data-action="print-board" data-board-id="' + board.id + '"' + (boardItems.length ? '' : ' disabled') + '>Print / PDF</button>' +
               '<button class="button ghost" type="button" data-action="clear-board" data-board-id="' + board.id + '">Clear board</button>' +
             '</div>' +
           '</article>';
@@ -759,6 +774,391 @@
       URL.revokeObjectURL(href);
     }
 
+    function slugify(value) {
+      return String(value || 'board')
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '')
+        .slice(0, 60) || 'board';
+    }
+
+    function boardExportFilename(board, ext) {
+      return 'brand-board-' + slugify(board.name || board.id) + '.' + ext;
+    }
+
+    function drawRoundedRect(ctx, x, y, width, height, radius) {
+      const r = Math.min(radius, width / 2, height / 2);
+      ctx.beginPath();
+      ctx.moveTo(x + r, y);
+      ctx.arcTo(x + width, y, x + width, y + height, r);
+      ctx.arcTo(x + width, y + height, x, y + height, r);
+      ctx.arcTo(x, y + height, x, y, r);
+      ctx.arcTo(x, y, x + width, y, r);
+      ctx.closePath();
+    }
+
+    function wrapCanvasText(ctx, text, maxWidth) {
+      const value = String(text || '').trim();
+      if (!value) return [];
+      const paragraphs = value.split(/\n+/).map((part) => part.trim()).filter(Boolean);
+      const lines = [];
+      paragraphs.forEach((paragraph) => {
+        const words = paragraph.split(/\s+/);
+        let current = '';
+        words.forEach((word) => {
+          const test = current ? current + ' ' + word : word;
+          if (ctx.measureText(test).width <= maxWidth || !current) {
+            current = test;
+          } else {
+            lines.push(current);
+            current = word;
+          }
+        });
+        if (current) lines.push(current);
+      });
+      return lines;
+    }
+
+    function loadImageForExport(src) {
+      return new Promise((resolve) => {
+        if (!src) {
+          resolve(null);
+          return;
+        }
+        const img = new Image();
+        img.onload = () => resolve(img);
+        img.onerror = () => resolve(null);
+        img.src = src;
+      });
+    }
+
+    function drawCoverAsset(ctx, asset, x, y, width, height, radius) {
+      ctx.save();
+      drawRoundedRect(ctx, x, y, width, height, radius);
+      ctx.clip();
+      const scale = Math.max(width / asset.width, height / asset.height);
+      const drawWidth = asset.width * scale;
+      const drawHeight = asset.height * scale;
+      const dx = x + (width - drawWidth) / 2;
+      const dy = y + (height - drawHeight) / 2;
+      ctx.drawImage(asset, dx, dy, drawWidth, drawHeight);
+      ctx.restore();
+    }
+
+    function drawPlaceholderAsset(ctx, item, x, y, width, height, radius) {
+      ctx.save();
+      drawRoundedRect(ctx, x, y, width, height, radius);
+      ctx.fillStyle = '#efe7db';
+      ctx.fill();
+      ctx.strokeStyle = 'rgba(24, 22, 19, 0.08)';
+      ctx.stroke();
+      ctx.clip();
+      const gradient = ctx.createLinearGradient(x, y, x + width, y + height);
+      gradient.addColorStop(0, 'rgba(162, 74, 45, 0.16)');
+      gradient.addColorStop(1, 'rgba(88, 110, 97, 0.16)');
+      ctx.fillStyle = gradient;
+      ctx.fillRect(x, y, width, height);
+      ctx.fillStyle = '#6c645a';
+      ctx.font = '600 24px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+      const label = (() => {
+        try {
+          const url = new URL(item.source);
+          return url.hostname.replace(/^www\./, '');
+        } catch (error) {
+          return 'Source reference';
+        }
+      })();
+      const lines = wrapCanvasText(ctx, label, width - 36).slice(0, 3);
+      const lineHeight = 30;
+      const blockHeight = lines.length * lineHeight;
+      let cy = y + (height - blockHeight) / 2 + 22;
+      lines.forEach((line) => {
+        ctx.fillText(line, x + 18, cy);
+        cy += lineHeight;
+      });
+      ctx.restore();
+    }
+
+    async function exportBoardPng(boardId) {
+      const board = boardById(boardId);
+      if (!board) return;
+      const boardItems = itemsForBoard(board);
+      if (!boardItems.length) {
+        alert('Add at least one reference before exporting a board.');
+        return;
+      }
+
+      const canvas = document.createElement('canvas');
+      canvas.width = 1800;
+      canvas.height = 1350;
+      const ctx = canvas.getContext('2d');
+
+      const background = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+      background.addColorStop(0, '#faf5ed');
+      background.addColorStop(1, '#f1e7d9');
+      ctx.fillStyle = background;
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      ctx.fillStyle = 'rgba(162, 74, 45, 0.08)';
+      ctx.beginPath();
+      ctx.arc(180, 140, 220, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.fillStyle = 'rgba(88, 110, 97, 0.08)';
+      ctx.beginPath();
+      ctx.arc(1570, 180, 180, 0, Math.PI * 2);
+      ctx.fill();
+
+      const panelX = 72;
+      const panelY = 64;
+      const panelW = canvas.width - 144;
+      const panelH = canvas.height - 128;
+
+      drawRoundedRect(ctx, panelX, panelY, panelW, panelH, 32);
+      ctx.fillStyle = 'rgba(255, 251, 244, 0.94)';
+      ctx.fill();
+      ctx.strokeStyle = 'rgba(24, 22, 19, 0.08)';
+      ctx.stroke();
+
+      ctx.fillStyle = '#6c645a';
+      ctx.font = '600 20px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+      ctx.fillText('Brand Repository Board Export', 124, 132);
+
+      ctx.fillStyle = '#181613';
+      ctx.font = '700 70px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+      const titleLines = wrapCanvasText(ctx, board.name, 700).slice(0, 2);
+      let titleY = 220;
+      titleLines.forEach((line) => {
+        ctx.fillText(line, 124, titleY);
+        titleY += 78;
+      });
+
+      ctx.fillStyle = '#4f483f';
+      ctx.font = '600 28px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+      const angleLines = wrapCanvasText(ctx, board.angle, 700).slice(0, 4);
+      let angleY = titleY + 12;
+      angleLines.forEach((line) => {
+        ctx.fillText(line, 124, angleY);
+        angleY += 38;
+      });
+
+      ctx.fillStyle = '#6c645a';
+      ctx.font = '400 24px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+      const rationale = board.rationale && board.rationale.trim()
+        ? board.rationale.trim()
+        : 'No rationale written yet.';
+      const rationaleLines = wrapCanvasText(ctx, rationale, 700).slice(0, 7);
+      let rationaleY = angleY + 44;
+      rationaleLines.forEach((line) => {
+        ctx.fillText(line, 124, rationaleY);
+        rationaleY += 32;
+      });
+
+      ctx.fillStyle = '#6c645a';
+      ctx.font = '600 18px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+      ctx.fillText(boardItems.length + ' reference' + (boardItems.length > 1 ? 's' : ''), 124, panelY + panelH - 70);
+
+      const gridX = 892;
+      const gridY = 124;
+      const gap = 24;
+      const columns = boardItems.length === 1 ? 1 : 2;
+      const rows = boardItems.length <= 2 ? boardItems.length : Math.ceil(boardItems.length / 2);
+      const cellWidth = columns === 1 ? 784 : 380;
+      const cellHeight = rows >= 3 ? 300 : 430;
+
+      const assets = await Promise.all(boardItems.map((item) => item.hasImage ? loadImageForExport(item.image) : Promise.resolve(null)));
+      boardItems.forEach((item, index) => {
+        const col = columns === 1 ? 0 : index % 2;
+        const row = columns === 1 ? index : Math.floor(index / 2);
+        const x = gridX + (cellWidth + gap) * col;
+        const y = gridY + (cellHeight + gap) * row;
+        const asset = assets[index];
+        if (asset) {
+          drawCoverAsset(ctx, asset, x, y, cellWidth, cellHeight, 24);
+        } else {
+          drawPlaceholderAsset(ctx, item, x, y, cellWidth, cellHeight, 24);
+        }
+
+        ctx.fillStyle = 'rgba(255, 251, 244, 0.92)';
+        drawRoundedRect(ctx, x + 18, y + cellHeight - 64, Math.min(cellWidth - 36, 290), 44, 14);
+        ctx.fill();
+        ctx.fillStyle = '#181613';
+        ctx.font = '600 18px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+        const caption = item.source.replace(/^https?:\/\//, '').slice(0, 34);
+        ctx.fillText(caption, x + 34, y + cellHeight - 35);
+      });
+
+      canvas.toBlob((blob) => {
+        if (!blob) return;
+        const href = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = href;
+        link.download = boardExportFilename(board, 'png');
+        link.click();
+        URL.revokeObjectURL(href);
+      }, 'image/png');
+    }
+
+    function boardPrintMarkup(board) {
+      const boardItems = itemsForBoard(board);
+      const cards = boardItems.map((item) => {
+        const media = item.hasImage
+          ? '<a href="' + escapeAttribute(item.source) + '" target="_blank" rel="noopener"><img src="' + escapeAttribute(item.image) + '" alt="' + escapeAttribute(item.id) + '"></a>'
+          : '<a class="export-placeholder" href="' + escapeAttribute(item.source) + '" target="_blank" rel="noopener">' + escapeHtml(item.source.replace(/^https?:\/\//, '')) + '</a>';
+        return '' +
+          '<article class="export-card">' +
+            '<div class="export-media">' + media + '</div>' +
+            '<div class="export-caption">' + escapeHtml(item.source.replace(/^https?:\/\//, '')) + '</div>' +
+          '</article>';
+      }).join('');
+
+      const rationale = board.rationale && board.rationale.trim()
+        ? escapeHtml(board.rationale)
+        : '<span class="export-muted">No rationale written yet.</span>';
+
+      return '' +
+        '<section class="export-board">' +
+          '<div class="export-head">' +
+            '<p class="export-kicker">Brand Repository Board</p>' +
+            '<h1>' + escapeHtml(board.name) + '</h1>' +
+            '<p class="export-angle">' + escapeHtml(board.angle) + '</p>' +
+            '<div class="export-rationale">' + rationale.replace(/\n/g, '<br>') + '</div>' +
+          '</div>' +
+          '<div class="export-grid export-grid-' + Math.min(Math.max(boardItems.length, 1), 5) + '">' + cards + '</div>' +
+        '</section>';
+    }
+
+    function exportBoardsPdf(boardIds) {
+      const boards = boardIds.map((id) => boardById(id)).filter(Boolean).filter((board) => itemsForBoard(board).length > 0);
+      if (!boards.length) {
+        alert('Build at least one board before exporting.');
+        return;
+      }
+
+      const win = window.open('', '_blank', 'noopener,noreferrer');
+      if (!win) {
+        alert('Popup blocked. Allow popups to export the board.');
+        return;
+      }
+
+      const sections = boards.map((board) => boardPrintMarkup(board)).join('');
+      win.document.write(`<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Brand Repository Board Export</title>
+  <style>
+    :root {
+      --paper: #f7f1e8;
+      --ink: #181613;
+      --muted: #6c645a;
+      --line: rgba(24,22,19,.12);
+      --accent: #a24a2d;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font: 15px/1.45 ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    .export-board {
+      min-height: 100vh;
+      padding: 36px;
+      display: grid;
+      gap: 24px;
+      page-break-after: always;
+      background:
+        radial-gradient(circle at top left, rgba(162, 74, 45, 0.10), transparent 28%),
+        radial-gradient(circle at top right, rgba(88, 110, 97, 0.10), transparent 24%),
+        linear-gradient(180deg, #fbf7f0 0%, var(--paper) 100%);
+    }
+    .export-board:last-child { page-break-after: auto; }
+    .export-head {
+      background: rgba(255, 251, 244, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 28px;
+    }
+    .export-kicker {
+      margin: 0 0 10px;
+      font-size: 11px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    h1 {
+      margin: 0;
+      font-size: 46px;
+      line-height: .95;
+      letter-spacing: -.04em;
+    }
+    .export-angle {
+      margin: 18px 0 0;
+      font-size: 24px;
+      line-height: 1.2;
+    }
+    .export-rationale {
+      margin-top: 18px;
+      color: var(--muted);
+      max-width: 860px;
+    }
+    .export-muted { color: var(--muted); }
+    .export-grid {
+      display: grid;
+      gap: 18px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .export-grid-1 { grid-template-columns: 1fr; }
+    .export-card {
+      background: rgba(255, 251, 244, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      overflow: hidden;
+      display: grid;
+      gap: 0;
+    }
+    .export-media {
+      aspect-ratio: 4 / 5;
+      background: #eadfce;
+    }
+    .export-media img,
+    .export-media a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      text-decoration: none;
+      color: inherit;
+    }
+    .export-placeholder {
+      display: grid !important;
+      place-items: center;
+      padding: 24px;
+      text-align: center;
+      color: var(--muted);
+      background: linear-gradient(135deg, rgba(162, 74, 45, 0.08), rgba(88, 110, 97, 0.08));
+    }
+    .export-caption {
+      padding: 12px 14px 14px;
+      font-size: 13px;
+      color: var(--muted);
+      word-break: break-word;
+    }
+    @media print {
+      body { background: white; }
+      .export-board { min-height: auto; }
+    }
+  </style>
+</head>
+<body>${sections}</body>
+</html>`);
+      win.document.close();
+      win.focus();
+      setTimeout(() => win.print(), 150);
+    }
+
     function updateBoardField(boardId, field, value) {
       const board = boardById(boardId);
       if (!board) return;
@@ -825,6 +1225,12 @@
         state.activeBoardId = button.dataset.boardId;
         persistAndRender();
       }
+      if (action === 'export-board-png') {
+        exportBoardPng(button.dataset.boardId);
+      }
+      if (action === 'print-board') {
+        exportBoardsPdf([button.dataset.boardId]);
+      }
     });
 
     document.addEventListener('input', (event) => {
@@ -859,7 +1265,8 @@
     });
 
     elements.exportJsonButton.addEventListener('click', exportJson);
-    elements.printButton.addEventListener('click', () => window.print());
+    elements.exportActivePngButton.addEventListener('click', () => exportBoardPng(state.activeBoardId));
+    elements.printButton.addEventListener('click', () => exportBoardsPdf(state.boards.map((board) => board.id)));
     elements.clearBoardsButton.addEventListener('click', resetBoards);
 
     loadItems();

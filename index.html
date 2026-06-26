@@ -1,1275 +1,249 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Brand Repository v1</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brand Visual Explorer</title>
   <style>
-    :root {
-      --bg: #f4f1ea;
-      --panel: rgba(255, 252, 246, 0.92);
-      --panel-strong: #fffaf2;
-      --text: #181613;
-      --muted: #6c645a;
-      --line: rgba(24, 22, 19, 0.12);
-      --line-strong: rgba(24, 22, 19, 0.22);
-      --accent: #a24a2d;
-      --accent-soft: rgba(162, 74, 45, 0.12);
-      --shadow: 0 18px 40px rgba(57, 43, 33, 0.12);
-      --radius: 18px;
-    }
-
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
-      margin: 0;
-      color: var(--text);
-      background:
-        radial-gradient(circle at top left, rgba(162, 74, 45, 0.12), transparent 28%),
-        radial-gradient(circle at top right, rgba(88, 110, 97, 0.14), transparent 24%),
-        linear-gradient(180deg, #f7f3ec 0%, var(--bg) 100%);
-      font: 15px/1.45 ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    }
-
-    a { color: inherit; }
-    button, input, textarea {
-      font: inherit;
-      color: inherit;
-    }
-
-    .shell {
-      width: min(1440px, calc(100vw - 40px));
-      margin: 24px auto 40px;
-      display: grid;
-      grid-template-columns: minmax(300px, 360px) minmax(0, 1fr);
-      gap: 24px;
-      align-items: start;
-    }
-
-    .panel {
-      background: var(--panel);
-      backdrop-filter: blur(14px);
-      border: 1px solid var(--line);
-      border-radius: calc(var(--radius) + 6px);
-      box-shadow: var(--shadow);
-    }
-
-    .sidebar {
-      position: sticky;
-      top: 24px;
-      padding: 22px;
-      display: grid;
-      gap: 18px;
-    }
-
-    .eyebrow {
-      margin: 0 0 8px;
-      font-size: 11px;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--muted);
-    }
-
-    h1 {
-      margin: 0;
-      font-size: clamp(28px, 4vw, 42px);
-      line-height: 0.96;
-      letter-spacing: -0.04em;
-    }
-
-    .lede, .small {
-      margin: 0;
-      color: var(--muted);
-    }
-
-    .small { font-size: 13px; }
-
-    .toolbar {
-      display: grid;
-      gap: 12px;
-    }
-
-    .input,
-    .textarea,
-    .select {
-      width: 100%;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      background: rgba(255, 255, 255, 0.68);
-      padding: 11px 12px;
-    }
-
-    .textarea { min-height: 78px; resize: vertical; }
-
-    .button-row,
-    .filter-row,
-    .board-actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-
-    .button,
-    .chip {
-      border: 1px solid var(--line);
-      background: rgba(255, 255, 255, 0.75);
-      color: var(--text);
-      border-radius: 999px;
-      padding: 9px 12px;
-      cursor: pointer;
-      transition: transform 120ms ease, border-color 120ms ease, background 120ms ease;
-    }
-
-    .button[disabled] {
-      opacity: 0.45;
-      cursor: not-allowed;
-      transform: none;
-    }
-
-    .button:hover,
-    .chip:hover,
-    .board-card:hover {
-      transform: translateY(-1px);
-      border-color: var(--line-strong);
-    }
-
-    .button.primary {
-      background: var(--text);
-      color: #f9f5ef;
-      border-color: var(--text);
-    }
-
-    .button.soft {
-      background: var(--accent-soft);
-      border-color: rgba(162, 74, 45, 0.18);
-      color: #6d301d;
-    }
-
-    .button.ghost {
-      background: transparent;
-    }
-
-    .main {
-      display: grid;
-      gap: 18px;
-    }
-
-    .hero {
-      padding: 22px;
-      display: grid;
-      gap: 16px;
-    }
-
-    .stats {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 10px;
-    }
-
-    .stat {
-      background: rgba(255, 255, 255, 0.68);
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      padding: 14px;
-    }
-
-    .stat-value {
-      display: block;
-      font-size: 24px;
-      letter-spacing: -0.04em;
-    }
-
-    .board-grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 14px;
-    }
-
-    .board-card {
-      border: 1px solid var(--line);
-      border-radius: 16px;
-      padding: 14px;
-      background: rgba(255, 255, 255, 0.72);
-      display: grid;
-      gap: 10px;
-      transition: transform 120ms ease, border-color 120ms ease;
-    }
-
-    .board-card.active {
-      border-color: rgba(162, 74, 45, 0.36);
-      box-shadow: inset 0 0 0 1px rgba(162, 74, 45, 0.1);
-    }
-
-    .board-header {
-      display: flex;
-      justify-content: space-between;
-      gap: 12px;
-      align-items: baseline;
-    }
-
-    .board-title {
-      margin: 0;
-      font-size: 18px;
-      letter-spacing: -0.03em;
-    }
-
-    .pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      min-height: 28px;
-      border-radius: 999px;
-      padding: 0 10px;
-      background: var(--accent-soft);
-      color: #6d301d;
-      font-size: 12px;
-    }
-
-    .board-meta {
-      display: grid;
-      gap: 8px;
-    }
-
-    .board-thumb-row {
-      display: grid;
-      grid-template-columns: repeat(5, minmax(0, 1fr));
-      gap: 8px;
-    }
-
-    .thumb,
-    .thumb-empty {
-      aspect-ratio: 4 / 5;
-      border-radius: 12px;
-      overflow: hidden;
-      border: 1px solid var(--line);
-      background: #efe9e0;
-    }
-
-    .thumb img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .thumb-empty {
-      display: grid;
-      place-items: center;
-      color: var(--muted);
-      font-size: 12px;
-      text-align: center;
-      padding: 6px;
-    }
-
-    .collection {
-      padding: 18px;
-      display: grid;
-      gap: 14px;
-    }
-
-    .collection-head {
-      display: flex;
-      justify-content: space-between;
-      gap: 12px;
-      align-items: end;
-      flex-wrap: wrap;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-      gap: 14px;
-    }
-
-    .card {
-      border: 1px solid var(--line);
-      border-radius: 16px;
-      overflow: hidden;
-      background: var(--panel-strong);
-      display: grid;
-      min-height: 324px;
-    }
-
-    .card-media {
-      position: relative;
-      aspect-ratio: 4 / 5;
-      background: #ede4d8;
-      overflow: hidden;
-    }
-
-    .card-media img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .placeholder {
-      position: absolute;
-      inset: 0;
-      display: grid;
-      place-items: center;
-      color: var(--muted);
-      padding: 18px;
-      text-align: center;
-      text-decoration: none;
-      background:
-        linear-gradient(135deg, rgba(162, 74, 45, 0.08), rgba(88, 110, 97, 0.08)),
-        #f1ebe1;
-    }
-
-    .card-body {
-      padding: 12px;
-      display: grid;
-      gap: 10px;
-      align-content: start;
-    }
-
-    .card-top {
-      display: flex;
-      justify-content: space-between;
-      gap: 10px;
-      align-items: center;
-    }
-
-    .card-id {
-      font-size: 12px;
-      color: var(--muted);
-      word-break: break-all;
-    }
-
-    .assignments {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      min-height: 28px;
-    }
-
-    .assignments .pill {
-      background: rgba(24, 22, 19, 0.08);
-      color: var(--text);
-    }
-
-    .empty-state {
-      padding: 32px;
-      border: 1px dashed var(--line-strong);
-      border-radius: 16px;
-      text-align: center;
-      color: var(--muted);
-      background: rgba(255, 255, 255, 0.45);
-    }
-
-    .hidden { display: none !important; }
-
-    @media (max-width: 1120px) {
-      .shell {
-        grid-template-columns: 1fr;
-      }
-
-      .sidebar {
-        position: static;
-      }
-
-      .board-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-
+    :root { --bg:#0b0d10; --card:#151922; --text:#eaf0ff; --muted:#9fb0d1; --accent:#6ea8fe; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--text); }
+    .wrap { max-width:1320px; margin:0 auto; padding:18px; }
+    .meta { color:var(--muted); font-size:13px; }
+    .panel { background:var(--card); border:1px solid #242d40; border-radius:12px; padding:12px; margin-bottom:12px; }
+    .row { display:flex; flex-wrap:wrap; gap:10px; align-items:center; }
+    .input, select { background:#0f141d; color:var(--text); border:1px solid #2b3448; border-radius:10px; padding:8px 10px; }
+    .input { min-width:260px; }
+    .btn { border:1px solid #2b3448; background:#0f141d; color:var(--text); border-radius:10px; padding:8px 12px; cursor:pointer; }
+    .btn.active { border-color:var(--accent); box-shadow:0 0 0 1px var(--accent) inset; }
+    .chips { display:flex; gap:6px; flex-wrap:wrap; }
+    .chip { font-size:11px; background:#0f141d; border:1px solid #2a344b; padding:3px 7px; border-radius:999px; color:#cdd9f7; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:12px; }
+    .card { background:var(--card); border:1px solid #242d40; border-radius:12px; overflow:hidden; }
+    .imgbox { aspect-ratio:1/1; background:#0e1219; }
+    img { width:100%; height:100%; object-fit:cover; display:block; }
+    .content { padding:9px; }
+    .file { font-size:12px; color:#d2ddf7; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; margin-bottom:6px; }
+    .subtle { color:#8a9bb8; font-size:11px; }
+    .text-preview { color:#b8c5e3; font-size:11px; line-height:1.45; margin:6px 0 0; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+    a { color:var(--accent); text-decoration:none; font-size:12px; }
     @media (max-width: 720px) {
-      body { font-size: 14px; }
-      .shell { width: min(100vw - 20px, 1440px); margin-top: 10px; gap: 16px; }
-      .panel, .sidebar, .hero, .collection { border-radius: 18px; }
-      .stats { grid-template-columns: 1fr; }
-      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .board-thumb-row { grid-template-columns: repeat(5, minmax(44px, 1fr)); }
+      .wrap { padding:14px; }
+      .input { min-width:0; width:100%; }
+      .row { align-items:stretch; }
+      .grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
     }
   </style>
 </head>
 <body>
-  <div class="shell">
-    <aside class="sidebar panel">
-      <div>
-        <p class="eyebrow">Brand Repository</p>
-        <h1>Three boards.<br>Three directions.</h1>
+  <div class="wrap">
+    <div class="row" style="justify-content:space-between; align-items:center; margin-bottom:8px; gap:12px;">
+      <h2 style="margin:0">Brand Visual Explorer</h2>
+      <a class="btn" style="font-size:13px; text-decoration:none;" href="https://github.com/scarlettbenisen-stack/brand-repo-v2-quotilol-1000-y2024plus/releases/tag/hd-assets-v1" target="_blank" rel="noopener">Télécharger exports HD ↗</a>
+    </div>
+    <div class="meta" id="stats">Chargement…</div>
+
+    <div class="panel">
+      <div class="row" style="margin-bottom:10px">
+        <button class="btn active" data-class="brand_visual">Brand</button>
+        <input id="search" class="input" placeholder="Rechercher tweet_, URL, note..." />
+        <label class="meta"><input id="onlyHigh" type="checkbox" /> conf ≥ 0.60</label>
       </div>
-
-      <p class="lede">Compose three distinct directions from the same pool of references, keep the selections lightweight, and export a clean snapshot when the set starts to hold.</p>
-
-      <div class="toolbar">
-        <input id="searchInput" class="input" type="search" placeholder="Search by ID or source URL">
-        <div class="filter-row">
-          <button class="chip" data-filter="all" aria-pressed="true">All refs</button>
-          <button class="chip" data-filter="with-image" aria-pressed="false">With image</button>
-          <button class="chip" data-filter="url-only" aria-pressed="false">URL only</button>
-          <button class="chip" data-filter="assigned" aria-pressed="false">Assigned</button>
-          <button class="chip" data-filter="unassigned" aria-pressed="false">Unassigned</button>
-        </div>
+      <div class="row">
+        <select id="paletteTemp"><option value="all">Palette temp: all</option><option>warm</option><option>cool</option><option>neutral</option></select>
+        <select id="mono"><option value="all">Monochrome: all</option><option value="true">yes</option><option value="false">no</option></select>
+        <select id="sat"><option value="all">Saturation: all</option><option>muted</option><option>balanced</option><option>vivid</option></select>
+        <select id="contrast"><option value="all">Contrast: all</option><option>low</option><option>medium</option><option>high</option></select>
+        <select id="density"><option value="all">Density: all</option><option>airy</option><option>balanced</option><option>dense</option></select>
+        <select id="visualMode"><option value="all">Mode: all</option><option>type_logo_likely</option><option>photo_likely</option><option>mixed</option></select>
+        <select id="dominant"><option value="all">Dominant color: all</option><option>gray</option><option>red</option><option>orange</option><option>yellow</option><option>green</option><option>cyan</option><option>blue</option><option>purple</option><option>pink</option></select>
+        <select id="typo"><option value="all">Typography: all</option><option>serif</option><option>sans</option><option>mixed</option><option>display</option><option>no_typo</option><option>unknown</option></select>
+        <select id="author"><option value="all">Author: all</option></select>
       </div>
+    </div>
 
-      <div class="toolbar">
-        <label>
-          <p class="eyebrow">Current Board</p>
-          <select id="activeBoardSelect" class="select"></select>
-        </label>
-        <p class="small">Use the active board for quick assignment. Each reference can belong to multiple directions for now; if that becomes annoying, we can hard-block duplicates in a next pass.</p>
-      </div>
-
-      <div class="button-row">
-        <button id="exportJsonButton" class="button primary" type="button">Export boards JSON</button>
-        <button id="exportActivePngButton" class="button soft" type="button">Export active board PNG</button>
-        <button id="printButton" class="button soft" type="button">Export boards PDF</button>
-        <button id="clearBoardsButton" class="button ghost" type="button">Reset boards</button>
-      </div>
-
-      <p class="small">Selections and board notes are stored locally in the browser via <code>localStorage</code>.</p>
-    </aside>
-
-    <main class="main">
-      <section class="hero panel">
-        <div class="collection-head">
-          <div>
-            <p class="eyebrow">Board Builder</p>
-            <h2 style="margin:0;font-size:28px;letter-spacing:-0.04em;">Curate before you automate</h2>
-          </div>
-          <p id="summaryText" class="small">64 unique references available.</p>
-        </div>
-
-        <div class="stats">
-          <div class="stat">
-            <span class="stat-value" id="statRefs">64</span>
-            <span class="small">unique references</span>
-          </div>
-          <div class="stat">
-            <span class="stat-value" id="statAssigned">0</span>
-            <span class="small">refs assigned to at least one board</span>
-          </div>
-          <div class="stat">
-            <span class="stat-value" id="statBoards">0 / 3</span>
-            <span class="small">boards with 4-5 refs</span>
-          </div>
-        </div>
-
-        <div id="boardGrid" class="board-grid"></div>
-      </section>
-
-      <section class="collection panel">
-        <div class="collection-head">
-          <div>
-            <p class="eyebrow">Reference Pool</p>
-            <h2 style="margin:0;font-size:22px;letter-spacing:-0.03em;">Gallery</h2>
-          </div>
-          <p id="filterFeedback" class="small">Showing all references.</p>
-        </div>
-        <div id="galleryGrid" class="grid"></div>
-        <div id="emptyState" class="empty-state hidden">No references match the current filters.</div>
-      </section>
-    </main>
+    <div class="grid" id="grid"></div>
   </div>
 
   <script>
-    let ITEMS = [];
+    const BUILD = '1782467000';
+    const TAGS_PATH = `./analysis/visual_tags.json?v=${BUILD}`;
+    const ITEMS_PATH = `./meta/items.json?v=${BUILD}`;
 
-    const STORAGE_KEY = 'brandRepositoryBoards.v1';
-    const DEFAULT_BOARDS = [
-      {
-        id: 'board-a',
-        name: 'Direction A',
-        angle: 'What is the first strong point of view?',
-        rationale: '',
-        itemIds: []
-      },
-      {
-        id: 'board-b',
-        name: 'Direction B',
-        angle: 'What is the clear alternative register?',
-        rationale: '',
-        itemIds: []
-      },
-      {
-        id: 'board-c',
-        name: 'Direction C',
-        angle: 'What is the surprising but plausible stretch?',
-        rationale: '',
-        itemIds: []
-      }
-    ];
+    let allItems = [];
+    let activeClass = 'brand_visual';
+    const itemMetaByFile = new Map();
 
-    const state = {
-      filter: 'all',
-      search: '',
-      activeBoardId: DEFAULT_BOARDS[0].id,
-      boards: structuredClone(DEFAULT_BOARDS)
+    const el = (id) => document.getElementById(id);
+    const grid = el('grid');
+    const stats = el('stats');
+
+    const controls = {
+      search: el('search'),
+      onlyHigh: el('onlyHigh'),
+      paletteTemp: el('paletteTemp'),
+      mono: el('mono'),
+      sat: el('sat'),
+      contrast: el('contrast'),
+      density: el('density'),
+      visualMode: el('visualMode'),
+      dominant: el('dominant'),
+      typo: el('typo'),
+      author: el('author')
     };
 
-    const elements = {
-      searchInput: document.getElementById('searchInput'),
-      activeBoardSelect: document.getElementById('activeBoardSelect'),
-      boardGrid: document.getElementById('boardGrid'),
-      galleryGrid: document.getElementById('galleryGrid'),
-      emptyState: document.getElementById('emptyState'),
-      summaryText: document.getElementById('summaryText'),
-      filterFeedback: document.getElementById('filterFeedback'),
-      statRefs: document.getElementById('statRefs'),
-      statAssigned: document.getElementById('statAssigned'),
-      statBoards: document.getElementById('statBoards'),
-      exportJsonButton: document.getElementById('exportJsonButton'),
-      exportActivePngButton: document.getElementById('exportActivePngButton'),
-      printButton: document.getElementById('printButton'),
-      clearBoardsButton: document.getElementById('clearBoardsButton')
-    };
+    function tweetUrlFromFile(file) {
+      const match = String(file || '').match(/tweet_(\d+)\.png/);
+      return match ? `https://x.com/i/web/status/${match[1]}` : '#';
+    }
 
-    function normalizeItem(raw) {
-      const id = String(raw.tweet_id || raw.id || '').trim();
-      const directImage = typeof raw.image === 'string' && raw.image.trim()
-        ? raw.image.trim()
-        : null;
-      const filename = typeof raw.kept === 'string' && raw.kept.trim()
-        ? raw.kept.trim()
-        : (typeof raw.file === 'string' && raw.file.trim() ? raw.file.trim() : null);
-      const imagePath = directImage || (filename ? 'images/' + filename : null);
+    function basename(path) {
+      return String(path || '').split('/').pop() || '';
+    }
+
+    function normalizeMetaItem(raw) {
+      const explicitFile = typeof raw.file === 'string' && raw.file.trim() ? raw.file.trim() : '';
+      const keptFile = typeof raw.kept === 'string' && raw.kept.trim() ? raw.kept.trim() : '';
+      const imageFile = typeof raw.image === 'string' && raw.image.trim() ? basename(raw.image.trim()) : '';
+      const file = explicitFile || keptFile || imageFile;
+      if (!file) return null;
       return {
-        id,
-        image: imagePath,
-        source: typeof raw.url === 'string' && raw.url.trim()
-          ? raw.url
-          : (typeof raw.source === 'string' && raw.source.trim() ? raw.source : '#'),
-        hasImage: Boolean(imagePath),
-        note: typeof raw.text === 'string' ? raw.text : ''
+        file,
+        url: typeof raw.url === 'string' && raw.url.trim() ? raw.url.trim() : tweetUrlFromFile(file),
+        text: typeof raw.text === 'string' ? raw.text.trim() : ''
       };
     }
 
-    function loadBoards() {
-      try {
-        const raw = localStorage.getItem(STORAGE_KEY);
-        if (!raw) return structuredClone(DEFAULT_BOARDS);
-        const parsed = JSON.parse(raw);
-        return DEFAULT_BOARDS.map((board) => {
-          const match = parsed.find((entry) => entry.id === board.id) || {};
-          return {
-            ...board,
-            name: typeof match.name === 'string' && match.name.trim() ? match.name : board.name,
-            angle: typeof match.angle === 'string' ? match.angle : board.angle,
-            rationale: typeof match.rationale === 'string' ? match.rationale : '',
-            itemIds: Array.isArray(match.itemIds) ? match.itemIds.filter((id) => ITEMS.some((item) => item.id === id)).slice(0, 5) : []
-          };
+    function itemMeta(it) {
+      return itemMetaByFile.get(it.file) || {};
+    }
+
+    function itemUrl(it) {
+      return itemMeta(it).url || tweetUrlFromFile(it.file);
+    }
+
+    function itemText(it) {
+      return itemMeta(it).text || '';
+    }
+
+    function itemLinkLabel(it) {
+      const url = itemUrl(it);
+      return /x\.com|twitter\.com/.test(url) ? 'ouvrir tweet ↗' : 'ouvrir source ↗';
+    }
+
+    function visible(it) {
+      const q = controls.search.value.trim().toLowerCase();
+      if (activeClass !== 'all' && it.class !== activeClass) return false;
+      if (controls.onlyHigh.checked && (Number(it.confidence) || 0) < 0.6) return false;
+      if (q) {
+        const haystack = [it.file, itemUrl(it), itemText(it), it.author_handle || ''].join(' ').toLowerCase();
+        if (!haystack.includes(q)) return false;
+      }
+      const authorFilter = controls.author.value;
+      if (authorFilter !== 'all' && (it.author_handle || 'unknown') !== authorFilter) return false;
+
+      const paletteTemp = it.palette_temperature_v2 || it.palette_temperature;
+      const dominantColor = it.dominant_color_v2 || it.dominant_color;
+      const typoPrimary = it.typo_primary_v3 || it.typo_primary_v2 || 'unknown';
+
+      if (controls.paletteTemp.value !== 'all' && paletteTemp !== controls.paletteTemp.value) return false;
+      if (controls.mono.value !== 'all' && String(it.monochrome) !== controls.mono.value) return false;
+      if (controls.sat.value !== 'all' && it.saturation_level !== controls.sat.value) return false;
+      if (controls.contrast.value !== 'all' && it.contrast_level !== controls.contrast.value) return false;
+      if (controls.density.value !== 'all' && it.composition_density !== controls.density.value) return false;
+      if (controls.visualMode.value !== 'all' && it.visual_mode !== controls.visualMode.value) return false;
+      if (controls.dominant.value !== 'all' && dominantColor !== controls.dominant.value) return false;
+      if (controls.typo.value !== 'all' && typoPrimary !== controls.typo.value) return false;
+      return true;
+    }
+
+    function render() {
+      const shown = allItems.filter(visible);
+      const authorFilter = controls.author.value;
+      stats.textContent = `Total brand ${allItems.length} | affichés ${shown.length}${authorFilter !== 'all' ? ` | author: ${authorFilter}` : ''}`;
+
+      grid.innerHTML = shown.map((it) => {
+        const dominant = it.dominant_color_v2 || it.dominant_color || 'gray';
+        const paletteTemp = it.palette_temperature_v2 || it.palette_temperature || 'neutral';
+        const typo = it.typo_primary_v3 || it.typo_primary_v2 || 'unknown';
+        const typoCase = it.typo_case_v3 || it.typo_case_v2 || 'unknown';
+        const typoPresent = typeof it.typo_present_v3 === 'boolean' ? it.typo_present_v3 : null;
+        const typoConfV3 = Number(it.typo_confidence_v3 || 0);
+        const domRatio = Number(it.dominant_ratio_v2 || 0);
+        const note = itemText(it);
+
+        return `
+        <div class="card">
+          <div class="imgbox"><img loading="lazy" src="${it.thumb_v2 || it.thumb_data || ('./clean/' + it.file)}" alt="${it.file}" onerror="this.style.opacity=.2" /></div>
+          <div class="content">
+            <div class="file" title="${it.file}">${it.file}</div>
+            <div class="file subtle">@${it.author_handle || 'unknown'}</div>
+            <div class="chips">
+              <span class="chip">${it.class}</span>
+              <span class="chip">conf ${Number(it.confidence || 0).toFixed(2)}</span>
+              <span class="chip">${dominant}</span>
+              <span class="chip">${paletteTemp}</span>
+              <span class="chip">dom ${(domRatio * 100).toFixed(0)}%</span>
+              <span class="chip">${it.monochrome ? 'mono' : 'color'}</span>
+              <span class="chip">${it.saturation_level}</span>
+              <span class="chip">${it.contrast_level}</span>
+              <span class="chip">${it.composition_density}</span>
+              <span class="chip">${it.visual_mode}</span>
+              <span class="chip">typo_present ${typoPresent === null ? 'n/a' : (typoPresent ? 'yes' : 'no')}</span>
+              <span class="chip">typo_v3 ${typo}</span>
+              <span class="chip">case_v3 ${typoCase}</span>
+              <span class="chip">typo_conf_v3 ${typoConfV3.toFixed(2)}</span>
+            </div>
+            ${note ? `<div class="text-preview" title="${note.replace(/"/g, '&quot;')}">${note}</div>` : ''}
+            <div style="margin-top:8px; display:flex; gap:10px; flex-wrap:wrap;">
+              <a href="${itemUrl(it)}" target="_blank" rel="noopener">${itemLinkLabel(it)}</a>
+              <a href="https://github.com/scarlettbenisen-stack/brand-repo-v2-quotilol-1000-y2024plus/releases/tag/hd-assets-v1" target="_blank" rel="noopener">HD packs ↗</a>
+            </div>
+          </div>
+        </div>
+      `;
+      }).join('');
+    }
+
+    document.querySelectorAll('[data-class]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('[data-class]').forEach((node) => node.classList.remove('active'));
+        btn.classList.add('active');
+        activeClass = btn.dataset.class;
+        render();
+      });
+    });
+
+    Object.values(controls).forEach((node) => node.addEventListener('input', render));
+    Object.values(controls).forEach((node) => node.addEventListener('change', render));
+
+    Promise.all([
+      fetch(TAGS_PATH).then((r) => r.json()),
+      fetch(ITEMS_PATH).then((r) => r.json()).catch(() => ({ items: [] }))
+    ])
+      .then(([tagsPayload, itemsPayload]) => {
+        (itemsPayload.items || [])
+          .map(normalizeMetaItem)
+          .filter(Boolean)
+          .forEach((entry) => itemMetaByFile.set(entry.file, entry));
+
+        allItems = (tagsPayload.items || []).slice();
+        allItems.sort((a, b) => {
+          const idA = Number((a.file || '').match(/tweet_(\d+)\.png/)?.[1] || 0);
+          const idB = Number((b.file || '').match(/tweet_(\d+)\.png/)?.[1] || 0);
+          return idB - idA;
         });
-      } catch (error) {
-        console.warn('Could not load boards from localStorage', error);
-        return structuredClone(DEFAULT_BOARDS);
-      }
-    }
 
-    function saveBoards() {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(state.boards, null, 2));
-    }
+        const authors = [...new Set(allItems.map((it) => it.author_handle || 'unknown'))].sort();
+        controls.author.innerHTML = '<option value="all">Author: all</option>' + authors.map((author) =>
+          `<option value="${author}">@${author}</option>`
+        ).join('');
 
-    function itemById(id) {
-      return ITEMS.find((item) => item.id === id);
-    }
-
-    function boardById(id) {
-      return state.boards.find((board) => board.id === id);
-    }
-
-    function itemsForBoard(board) {
-      return board.itemIds.map((id) => itemById(id)).filter(Boolean);
-    }
-
-    function assignedBoardsForItem(id) {
-      return state.boards.filter((board) => board.itemIds.includes(id));
-    }
-
-    function assignmentCount() {
-      return ITEMS.filter((item) => assignedBoardsForItem(item.id).length > 0).length;
-    }
-
-    function completeBoardsCount() {
-      return state.boards.filter((board) => board.itemIds.length >= 4 && board.itemIds.length <= 5).length;
-    }
-
-    function persistAndRender() {
-      saveBoards();
-      renderBoardSelect();
-      renderBoards();
-      renderGallery();
-      renderStats();
-    }
-
-    function renderBoardSelect() {
-      elements.activeBoardSelect.innerHTML = state.boards.map((board) => {
-        const selected = board.id === state.activeBoardId ? 'selected' : '';
-        return '<option value="' + board.id + '" ' + selected + '>' + escapeHtml(board.name) + '</option>';
-      }).join('');
-    }
-
-    function renderBoards() {
-      elements.boardGrid.innerHTML = state.boards.map((board) => {
-        const activeClass = board.id === state.activeBoardId ? ' active' : '';
-        const boardItems = itemsForBoard(board);
-        const thumbs = [];
-        for (let index = 0; index < 5; index += 1) {
-          const item = boardItems[index];
-          if (item) {
-            if (item.hasImage) {
-              thumbs.push('<div class="thumb"><img src="' + item.image + '" alt="' + item.id + '" loading="lazy"></div>');
-            } else {
-              thumbs.push('<a class="thumb-empty" href="' + item.source + '" target="_blank" rel="noopener">URL only</a>');
-            }
-          } else {
-            thumbs.push('<div class="thumb-empty">Empty</div>');
-          }
-        }
-
-        const warning = board.itemIds.length > 5
-          ? '<div class="small" style="color:#8b3d25;">Too many refs. Keep it to five.</div>'
-          : board.itemIds.length > 0 && board.itemIds.length < 4
-            ? '<div class="small">Needs ' + (4 - board.itemIds.length) + ' more ref' + (board.itemIds.length === 3 ? '' : 's') + ' to feel like a board.</div>'
-            : board.itemIds.length === 0
-              ? '<div class="small">No refs yet.</div>'
-              : '<div class="small">Board is in range.</div>';
-
-        return '' +
-          '<article class="board-card' + activeClass + '">' +
-            '<div class="board-header">' +
-              '<h3 class="board-title">' + escapeHtml(board.name) + '</h3>' +
-              '<span class="pill">' + board.itemIds.length + ' / 5 refs</span>' +
-            '</div>' +
-            '<div class="board-meta">' +
-              '<label>' +
-                '<p class="eyebrow">Board Name</p>' +
-                '<input class="input" data-board-field="name" data-board-id="' + board.id + '" value="' + escapeAttribute(board.name) + '">' +
-              '</label>' +
-              '<label>' +
-                '<p class="eyebrow">Angle</p>' +
-                '<input class="input" data-board-field="angle" data-board-id="' + board.id + '" value="' + escapeAttribute(board.angle) + '">' +
-              '</label>' +
-              '<label>' +
-                '<p class="eyebrow">Rationale</p>' +
-                '<textarea class="textarea" data-board-field="rationale" data-board-id="' + board.id + '">' + escapeHtml(board.rationale) + '</textarea>' +
-              '</label>' +
-            '</div>' +
-            '<div class="board-thumb-row">' + thumbs.join('') + '</div>' +
-            warning +
-            '<div class="board-actions">' +
-              '<button class="button soft" type="button" data-action="set-active-board" data-board-id="' + board.id + '">Use as active</button>' +
-              '<button class="button soft" type="button" data-action="export-board-png" data-board-id="' + board.id + '"' + (boardItems.length ? '' : ' disabled') + '>Export PNG</button>' +
-              '<button class="button soft" type="button" data-action="print-board" data-board-id="' + board.id + '"' + (boardItems.length ? '' : ' disabled') + '>Print / PDF</button>' +
-              '<button class="button ghost" type="button" data-action="clear-board" data-board-id="' + board.id + '">Clear board</button>' +
-            '</div>' +
-          '</article>';
-      }).join('');
-    }
-
-    function renderGallery() {
-      const visibleItems = ITEMS.filter(matchesFilters);
-      elements.galleryGrid.innerHTML = visibleItems.map((item) => {
-        const assignedBoards = assignedBoardsForItem(item.id);
-        const assignmentPills = assignedBoards.length
-          ? assignedBoards.map((board) => '<span class="pill">' + escapeHtml(board.name) + '</span>').join('')
-          : '<span class="small">Not assigned</span>';
-
-        const boardButtons = state.boards.map((board) => {
-          const isAssigned = board.itemIds.includes(item.id);
-          const label = isAssigned ? 'Remove from ' + board.name : 'Add to ' + board.name;
-          const tone = isAssigned ? ' soft' : '';
-          return '<button class="button' + tone + '" type="button" data-action="toggle-item" data-item-id="' + item.id + '" data-board-id="' + board.id + '">' + escapeHtml(label) + '</button>';
-        }).join('');
-
-        const quickButton = state.activeBoardId
-          ? '<button class="button primary" type="button" data-action="toggle-item" data-item-id="' + item.id + '" data-board-id="' + state.activeBoardId + '">' +
-              (boardById(state.activeBoardId).itemIds.includes(item.id) ? 'Remove from active board' : 'Add to active board') +
-            '</button>'
-          : '';
-
-        const media = item.hasImage
-          ? '<a href="' + item.source + '" target="_blank" rel="noopener"><img src="' + item.image + '" alt="' + item.id + '" loading="lazy"></a>'
-          : '<a class="placeholder" href="' + item.source + '" target="_blank" rel="noopener">URL only reference<br>Open source</a>';
-
-        return '' +
-          '<article class="card">' +
-            '<div class="card-media">' + media + '</div>' +
-            '<div class="card-body">' +
-              '<div class="card-top">' +
-                '<div class="card-id">' + escapeHtml(item.id) + '</div>' +
-                '<a class="small" href="' + item.source + '" target="_blank" rel="noopener">source</a>' +
-              '</div>' +
-              '<div class="assignments">' + assignmentPills + '</div>' +
-              '<div class="button-row">' + quickButton + boardButtons + '</div>' +
-            '</div>' +
-          '</article>';
-      }).join('');
-
-      elements.emptyState.classList.toggle('hidden', visibleItems.length > 0);
-      elements.filterFeedback.textContent = visibleItems.length === ITEMS.length
-        ? 'Showing all references.'
-        : 'Showing ' + visibleItems.length + ' of ' + ITEMS.length + ' references.';
-    }
-
-    function renderStats() {
-      elements.statRefs.textContent = String(ITEMS.length);
-      elements.statAssigned.textContent = String(assignmentCount());
-      elements.statBoards.textContent = completeBoardsCount() + ' / 3';
-      elements.summaryText.textContent = ITEMS.length + ' unique references available. ' + assignmentCount() + ' already used across the three directions.';
-    }
-
-    function matchesFilters(item) {
-      const q = state.search.trim().toLowerCase();
-      const inSearch = !q || item.id.toLowerCase().includes(q) || item.source.toLowerCase().includes(q);
-      if (!inSearch) return false;
-
-      const assigned = assignedBoardsForItem(item.id).length > 0;
-      switch (state.filter) {
-        case 'with-image': return item.hasImage;
-        case 'url-only': return !item.hasImage;
-        case 'assigned': return assigned;
-        case 'unassigned': return !assigned;
-        default: return true;
-      }
-    }
-
-    function toggleItemForBoard(itemId, boardId) {
-      const board = boardById(boardId);
-      if (!board) return;
-      const exists = board.itemIds.includes(itemId);
-      if (exists) {
-        board.itemIds = board.itemIds.filter((id) => id !== itemId);
-      } else {
-        if (board.itemIds.length >= 5) {
-          alert('This board already has 5 references. Remove one before adding another.');
-          return;
-        }
-        board.itemIds = [...board.itemIds, itemId];
-      }
-      persistAndRender();
-    }
-
-    function clearBoard(boardId) {
-      const board = boardById(boardId);
-      if (!board) return;
-      board.itemIds = [];
-      persistAndRender();
-    }
-
-    function resetBoards() {
-      if (!confirm('Reset all three boards and local notes?')) return;
-      state.boards = structuredClone(DEFAULT_BOARDS);
-      state.activeBoardId = state.boards[0].id;
-      persistAndRender();
-    }
-
-    function exportJson() {
-      const payload = {
-        exportedAt: new Date().toISOString(),
-        boards: state.boards.map((board) => ({
-          ...board,
-          items: board.itemIds.map((id) => itemById(id)).filter(Boolean)
-        }))
-      };
-      const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
-      const href = URL.createObjectURL(blob);
-      const link = document.createElement('a');
-      link.href = href;
-      link.download = 'brand-repository-boards.json';
-      link.click();
-      URL.revokeObjectURL(href);
-    }
-
-    function slugify(value) {
-      return String(value || 'board')
-        .toLowerCase()
-        .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '')
-        .replace(/[^a-z0-9]+/g, '-')
-        .replace(/^-+|-+$/g, '')
-        .slice(0, 60) || 'board';
-    }
-
-    function boardExportFilename(board, ext) {
-      return 'brand-board-' + slugify(board.name || board.id) + '.' + ext;
-    }
-
-    function drawRoundedRect(ctx, x, y, width, height, radius) {
-      const r = Math.min(radius, width / 2, height / 2);
-      ctx.beginPath();
-      ctx.moveTo(x + r, y);
-      ctx.arcTo(x + width, y, x + width, y + height, r);
-      ctx.arcTo(x + width, y + height, x, y + height, r);
-      ctx.arcTo(x, y + height, x, y, r);
-      ctx.arcTo(x, y, x + width, y, r);
-      ctx.closePath();
-    }
-
-    function wrapCanvasText(ctx, text, maxWidth) {
-      const value = String(text || '').trim();
-      if (!value) return [];
-      const paragraphs = value.split(/\n+/).map((part) => part.trim()).filter(Boolean);
-      const lines = [];
-      paragraphs.forEach((paragraph) => {
-        const words = paragraph.split(/\s+/);
-        let current = '';
-        words.forEach((word) => {
-          const test = current ? current + ' ' + word : word;
-          if (ctx.measureText(test).width <= maxWidth || !current) {
-            current = test;
-          } else {
-            lines.push(current);
-            current = word;
-          }
-        });
-        if (current) lines.push(current);
+        render();
+      })
+      .catch((err) => {
+        stats.textContent = 'Erreur chargement données: ' + err;
       });
-      return lines;
-    }
-
-    function loadImageForExport(src) {
-      return new Promise((resolve) => {
-        if (!src) {
-          resolve(null);
-          return;
-        }
-        const img = new Image();
-        img.onload = () => resolve(img);
-        img.onerror = () => resolve(null);
-        img.src = src;
-      });
-    }
-
-    function drawCoverAsset(ctx, asset, x, y, width, height, radius) {
-      ctx.save();
-      drawRoundedRect(ctx, x, y, width, height, radius);
-      ctx.clip();
-      const scale = Math.max(width / asset.width, height / asset.height);
-      const drawWidth = asset.width * scale;
-      const drawHeight = asset.height * scale;
-      const dx = x + (width - drawWidth) / 2;
-      const dy = y + (height - drawHeight) / 2;
-      ctx.drawImage(asset, dx, dy, drawWidth, drawHeight);
-      ctx.restore();
-    }
-
-    function drawPlaceholderAsset(ctx, item, x, y, width, height, radius) {
-      ctx.save();
-      drawRoundedRect(ctx, x, y, width, height, radius);
-      ctx.fillStyle = '#efe7db';
-      ctx.fill();
-      ctx.strokeStyle = 'rgba(24, 22, 19, 0.08)';
-      ctx.stroke();
-      ctx.clip();
-      const gradient = ctx.createLinearGradient(x, y, x + width, y + height);
-      gradient.addColorStop(0, 'rgba(162, 74, 45, 0.16)');
-      gradient.addColorStop(1, 'rgba(88, 110, 97, 0.16)');
-      ctx.fillStyle = gradient;
-      ctx.fillRect(x, y, width, height);
-      ctx.fillStyle = '#6c645a';
-      ctx.font = '600 24px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
-      const label = (() => {
-        try {
-          const url = new URL(item.source);
-          return url.hostname.replace(/^www\./, '');
-        } catch (error) {
-          return 'Source reference';
-        }
-      })();
-      const lines = wrapCanvasText(ctx, label, width - 36).slice(0, 3);
-      const lineHeight = 30;
-      const blockHeight = lines.length * lineHeight;
-      let cy = y + (height - blockHeight) / 2 + 22;
-      lines.forEach((line) => {
-        ctx.fillText(line, x + 18, cy);
-        cy += lineHeight;
-      });
-      ctx.restore();
-    }
-
-    async function exportBoardPng(boardId) {
-      const board = boardById(boardId);
-      if (!board) return;
-      const boardItems = itemsForBoard(board);
-      if (!boardItems.length) {
-        alert('Add at least one reference before exporting a board.');
-        return;
-      }
-
-      const canvas = document.createElement('canvas');
-      canvas.width = 1800;
-      canvas.height = 1350;
-      const ctx = canvas.getContext('2d');
-
-      const background = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
-      background.addColorStop(0, '#faf5ed');
-      background.addColorStop(1, '#f1e7d9');
-      ctx.fillStyle = background;
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-      ctx.fillStyle = 'rgba(162, 74, 45, 0.08)';
-      ctx.beginPath();
-      ctx.arc(180, 140, 220, 0, Math.PI * 2);
-      ctx.fill();
-      ctx.fillStyle = 'rgba(88, 110, 97, 0.08)';
-      ctx.beginPath();
-      ctx.arc(1570, 180, 180, 0, Math.PI * 2);
-      ctx.fill();
-
-      const panelX = 72;
-      const panelY = 64;
-      const panelW = canvas.width - 144;
-      const panelH = canvas.height - 128;
-
-      drawRoundedRect(ctx, panelX, panelY, panelW, panelH, 32);
-      ctx.fillStyle = 'rgba(255, 251, 244, 0.94)';
-      ctx.fill();
-      ctx.strokeStyle = 'rgba(24, 22, 19, 0.08)';
-      ctx.stroke();
-
-      ctx.fillStyle = '#6c645a';
-      ctx.font = '600 20px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
-      ctx.fillText('Brand Repository Board Export', 124, 132);
-
-      ctx.fillStyle = '#181613';
-      ctx.font = '700 70px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
-      const titleLines = wrapCanvasText(ctx, board.name, 700).slice(0, 2);
-      let titleY = 220;
-      titleLines.forEach((line) => {
-        ctx.fillText(line, 124, titleY);
-        titleY += 78;
-      });
-
-      ctx.fillStyle = '#4f483f';
-      ctx.font = '600 28px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
-      const angleLines = wrapCanvasText(ctx, board.angle, 700).slice(0, 4);
-      let angleY = titleY + 12;
-      angleLines.forEach((line) => {
-        ctx.fillText(line, 124, angleY);
-        angleY += 38;
-      });
-
-      ctx.fillStyle = '#6c645a';
-      ctx.font = '400 24px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
-      const rationale = board.rationale && board.rationale.trim()
-        ? board.rationale.trim()
-        : 'No rationale written yet.';
-      const rationaleLines = wrapCanvasText(ctx, rationale, 700).slice(0, 7);
-      let rationaleY = angleY + 44;
-      rationaleLines.forEach((line) => {
-        ctx.fillText(line, 124, rationaleY);
-        rationaleY += 32;
-      });
-
-      ctx.fillStyle = '#6c645a';
-      ctx.font = '600 18px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
-      ctx.fillText(boardItems.length + ' reference' + (boardItems.length > 1 ? 's' : ''), 124, panelY + panelH - 70);
-
-      const gridX = 892;
-      const gridY = 124;
-      const gap = 24;
-      const columns = boardItems.length === 1 ? 1 : 2;
-      const rows = boardItems.length <= 2 ? boardItems.length : Math.ceil(boardItems.length / 2);
-      const cellWidth = columns === 1 ? 784 : 380;
-      const cellHeight = rows >= 3 ? 300 : 430;
-
-      const assets = await Promise.all(boardItems.map((item) => item.hasImage ? loadImageForExport(item.image) : Promise.resolve(null)));
-      boardItems.forEach((item, index) => {
-        const col = columns === 1 ? 0 : index % 2;
-        const row = columns === 1 ? index : Math.floor(index / 2);
-        const x = gridX + (cellWidth + gap) * col;
-        const y = gridY + (cellHeight + gap) * row;
-        const asset = assets[index];
-        if (asset) {
-          drawCoverAsset(ctx, asset, x, y, cellWidth, cellHeight, 24);
-        } else {
-          drawPlaceholderAsset(ctx, item, x, y, cellWidth, cellHeight, 24);
-        }
-
-        ctx.fillStyle = 'rgba(255, 251, 244, 0.92)';
-        drawRoundedRect(ctx, x + 18, y + cellHeight - 64, Math.min(cellWidth - 36, 290), 44, 14);
-        ctx.fill();
-        ctx.fillStyle = '#181613';
-        ctx.font = '600 18px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
-        const caption = item.source.replace(/^https?:\/\//, '').slice(0, 34);
-        ctx.fillText(caption, x + 34, y + cellHeight - 35);
-      });
-
-      canvas.toBlob((blob) => {
-        if (!blob) return;
-        const href = URL.createObjectURL(blob);
-        const link = document.createElement('a');
-        link.href = href;
-        link.download = boardExportFilename(board, 'png');
-        link.click();
-        URL.revokeObjectURL(href);
-      }, 'image/png');
-    }
-
-    function boardPrintMarkup(board) {
-      const boardItems = itemsForBoard(board);
-      const cards = boardItems.map((item) => {
-        const media = item.hasImage
-          ? '<a href="' + escapeAttribute(item.source) + '" target="_blank" rel="noopener"><img src="' + escapeAttribute(item.image) + '" alt="' + escapeAttribute(item.id) + '"></a>'
-          : '<a class="export-placeholder" href="' + escapeAttribute(item.source) + '" target="_blank" rel="noopener">' + escapeHtml(item.source.replace(/^https?:\/\//, '')) + '</a>';
-        return '' +
-          '<article class="export-card">' +
-            '<div class="export-media">' + media + '</div>' +
-            '<div class="export-caption">' + escapeHtml(item.source.replace(/^https?:\/\//, '')) + '</div>' +
-          '</article>';
-      }).join('');
-
-      const rationale = board.rationale && board.rationale.trim()
-        ? escapeHtml(board.rationale)
-        : '<span class="export-muted">No rationale written yet.</span>';
-
-      return '' +
-        '<section class="export-board">' +
-          '<div class="export-head">' +
-            '<p class="export-kicker">Brand Repository Board</p>' +
-            '<h1>' + escapeHtml(board.name) + '</h1>' +
-            '<p class="export-angle">' + escapeHtml(board.angle) + '</p>' +
-            '<div class="export-rationale">' + rationale.replace(/\n/g, '<br>') + '</div>' +
-          '</div>' +
-          '<div class="export-grid export-grid-' + Math.min(Math.max(boardItems.length, 1), 5) + '">' + cards + '</div>' +
-        '</section>';
-    }
-
-    function exportBoardsPdf(boardIds) {
-      const boards = boardIds.map((id) => boardById(id)).filter(Boolean).filter((board) => itemsForBoard(board).length > 0);
-      if (!boards.length) {
-        alert('Build at least one board before exporting.');
-        return;
-      }
-
-      const win = window.open('', '_blank', 'noopener,noreferrer');
-      if (!win) {
-        alert('Popup blocked. Allow popups to export the board.');
-        return;
-      }
-
-      const sections = boards.map((board) => boardPrintMarkup(board)).join('');
-      win.document.write(`<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Brand Repository Board Export</title>
-  <style>
-    :root {
-      --paper: #f7f1e8;
-      --ink: #181613;
-      --muted: #6c645a;
-      --line: rgba(24,22,19,.12);
-      --accent: #a24a2d;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--paper);
-      color: var(--ink);
-      font: 15px/1.45 ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    }
-    .export-board {
-      min-height: 100vh;
-      padding: 36px;
-      display: grid;
-      gap: 24px;
-      page-break-after: always;
-      background:
-        radial-gradient(circle at top left, rgba(162, 74, 45, 0.10), transparent 28%),
-        radial-gradient(circle at top right, rgba(88, 110, 97, 0.10), transparent 24%),
-        linear-gradient(180deg, #fbf7f0 0%, var(--paper) 100%);
-    }
-    .export-board:last-child { page-break-after: auto; }
-    .export-head {
-      background: rgba(255, 251, 244, 0.92);
-      border: 1px solid var(--line);
-      border-radius: 24px;
-      padding: 28px;
-    }
-    .export-kicker {
-      margin: 0 0 10px;
-      font-size: 11px;
-      letter-spacing: .12em;
-      text-transform: uppercase;
-      color: var(--muted);
-    }
-    h1 {
-      margin: 0;
-      font-size: 46px;
-      line-height: .95;
-      letter-spacing: -.04em;
-    }
-    .export-angle {
-      margin: 18px 0 0;
-      font-size: 24px;
-      line-height: 1.2;
-    }
-    .export-rationale {
-      margin-top: 18px;
-      color: var(--muted);
-      max-width: 860px;
-    }
-    .export-muted { color: var(--muted); }
-    .export-grid {
-      display: grid;
-      gap: 18px;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-    .export-grid-1 { grid-template-columns: 1fr; }
-    .export-card {
-      background: rgba(255, 251, 244, 0.92);
-      border: 1px solid var(--line);
-      border-radius: 22px;
-      overflow: hidden;
-      display: grid;
-      gap: 0;
-    }
-    .export-media {
-      aspect-ratio: 4 / 5;
-      background: #eadfce;
-    }
-    .export-media img,
-    .export-media a {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      text-decoration: none;
-      color: inherit;
-    }
-    .export-placeholder {
-      display: grid !important;
-      place-items: center;
-      padding: 24px;
-      text-align: center;
-      color: var(--muted);
-      background: linear-gradient(135deg, rgba(162, 74, 45, 0.08), rgba(88, 110, 97, 0.08));
-    }
-    .export-caption {
-      padding: 12px 14px 14px;
-      font-size: 13px;
-      color: var(--muted);
-      word-break: break-word;
-    }
-    @media print {
-      body { background: white; }
-      .export-board { min-height: auto; }
-    }
-  </style>
-</head>
-<body>${sections}</body>
-</html>`);
-      win.document.close();
-      win.focus();
-      setTimeout(() => win.print(), 150);
-    }
-
-    function updateBoardField(boardId, field, value) {
-      const board = boardById(boardId);
-      if (!board) return;
-      board[field] = value;
-      saveBoards();
-      renderBoardSelect();
-      renderGallery();
-      renderBoards();
-    }
-
-    function escapeHtml(value) {
-      return String(value)
-        .replaceAll('&', '&amp;')
-        .replaceAll('<', '&lt;')
-        .replaceAll('>', '&gt;')
-        .replaceAll('"', '&quot;')
-        .replaceAll("'", '&#39;');
-    }
-
-    function escapeAttribute(value) {
-      return escapeHtml(value).replaceAll('\n', '&#10;');
-    }
-
-    async function loadItems() {
-      try {
-        const response = await fetch('meta/items.json', { cache: 'no-store' });
-        if (!response.ok) {
-          throw new Error('HTTP ' + response.status);
-        }
-        const payload = await response.json();
-        ITEMS = Array.isArray(payload.items)
-          ? payload.items
-              .map(normalizeItem)
-              .filter((item) => item.id)
-              .sort((a, b) => Number(b.id) - Number(a.id))
-          : [];
-        state.boards = loadBoards();
-        if (!boardById(state.activeBoardId)) {
-          state.activeBoardId = state.boards[0].id;
-        }
-        renderBoardSelect();
-        renderBoards();
-        renderGallery();
-        renderStats();
-      } catch (error) {
-        console.error('Could not load repository items', error);
-        elements.filterFeedback.textContent = 'Could not load references.';
-        elements.emptyState.textContent = 'Could not load references. Refresh in a moment.';
-        elements.emptyState.classList.remove('hidden');
-      }
-    }
-
-    document.addEventListener('click', (event) => {
-      const button = event.target.closest('[data-action]');
-      if (!button) return;
-      const action = button.dataset.action;
-      if (action === 'toggle-item') {
-        toggleItemForBoard(button.dataset.itemId, button.dataset.boardId);
-      }
-      if (action === 'clear-board') {
-        clearBoard(button.dataset.boardId);
-      }
-      if (action === 'set-active-board') {
-        state.activeBoardId = button.dataset.boardId;
-        persistAndRender();
-      }
-      if (action === 'export-board-png') {
-        exportBoardPng(button.dataset.boardId);
-      }
-      if (action === 'print-board') {
-        exportBoardsPdf([button.dataset.boardId]);
-      }
-    });
-
-    document.addEventListener('input', (event) => {
-      const target = event.target;
-      if (target.id === 'searchInput') {
-        state.search = target.value;
-        renderGallery();
-        return;
-      }
-      if (target.matches('[data-board-field]')) {
-        updateBoardField(target.dataset.boardId, target.dataset.boardField, target.value);
-      }
-    });
-
-    document.querySelectorAll('[data-filter]').forEach((button) => {
-      button.addEventListener('click', () => {
-        state.filter = button.dataset.filter;
-        document.querySelectorAll('[data-filter]').forEach((other) => {
-          const active = other === button;
-          other.setAttribute('aria-pressed', active ? 'true' : 'false');
-          other.style.background = active ? 'rgba(24, 22, 19, 0.92)' : 'rgba(255, 255, 255, 0.75)';
-          other.style.color = active ? '#f7f3ec' : 'var(--text)';
-          other.style.borderColor = active ? 'rgba(24, 22, 19, 0.92)' : 'var(--line)';
-        });
-        renderGallery();
-      });
-    });
-
-    elements.activeBoardSelect.addEventListener('change', (event) => {
-      state.activeBoardId = event.target.value;
-      persistAndRender();
-    });
-
-    elements.exportJsonButton.addEventListener('click', exportJson);
-    elements.exportActivePngButton.addEventListener('click', () => exportBoardPng(state.activeBoardId));
-    elements.printButton.addEventListener('click', () => exportBoardsPdf(state.boards.map((board) => board.id)));
-    elements.clearBoardsButton.addEventListener('click', resetBoards);
-
-    loadItems();
   </script>
 </body>
 </html>

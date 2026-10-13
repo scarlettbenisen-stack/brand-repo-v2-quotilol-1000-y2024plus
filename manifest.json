@@ -1,9 +1,9 @@
 {
   "status": "author_extraction_pending",
-  "total_tweets": 550,
-  "ok_tweets": 547,
+  "total_tweets": 621,
+  "ok_tweets": 618,
   "failed_tweets": 3,
-  "total_files": 1422,
+  "total_files": 1677,
   "author_extraction": {
     "started_at": null,
     "completed": 0,
@@ -12,6 +12,900 @@
     "last_updated": null
   },
   "items": [
+    {
+      "tweet_id": "2108129649608061423",
+      "url": "https://x.com/Ahmedcreatives/status/2108129649608061423",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2108129649608061423_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "Ahmedcreatives"
+    },
+    {
+      "tweet_id": "2107936008276775063",
+      "url": "https://x.com/berriel/status/2107936008276775063",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2107936008276775063_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "berriel"
+    },
+    {
+      "tweet_id": "2107833853624901815",
+      "url": "https://x.com/ayushsoni_io/status/2107833853624901815",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2107833853624901815_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "ayushsoni_io"
+    },
+    {
+      "tweet_id": "2107495453134631047",
+      "url": "https://x.com/DmitryLepisov/status/2107495453134631047",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2107495453134631047_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "DmitryLepisov"
+    },
+    {
+      "tweet_id": "2107483013626093674",
+      "url": "https://x.com/nikitakoshi/status/2107483013626093674",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2107483013626093674_1.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2107483013626093674_2.jpg"
+      ],
+      "error": null,
+      "author_handle": "nikitakoshi"
+    },
+    {
+      "tweet_id": "2107438937212067899",
+      "url": "https://x.com/namyakhann/status/2107438937212067899",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2107438937212067899_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "namyakhann"
+    },
+    {
+      "tweet_id": "2107433185164640420",
+      "url": "https://x.com/studiobakers/status/2107433185164640420",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2107433185164640420_1.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2107433185164640420_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2107433185164640420_3.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2107433185164640420_4.jpg"
+      ],
+      "error": null,
+      "author_handle": "studiobakers"
+    },
+    {
+      "tweet_id": "2107226573858357274",
+      "url": "https://x.com/gginwanderland/status/2107226573858357274",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2107226573858357274_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "gginwanderland"
+    },
+    {
+      "tweet_id": "2107154329727635917",
+      "url": "https://x.com/LogoArchive/status/2107154329727635917",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2107154329727635917_1.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2107154329727635917_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2107154329727635917_3.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2107154329727635917_4.jpg"
+      ],
+      "error": null,
+      "author_handle": "LogoArchive"
+    },
+    {
+      "tweet_id": "2107112984711700491",
+      "url": "https://x.com/namyakhann/status/2107112984711700491",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2107112984711700491_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "namyakhann"
+    },
+    {
+      "tweet_id": "2107103917167575455",
+      "url": "https://x.com/FonsMans/status/2107103917167575455",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2107103917167575455_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "FonsMans"
+    },
+    {
+      "tweet_id": "2104511665488134221",
+      "url": "https://x.com/rebrandgallery/status/2104511665488134221",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2104511665488134221_1.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2104511665488134221_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2104511665488134221_3.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2104511665488134221_4.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2104511665488134221_5.mp4"
+      ],
+      "error": null,
+      "author_handle": "rebrandgallery"
+    },
+    {
+      "tweet_id": "2104225566643704270",
+      "url": "https://x.com/rare_jpg/status/2104225566643704270",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2104225566643704270_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "rare_jpg"
+    },
+    {
+      "tweet_id": "2104144766900297867",
+      "url": "https://x.com/brrranding/status/2104144766900297867",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2104144766900297867_1.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2104144766900297867_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2104144766900297867_3.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2104144766900297867_4.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2104144766900297867_5.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2104144766900297867_6.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2104144766900297867_7.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2104144766900297867_8.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2104144766900297867_9.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2104144766900297867_10.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2104144766900297867_11.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2104144766900297867_12.jpg"
+      ],
+      "error": null,
+      "author_handle": "brrranding"
+    },
+    {
+      "tweet_id": "2103765769624715314",
+      "url": "https://x.com/brrranding/status/2103765769624715314",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103765769624715314_1.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103765769624715314_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103765769624715314_3.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103765769624715314_4.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103765769624715314_5.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103765769624715314_6.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103765769624715314_7.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103765769624715314_8.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103765769624715314_9.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103765769624715314_10.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103765769624715314_11.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103765769624715314_12.jpg"
+      ],
+      "error": null,
+      "author_handle": "brrranding"
+    },
+    {
+      "tweet_id": "2103438369388912849",
+      "url": "https://x.com/Ahmedcreatives/status/2103438369388912849",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103438369388912849_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "Ahmedcreatives"
+    },
+    {
+      "tweet_id": "2103415891564122554",
+      "url": "https://x.com/rebrandgallery/status/2103415891564122554",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103415891564122554_1.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103415891564122554_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103415891564122554_3.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103415891564122554_4.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103415891564122554_5.mp4"
+      ],
+      "error": null,
+      "author_handle": "rebrandgallery"
+    },
+    {
+      "tweet_id": "2103345203847532722",
+      "url": "https://x.com/socoloffalex/status/2103345203847532722",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103345203847532722_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "socoloffalex"
+    },
+    {
+      "tweet_id": "2103137256613859569",
+      "url": "https://x.com/drapzdesigns/status/2103137256613859569",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103137256613859569_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "drapzdesigns"
+    },
+    {
+      "tweet_id": "2103122290640576896",
+      "url": "https://x.com/penguindsgn/status/2103122290640576896",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103122290640576896_1.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103122290640576896_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103122290640576896_3.jpg"
+      ],
+      "error": null,
+      "author_handle": "penguindsgn"
+    },
+    {
+      "tweet_id": "2103024285174673413",
+      "url": "https://x.com/PancaSeptiana/status/2103024285174673413",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103024285174673413_1.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103024285174673413_2.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103024285174673413_3.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103024285174673413_4.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103024285174673413_5.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103024285174673413_6.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2103024285174673413_7.mp4"
+      ],
+      "error": null,
+      "author_handle": "PancaSeptiana"
+    },
+    {
+      "tweet_id": "2102920047949906182",
+      "url": "https://x.com/ayushsoni_io/status/2102920047949906182",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102920047949906182_1.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102920047949906182_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102920047949906182_3.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102920047949906182_4.jpg"
+      ],
+      "error": null,
+      "author_handle": "ayushsoni_io"
+    },
+    {
+      "tweet_id": "2102877957895356731",
+      "url": "https://x.com/jakedugard/status/2102877957895356731",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102877957895356731_1.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102877957895356731_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102877957895356731_3.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102877957895356731_4.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102877957895356731_5.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102877957895356731_6.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102877957895356731_7.mp4"
+      ],
+      "error": null,
+      "author_handle": "jakedugard"
+    },
+    {
+      "tweet_id": "2102805706219172342",
+      "url": "https://x.com/alexispresa/status/2102805706219172342",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102805706219172342_1.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102805706219172342_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102805706219172342_3.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102805706219172342_4.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102805706219172342_5.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102805706219172342_6.mp4"
+      ],
+      "error": null,
+      "author_handle": "alexispresa"
+    },
+    {
+      "tweet_id": "2102793460688572501",
+      "url": "https://x.com/devxnuj/status/2102793460688572501",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102793460688572501_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "devxnuj"
+    },
+    {
+      "tweet_id": "2102737464150696261",
+      "url": "https://x.com/kyleanthony/status/2102737464150696261",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102737464150696261_1.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102737464150696261_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102737464150696261_3.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102737464150696261_4.jpg"
+      ],
+      "error": null,
+      "author_handle": "kyleanthony"
+    },
+    {
+      "tweet_id": "2102727758891643354",
+      "url": "https://x.com/marcelkargul/status/2102727758891643354",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102727758891643354_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "marcelkargul"
+    },
+    {
+      "tweet_id": "2102342319102124137",
+      "url": "https://x.com/kraigdesigns/status/2102342319102124137",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102342319102124137_1.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102342319102124137_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102342319102124137_3.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102342319102124137_4.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102342319102124137_5.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102342319102124137_6.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2102342319102124137_7.mp4"
+      ],
+      "error": null,
+      "author_handle": "kraigdesigns"
+    },
+    {
+      "tweet_id": "2097365356838805716",
+      "url": "https://x.com/driceroland/status/2097365356838805716",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2097365356838805716_1.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2097365356838805716_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2097365356838805716_3.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2097365356838805716_4.jpg"
+      ],
+      "error": null,
+      "author_handle": "driceroland"
+    },
+    {
+      "tweet_id": "2097316700970701200",
+      "url": "https://x.com/brijanp/status/2097316700970701200",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2097316700970701200_1.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2097316700970701200_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2097316700970701200_3.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2097316700970701200_4.jpg"
+      ],
+      "error": null,
+      "author_handle": "brijanp"
+    },
+    {
+      "tweet_id": "2096280938732781657",
+      "url": "https://x.com/yahyavision/status/2096280938732781657",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2096280938732781657_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "yahyavision"
+    },
+    {
+      "tweet_id": "2096073759270875195",
+      "url": "https://x.com/afrianhanafi_/status/2096073759270875195",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2096073759270875195_1.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2096073759270875195_2.jpg"
+      ],
+      "error": null,
+      "author_handle": "afrianhanafi_"
+    },
+    {
+      "tweet_id": "2095814680123969997",
+      "url": "https://x.com/driceroland/status/2095814680123969997",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2095814680123969997_1.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2095814680123969997_2.png",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2095814680123969997_3.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2095814680123969997_4.jpg"
+      ],
+      "error": null,
+      "author_handle": "driceroland"
+    },
+    {
+      "tweet_id": "2095188246376358362",
+      "url": "https://x.com/willking/status/2095188246376358362",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2095188246376358362_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "willking"
+    },
+    {
+      "tweet_id": "2094455178498068968",
+      "url": "https://x.com/WesleyBancroft/status/2094455178498068968",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2094455178498068968_1.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2094455178498068968_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2094455178498068968_3.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2094455178498068968_4.jpg"
+      ],
+      "error": null,
+      "author_handle": "WesleyBancroft"
+    },
+    {
+      "tweet_id": "2094428742827319463",
+      "url": "https://x.com/andriidesign1/status/2094428742827319463",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2094428742827319463_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "andriidesign1"
+    },
+    {
+      "tweet_id": "2094404514237296745",
+      "url": "https://x.com/kyleanthony/status/2094404514237296745",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2094404514237296745_1.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2094404514237296745_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2094404514237296745_3.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2094404514237296745_4.png"
+      ],
+      "error": null,
+      "author_handle": "kyleanthony"
+    },
+    {
+      "tweet_id": "2080606857819762951",
+      "url": "https://x.com/rebrandgallery/status/2080606857819762951",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2080606857819762951_1.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2080606857819762951_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2080606857819762951_3.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2080606857819762951_4.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2080606857819762951_5.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2080606857819762951_6.mp4"
+      ],
+      "error": null,
+      "author_handle": "rebrandgallery"
+    },
+    {
+      "tweet_id": "2080343250209014207",
+      "url": "https://x.com/yahyavision/status/2080343250209014207",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2080343250209014207_1.png",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2080343250209014207_2.png",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2080343250209014207_3.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2080343250209014207_4.png"
+      ],
+      "error": null,
+      "author_handle": "yahyavision"
+    },
+    {
+      "tweet_id": "2080322044533539183",
+      "url": "https://x.com/womp3D/status/2080322044533539183",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2080322044533539183_1.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2080322044533539183_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2080322044533539183_3.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2080322044533539183_4.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2080322044533539183_5.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2080322044533539183_6.mp4"
+      ],
+      "error": null,
+      "author_handle": "womp3D"
+    },
+    {
+      "tweet_id": "2080283928720478375",
+      "url": "https://x.com/MadebyIsaac/status/2080283928720478375",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2080283928720478375_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "MadebyIsaac"
+    },
+    {
+      "tweet_id": "2080261300421075033",
+      "url": "https://x.com/kyleanthony/status/2080261300421075033",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2080261300421075033_1.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2080261300421075033_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2080261300421075033_3.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2080261300421075033_4.jpg"
+      ],
+      "error": null,
+      "author_handle": "kyleanthony"
+    },
+    {
+      "tweet_id": "2079979560326557884",
+      "url": "https://x.com/VadimCarazan/status/2079979560326557884",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2079979560326557884_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "VadimCarazan"
+    },
+    {
+      "tweet_id": "2079867328745906452",
+      "url": "https://x.com/rebrandgallery/status/2079867328745906452",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2079867328745906452_1.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2079867328745906452_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2079867328745906452_3.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2079867328745906452_4.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2079867328745906452_5.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2079867328745906452_6.mp4"
+      ],
+      "error": null,
+      "author_handle": "rebrandgallery"
+    },
+    {
+      "tweet_id": "2078493869784944644",
+      "url": "https://x.com/devxnuj/status/2078493869784944644",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2078493869784944644_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "devxnuj"
+    },
+    {
+      "tweet_id": "2076685167993979199",
+      "url": "https://x.com/drapzdesigns/status/2076685167993979199",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2076685167993979199_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "drapzdesigns"
+    },
+    {
+      "tweet_id": "2075996516003533216",
+      "url": "https://x.com/designbyaron/status/2075996516003533216",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2075996516003533216_1.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2075996516003533216_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2075996516003533216_3.jpg"
+      ],
+      "error": null,
+      "author_handle": "designbyaron"
+    },
+    {
+      "tweet_id": "2074841057188299036",
+      "url": "https://x.com/TweetsByTBI/status/2074841057188299036",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2074841057188299036_1.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2074841057188299036_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2074841057188299036_3.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2074841057188299036_4.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2074841057188299036_5.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2074841057188299036_6.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2074841057188299036_7.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2074841057188299036_8.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2074841057188299036_9.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2074841057188299036_10.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2074841057188299036_11.jpg"
+      ],
+      "error": null,
+      "author_handle": "TweetsByTBI"
+    },
+    {
+      "tweet_id": "2074485253742157966",
+      "url": "https://x.com/jstrelioff/status/2074485253742157966",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2074485253742157966_1.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2074485253742157966_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2074485253742157966_3.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2074485253742157966_4.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2074485253742157966_5.jpg"
+      ],
+      "error": null,
+      "author_handle": "jstrelioff"
+    },
+    {
+      "tweet_id": "2069782605831024693",
+      "url": "https://x.com/designbyaron/status/2069782605831024693",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2069782605831024693_1.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2069782605831024693_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2069782605831024693_3.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2069782605831024693_4.jpg"
+      ],
+      "error": null,
+      "author_handle": "designbyaron"
+    },
+    {
+      "tweet_id": "2069760937280606572",
+      "url": "https://x.com/rebrandgallery/status/2069760937280606572",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2069760937280606572_1.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2069760937280606572_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2069760937280606572_3.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2069760937280606572_4.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2069760937280606572_5.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2069760937280606572_6.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2069760937280606572_7.mp4"
+      ],
+      "error": null,
+      "author_handle": "rebrandgallery"
+    },
+    {
+      "tweet_id": "2067615582011166803",
+      "url": "https://x.com/rebrandgallery/status/2067615582011166803",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2067615582011166803_1.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2067615582011166803_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2067615582011166803_3.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2067615582011166803_4.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2067615582011166803_5.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2067615582011166803_6.mp4"
+      ],
+      "error": null,
+      "author_handle": "rebrandgallery"
+    },
+    {
+      "tweet_id": "2067412045025423500",
+      "url": "https://x.com/TweetsByTBI/status/2067412045025423500",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2067412045025423500_1.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2067412045025423500_2.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2067412045025423500_3.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2067412045025423500_4.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2067412045025423500_5.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2067412045025423500_6.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2067412045025423500_7.jpg"
+      ],
+      "error": null,
+      "author_handle": "TweetsByTBI"
+    },
+    {
+      "tweet_id": "2067246027388670357",
+      "url": "https://x.com/rebrandgallery/status/2067246027388670357",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2067246027388670357_1.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2067246027388670357_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2067246027388670357_3.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2067246027388670357_4.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2067246027388670357_5.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2067246027388670357_6.mp4"
+      ],
+      "error": null,
+      "author_handle": "rebrandgallery"
+    },
+    {
+      "tweet_id": "2065070696577806447",
+      "url": "https://x.com/robmeyersdesign/status/2065070696577806447",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2065070696577806447_1.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2065070696577806447_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2065070696577806447_3.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2065070696577806447_4.jpg"
+      ],
+      "error": null,
+      "author_handle": "robmeyersdesign"
+    },
+    {
+      "tweet_id": "2062546229834490204",
+      "url": "https://x.com/shihaabbbb/status/2062546229834490204",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2062546229834490204_1.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2062546229834490204_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2062546229834490204_3.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2062546229834490204_4.jpg"
+      ],
+      "error": null,
+      "author_handle": "shihaabbbb"
+    },
+    {
+      "tweet_id": "2062192835135496548",
+      "url": "https://x.com/patricia_klein_/status/2062192835135496548",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2062192835135496548_1.png",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2062192835135496548_2.png",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2062192835135496548_3.png",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2062192835135496548_4.png"
+      ],
+      "error": null,
+      "author_handle": "patricia_klein_"
+    },
+    {
+      "tweet_id": "2062184053227561104",
+      "url": "https://x.com/Ahmedcreatives/status/2062184053227561104",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2062184053227561104_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "Ahmedcreatives"
+    },
+    {
+      "tweet_id": "2061813413609681295",
+      "url": "https://x.com/AlexAperios/status/2061813413609681295",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2061813413609681295_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "AlexAperios"
+    },
+    {
+      "tweet_id": "2060715856938574173",
+      "url": "https://x.com/kyleanthony/status/2060715856938574173",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2060715856938574173_1.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2060715856938574173_2.png",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2060715856938574173_3.png",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2060715856938574173_4.jpg"
+      ],
+      "error": null,
+      "author_handle": "kyleanthony"
+    },
+    {
+      "tweet_id": "2059611207431065832",
+      "url": "https://x.com/kyleanthony/status/2059611207431065832",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2059611207431065832_1.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2059611207431065832_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2059611207431065832_3.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2059611207431065832_4.jpg"
+      ],
+      "error": null,
+      "author_handle": "kyleanthony"
+    },
+    {
+      "tweet_id": "2059572616805994615",
+      "url": "https://x.com/rebrandgallery/status/2059572616805994615",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2059572616805994615_1.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2059572616805994615_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2059572616805994615_3.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2059572616805994615_4.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2059572616805994615_5.mp4",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2059572616805994615_6.mp4"
+      ],
+      "error": null,
+      "author_handle": "rebrandgallery"
+    },
+    {
+      "tweet_id": "2058971814492016721",
+      "url": "https://x.com/designbyaron/status/2058971814492016721",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058971814492016721_1.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058971814492016721_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058971814492016721_3.png",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058971814492016721_4.jpg"
+      ],
+      "error": null,
+      "author_handle": "designbyaron"
+    },
+    {
+      "tweet_id": "2058859034992857288",
+      "url": "https://x.com/oakline_studio/status/2058859034992857288",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058859034992857288_1.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058859034992857288_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058859034992857288_3.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058859034992857288_4.jpg"
+      ],
+      "error": null,
+      "author_handle": "oakline_studio"
+    },
+    {
+      "tweet_id": "2058837251245895760",
+      "url": "https://x.com/shihaabbbb/status/2058837251245895760",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058837251245895760_1.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058837251245895760_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058837251245895760_3.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058837251245895760_4.jpg"
+      ],
+      "error": null,
+      "author_handle": "shihaabbbb"
+    },
+    {
+      "tweet_id": "2058811744051703970",
+      "url": "https://x.com/Vaibhavpaul_UI/status/2058811744051703970",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058811744051703970_1.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058811744051703970_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058811744051703970_3.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058811744051703970_4.jpg"
+      ],
+      "error": null,
+      "author_handle": "Vaibhavpaul_UI"
+    },
+    {
+      "tweet_id": "2058614825765552539",
+      "url": "https://x.com/devxnuj/status/2058614825765552539",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058614825765552539_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "devxnuj"
+    },
+    {
+      "tweet_id": "2058611632222142858",
+      "url": "https://x.com/designbyaron/status/2058611632222142858",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058611632222142858_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "designbyaron"
+    },
+    {
+      "tweet_id": "2058576635637686710",
+      "url": "https://x.com/kuxshl/status/2058576635637686710",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058576635637686710_1.png",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058576635637686710_2.png",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058576635637686710_3.png",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058576635637686710_4.png"
+      ],
+      "error": null,
+      "author_handle": "kuxshl"
+    },
+    {
+      "tweet_id": "2058476752834285887",
+      "url": "https://x.com/ayushsoni_io/status/2058476752834285887",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058476752834285887_1.png",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058476752834285887_2.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058476752834285887_3.jpg",
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058476752834285887_4.jpg"
+      ],
+      "error": null,
+      "author_handle": "ayushsoni_io"
+    },
+    {
+      "tweet_id": "2058461793618461131",
+      "url": "https://x.com/PeterIrunokhai/status/2058461793618461131",
+      "status": "ok",
+      "files": [
+        "/Users/scarlett/.openclaw/workspace/brand-repo-v2-quotilol-1000-y2024plus/analysis/extracted_brand_full/tweet_2058461793618461131_1.jpg"
+      ],
+      "error": null,
+      "author_handle": "PeterIrunokhai"
+    },
     {
       "tweet_id": "2032155526516391998",
       "url": "https://x.com/i/web/status/2032155526516391998",

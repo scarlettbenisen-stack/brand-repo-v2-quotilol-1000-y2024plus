@@ -15,7 +15,7 @@ from urllib.request import Request, urlopen
 from PIL import Image, ImageEnhance, ImageFilter, ImageOps
 
 ROOT = Path(__file__).resolve().parents[1]
-INPUT = ROOT / "input/new_urls_2026-10-13.txt"
+INPUT = ROOT / "input/new_urls_2026-10-23.txt"
 META_ITEMS = ROOT / "meta/items.json"
 MANIFEST = ROOT / "manifest.json"
 EXTRACT_REPORT = ROOT / "analysis/extracted_brand_full_report.json"
@@ -24,7 +24,7 @@ LINKS_FILE = ROOT / "analysis/brand_twitter_links.txt"
 OUT_DIR = ROOT / "analysis/extracted_brand_full"
 CLEAN = ROOT / "clean"
 PREVIEWS = ROOT / "previews_v2"
-REPORT = ROOT / "analysis/import_2026-10-13_report.json"
+REPORT = ROOT / "analysis/import_2026-10-23_report.json"
 
 USER_AGENT = "Mozilla/5.0 (compatible; brand-repo-import/1.0)"
 MAX_SIDE = 320

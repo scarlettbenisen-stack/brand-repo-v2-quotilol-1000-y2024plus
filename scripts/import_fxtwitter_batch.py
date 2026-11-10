@@ -2,9 +2,11 @@
 from __future__ import annotations
 
 import json
+import argparse
 import re
 import sys
 import time
+from concurrent.futures import ProcessPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -15,7 +17,7 @@ from urllib.request import Request, urlopen
 from PIL import Image, ImageEnhance, ImageFilter, ImageOps
 
 ROOT = Path(__file__).resolve().parents[1]
-INPUT = ROOT / "input/new_urls_2026-11-03.txt"
+DEFAULT_INPUT = ROOT / "input/new_urls_2026-11-03.txt"
 META_ITEMS = ROOT / "meta/items.json"
 MANIFEST = ROOT / "manifest.json"
 EXTRACT_REPORT = ROOT / "analysis/extracted_brand_full_report.json"
@@ -24,7 +26,7 @@ LINKS_FILE = ROOT / "analysis/brand_twitter_links.txt"
 OUT_DIR = ROOT / "analysis/extracted_brand_full"
 CLEAN = ROOT / "clean"
 PREVIEWS = ROOT / "previews_v2"
-REPORT = ROOT / "analysis/import_2026-11-03_report.json"
+DEFAULT_REPORT = ROOT / "analysis/import_2026-11-03_report.json"
 
 USER_AGENT = "Mozilla/5.0 (compatible; brand-repo-import/1.0)"
 MAX_SIDE = 320
@@ -46,9 +48,16 @@ def extract_tweet_id(url: str):
     return m.group(1) if m else None
 
 
-def parse_input():
+def parse_args():
+    parser = argparse.ArgumentParser(description="Import a batch of X posts into the brand visual explorer")
+    parser.add_argument("input", nargs="?", type=Path, default=DEFAULT_INPUT)
+    parser.add_argument("--report", type=Path, default=DEFAULT_REPORT)
+    return parser.parse_args()
+
+
+def parse_input(input_path: Path):
     rows = []
-    for line in INPUT.read_text(encoding="utf-8").splitlines():
+    for line in input_path.read_text(encoding="utf-8").splitlines():
         line = line.strip()
         if not line or line.startswith("#"):
             continue
@@ -172,7 +181,6 @@ def analyze_visual(clean_path: Path, author: str):
     sys.path.insert(0, str(ROOT / "scripts"))
     import build_visual_tags
     import rebuild_tags_v2
-    import rebuild_typo_v3_full
 
     item = build_visual_tags.analyze(clean_path)
     item.update({
@@ -184,16 +192,29 @@ def analyze_visual(clean_path: Path, author: str):
     rgb = rebuild_tags_v2.load_rgb(PREVIEWS / f"{clean_path.stem}.webp", max_side=512)
     item.update(rebuild_tags_v2.analyze_color_v2(rgb, seed=int(re.search(r"\d+", clean_path.stem).group(0)) % 100000))
     item.update(rebuild_tags_v2.analyze_typography_v2(rgb))
+    item.update({
+        "typo_present_v3": False,
+        "typo_primary_v3": "no_typo",
+        "typo_case_v3": "na",
+        "typo_confidence_v3": 0.15,
+    })
+    return item
+
+
+def analyze_typography(file_name: str):
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import rebuild_typo_v3_full
+
+    clean_path = CLEAN / file_name
     gray = rebuild_typo_v3_full.safe_read_gray(clean_path)
-    typo_v3 = rebuild_typo_v3_full.infer_typo_v3(gray) if gray is not None else {
+    result = rebuild_typo_v3_full.infer_typo_v3(gray) if gray is not None else {
         "typo_present_v3": False,
         "typo_primary_v3": "no_typo",
         "typo_case_v3": "na",
         "typo_confidence_v3": 0.15,
     }
-    typo_v3.pop("_debug", None)
-    item.update(typo_v3)
-    return item
+    result.pop("_debug", None)
+    return file_name, result
 
 
 def update_or_append(items: list[dict], key: str, value: str, row: dict):
@@ -205,11 +226,14 @@ def update_or_append(items: list[dict], key: str, value: str, row: dict):
 
 
 def main():
+    args = parse_args()
+    input_path = args.input if args.input.is_absolute() else ROOT / args.input
+    report_path = args.report if args.report.is_absolute() else ROOT / args.report
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     CLEAN.mkdir(parents=True, exist_ok=True)
     PREVIEWS.mkdir(parents=True, exist_ok=True)
 
-    rows = parse_input()
+    rows = parse_input(input_path)
     meta = read_json(META_ITEMS, {"items": []})
     manifest = read_json(MANIFEST, {"items": []})
     extracted = read_json(EXTRACT_REPORT, {"items": []})
@@ -221,6 +245,7 @@ def main():
     added = []
     failed = []
     skipped_existing = []
+    processed_files = []
 
     for index, row in enumerate(rows, 1):
         tid = row["tweet_id"]
@@ -238,16 +263,26 @@ def main():
             if not media_urls:
                 raise RuntimeError("no media URLs found")
 
+            image_urls = [
+                media_url for media_url in media_urls
+                if ext_from_url(media_url).lower() in {".jpg", ".jpeg", ".png", ".webp"}
+            ]
+            if not image_urls:
+                raise RuntimeError("no downloadable image media found")
+
             saved = []
             image_files = []
-            for n, media_url in enumerate(media_urls, 1):
-                ext = ext_from_url(media_url)
-                out_path = OUT_DIR / f"tweet_{tid}_{n}{ext}"
-                if not out_path.exists() or out_path.stat().st_size == 0:
-                    out_path.write_bytes(http_bytes(media_url))
-                saved.append(str(out_path))
-                if ext.lower() in {".jpg", ".jpeg", ".png", ".webp"} and image_area(out_path) > 0:
-                    image_files.append(out_path)
+            for n, media_url in enumerate(image_urls, 1):
+                try:
+                    ext = ext_from_url(media_url)
+                    out_path = OUT_DIR / f"tweet_{tid}_{n}{ext}"
+                    if not out_path.exists() or out_path.stat().st_size == 0:
+                        out_path.write_bytes(http_bytes(media_url))
+                    saved.append(str(out_path))
+                    if ext.lower() in {".jpg", ".jpeg", ".png", ".webp"} and image_area(out_path) > 0:
+                        image_files.append(out_path)
+                except Exception as media_exc:
+                    print(f"  media {n} skipped: {media_exc}", flush=True)
 
             if not image_files:
                 raise RuntimeError("no downloadable image media found")
@@ -286,6 +321,7 @@ def main():
                 "author_handle": author,
             })
             visual_items.append(analyze_visual(clean_path, author))
+            processed_files.append(file_name)
 
             if file_name in existing_visual:
                 skipped_existing.append(canonical_url)
@@ -302,6 +338,14 @@ def main():
                 "status": "failed",
                 "error": str(exc),
             })
+
+    if processed_files:
+        visual_by_file = {str(item.get("file")): item for item in visual_items}
+        worker_count = min(4, len(processed_files))
+        print(f"Typography analysis: {len(processed_files)} items on {worker_count} workers", flush=True)
+        with ProcessPoolExecutor(max_workers=worker_count) as executor:
+            for file_name, typo_result in executor.map(analyze_typography, processed_files):
+                visual_by_file[file_name].update(typo_result)
 
     def sort_key(item):
         try:
@@ -374,7 +418,7 @@ def main():
         "failed": failed,
         "skipped_existing": skipped_existing,
     }
-    write_json(REPORT, import_report)
+    write_json(report_path, import_report)
     print(json.dumps(import_report, ensure_ascii=False, indent=2))
 
 

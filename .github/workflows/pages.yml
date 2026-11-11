@@ -1,0 +1,62 @@
+name: Deploy Brand Visual Explorer
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - .nojekyll
+      - analysis/visual_tags.json
+      - meta/**
+      - previews_v2/**
+      - .github/workflows/pages.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out only the public site files
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            index.html
+            .nojekyll
+            analysis/visual_tags.json
+            meta
+            previews_v2
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Assemble the public site
+        run: |
+          mkdir -p _site/analysis _site/meta
+          cp index.html .nojekyll _site/
+          cp analysis/visual_tags.json _site/analysis/
+          cp -R meta/. _site/meta/
+          cp -R previews_v2 _site/
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
